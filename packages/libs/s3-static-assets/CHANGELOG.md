@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.8.0-alpha.1 (2023-08-01)
+
+
+### Bug Fixes
+
+* **core, lambda-at-edge:** do not replace .html for public files in r… ([#1473](https://github.com/serverless-nextjs/serverless-next.js/issues/1473)) ([62c0fe2](https://github.com/serverless-nextjs/serverless-next.js/commit/62c0fe2e0c9d6341831d496bf143369d8df0a93e))
+* **s3-static-assets:** always use posix path join for fast-glob in re… ([#940](https://github.com/serverless-nextjs/serverless-next.js/issues/940)) ([d513192](https://github.com/serverless-nextjs/serverless-next.js/commit/d5131922c2bef84d6298229dfa434128df334ccc))
+* **s3-static-assets:** cover regional cn endpoints ([#1279](https://github.com/serverless-nextjs/serverless-next.js/issues/1279)) ([a47b761](https://github.com/serverless-nextjs/serverless-next.js/commit/a47b7613d9b084f6f1aaff266648f91a631abe04))
+* **s3-static-assets:** ensure fast-glob is reading dot entries when f… ([#1475](https://github.com/serverless-nextjs/serverless-next.js/issues/1475)) ([efb3c93](https://github.com/serverless-nextjs/serverless-next.js/commit/efb3c93b527fc480c08ec1af5923bc159810926b))
+* **s3-static-assets:** fix s3 directory read for fast-glob on windows ([#986](https://github.com/serverless-nextjs/serverless-next.js/issues/986)) ([7218008](https://github.com/serverless-nextjs/serverless-next.js/commit/72180085642b260df459bdb715d2cb446860a79e))
+* **s3-static-assets:** Fixed missing posix conversion in s3 uploads. ([#551](https://github.com/serverless-nextjs/serverless-next.js/issues/551)) ([296d1b0](https://github.com/serverless-nextjs/serverless-next.js/commit/296d1b087999610f025928e77f3c4b2d6b461c1b))
+* **s3-static-assets:** use regional endpoint for s3 buckets ([#1263](https://github.com/serverless-nextjs/serverless-next.js/issues/1263)) ([3a1d5d5](https://github.com/serverless-nextjs/serverless-next.js/commit/3a1d5d569f36759c1e709f31cbb98060abd1957a))
+* **s3-static-assets:** when initializing s3 client, pass in bucket region to ensure correct s3 endpoints ([#1262](https://github.com/serverless-nextjs/serverless-next.js/issues/1262)) ([83805bb](https://github.com/serverless-nextjs/serverless-next.js/commit/83805bb56d824ff3777e3da6591078ffd7053f48))
+
+
+### Features
+
+* **aws-cloudfront, nextjs-component:** support cloudfront tags ([#1350](https://github.com/serverless-nextjs/serverless-next.js/issues/1350)) ([b5d03b1](https://github.com/serverless-nextjs/serverless-next.js/commit/b5d03b1dce9851c31d3dca144c66ae32f83060c0))
+* **aws-cloudfront, s3-static-assets:** support setting individual min, max, default CloudFront TTLs, update Cache-Control headers and TTLs for _next/data files ([#593](https://github.com/serverless-nextjs/serverless-next.js/issues/593)) ([fb8e61d](https://github.com/serverless-nextjs/serverless-next.js/commit/fb8e61dc50b11c0e5966548a8c84b58e495ea748))
+* **experimental:** CDK Construct ([#878](https://github.com/serverless-nextjs/serverless-next.js/issues/878)) ([d38e2aa](https://github.com/serverless-nextjs/serverless-next.js/commit/d38e2aa70816c3204727fda4c9e379c73e1b2f2e))
+* **lambda-at-edge, nextjs-component, s3-static-assets:** support ver… ([#803](https://github.com/serverless-nextjs/serverless-next.js/issues/803)) ([015065d](https://github.com/serverless-nextjs/serverless-next.js/commit/015065d02c1d06659dc1d1a7258b89f9415c3721))
+* **lambda-at-edge:** couple build-related changes: ([#1485](https://github.com/serverless-nextjs/serverless-next.js/issues/1485)) ([a863dbf](https://github.com/serverless-nextjs/serverless-next.js/commit/a863dbf8b251818f3c2efc74af0634bf84d099cb))
+* **serverless-component, lambda-at-edge, lambda-at-edge-compat, s3-static-assets:** add support for getStaticPaths fallback true ([#544](https://github.com/serverless-nextjs/serverless-next.js/issues/544)) ([a08217b](https://github.com/serverless-nextjs/serverless-next.js/commit/a08217ba26ea90f67c562fe4ae9510b617d14d08))
+
+
+
+
+
 # [3.7.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.12...v3.7.0) (2022-03-31)
 
 **Note:** Version bump only for package @sls-next/s3-static-assets

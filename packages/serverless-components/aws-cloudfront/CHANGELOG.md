@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.8.0-alpha.1 (2023-08-01)
+
+
+### Bug Fixes
+
+* **aws-cloudfront, nextjs-component:** fix inability to set cloudfront comment input ([#695](https://github.com/nike1v/serverless-next13/issues/695)) ([6803378](https://github.com/nike1v/serverless-next13/commit/68033783a407ba58b48b08664fcc52430a70010b))
+* **aws-cloudfront, nextjs-component:** specify s3 client's region in aws-cloudfront the same as the bucket region ([#2042](https://github.com/nike1v/serverless-next13/issues/2042)) ([a676d03](https://github.com/nike1v/serverless-next13/commit/a676d0375b3a86150cf2672f82be86a3a94cc5d3))
+* **aws-cloudfront:** add 200 status code to custom error pages ([#774](https://github.com/nike1v/serverless-next13/issues/774)) ([bc17565](https://github.com/nike1v/serverless-next13/commit/bc17565f60eaef21985ffa0352f375e6faa5f806))
+* **aws-cloudfront:** do not override aliases when not specified in serverless.yml inputs ([#704](https://github.com/nike1v/serverless-next13/issues/704)) ([2188d26](https://github.com/nike1v/serverless-next13/commit/2188d2628fb6f1c8f982acdb4ad99da1760d0cd7))
+* **aws-cloudfront:** fix cloudfront origin merging ([623c168](https://github.com/nike1v/serverless-next13/commit/623c1684c41995341a5543de9f0e802bbd864b0e))
+* **aws-cloudfront:** handle bucket names with dots correctly ([#1844](https://github.com/nike1v/serverless-next13/issues/1844)) ([918a19e](https://github.com/nike1v/serverless-next13/commit/918a19e7834c49794706d9901a21605141ead99a))
+* **aws-cloudfront:** set tags when creating distribution ([#1562](https://github.com/nike1v/serverless-next13/issues/1562)) ([e5ddcf5](https://github.com/nike1v/serverless-next13/commit/e5ddcf51bdaa35ea9d7756807b5674e14614bab9))
+* update aws retry logic and fix dependencies ([#1306](https://github.com/nike1v/serverless-next13/issues/1306)) ([e0cee9c](https://github.com/nike1v/serverless-next13/commit/e0cee9c0d5d79314a7239c37e55438b5200d8bb2))
+
+
+### Features
+
+* **aws-cloudfront, nextjs-component:** support cloudfront tags ([#1350](https://github.com/nike1v/serverless-next13/issues/1350)) ([b5d03b1](https://github.com/nike1v/serverless-next13/commit/b5d03b1dce9851c31d3dca144c66ae32f83060c0))
+* **aws-cloudfront, nextjs-component:** support setting certificate input in cloudfront ([#727](https://github.com/nike1v/serverless-next13/issues/727)) ([6f68bf1](https://github.com/nike1v/serverless-next13/commit/6f68bf1910d80cc69b09f6529081e6ccad74552e))
+* **aws-cloudfront, nextjs-component:** support setting geo restrictions ([#726](https://github.com/nike1v/serverless-next13/issues/726)) ([964b936](https://github.com/nike1v/serverless-next13/commit/964b9360484a6a9ad3f69a593dc2f26547c15eb2))
+* **aws-cloudfront, nextjs-component:** support setting WAF web ACL id ([#724](https://github.com/nike1v/serverless-next13/issues/724)) ([1a11594](https://github.com/nike1v/serverless-next13/commit/1a1159472621e91191f1f41a39fe75a0ed9897b1))
+* **aws-cloudfront, s3-static-assets:** support setting individual min, max, default CloudFront TTLs, update Cache-Control headers and TTLs for _next/data files ([#593](https://github.com/nike1v/serverless-next13/issues/593)) ([fb8e61d](https://github.com/nike1v/serverless-next13/commit/fb8e61dc50b11c0e5966548a8c84b58e495ea748))
+* **aws-cloudfront, serverless-component:** add cloudfront custom error responses ([#590](https://github.com/nike1v/serverless-next13/issues/590)) ([f3d2a17](https://github.com/nike1v/serverless-next13/commit/f3d2a17b2fac5e9bb67b1f6ed5201c8128600314))
+* **aws-cloudfront:** add ability to persist cache behaviors not set in serverless ([#809](https://github.com/nike1v/serverless-next13/issues/809)) ([b339bf5](https://github.com/nike1v/serverless-next13/commit/b339bf5b6905a7e93aaf18622adc0b88c854b7b2))
+* **aws-cloudfront:** add support for custom headers in custom origins ([#1448](https://github.com/nike1v/serverless-next13/issues/1448)) ([dd2fa6e](https://github.com/nike1v/serverless-next13/commit/dd2fa6e60180a71bc96bcf5325647414bc9e74cb))
+* **aws-cloudfront:** allow configurable trustedSigners ([#1351](https://github.com/nike1v/serverless-next13/issues/1351)) ([5ee78a6](https://github.com/nike1v/serverless-next13/commit/5ee78a682497ee21fcd65057661f938e9de813f1))
+* **aws-cloudfront:** allow predefined originAccessIdentityId ([#811](https://github.com/nike1v/serverless-next13/issues/811)) ([8785727](https://github.com/nike1v/serverless-next13/commit/878572769397428e08349982079001a8b94d977e))
+* **aws-cloudfront:** allow setting CloudFront distribution aliases ([#654](https://github.com/nike1v/serverless-next13/issues/654)) ([ea180e6](https://github.com/nike1v/serverless-next13/commit/ea180e67515ee5dceed1c3e19731291615a7cbbb))
+* **aws-cloudfront:** allow setting configuration for custom origins ([#657](https://github.com/nike1v/serverless-next13/issues/657)) ([5f97683](https://github.com/nike1v/serverless-next13/commit/5f97683f37dc3d81092aa3e16c9c8057680ec62e))
+* **cloudfront:** add ability to set RealtimeLogConfigARN ([#2301](https://github.com/nike1v/serverless-next13/issues/2301)) ([04fec27](https://github.com/nike1v/serverless-next13/commit/04fec27ca99994acf98ccfb4ac6ead933cfb4dde))
+* **cloudfront:** add ability to set ResponseHeadersPolicyId ([#2285](https://github.com/nike1v/serverless-next13/issues/2285)) ([15b282d](https://github.com/nike1v/serverless-next13/commit/15b282d91a4960c72e31eae56fd6bcc9a6d0d0fd))
+
+
+
+
+
 # [3.7.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.12...v3.7.0) (2022-03-31)
 
 **Note:** Version bump only for package @sls-next/aws-cloudfront
