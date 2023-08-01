@@ -7,14 +7,6 @@ const copyBuildFiles = require("./copyBuildFiles");
 const getNextPagesFromBuildDir = require("./getNextPagesFromBuildDir");
 const rewritePageHandlers = require("./rewritePageHandlers");
 
-const overrideTargetIfNotServerless = (nextConfiguration) => {
-  const { target } = nextConfiguration;
-  if (target !== "serverless") {
-    logger.log(`Target "${target}" found! Overriding it with serverless`);
-    nextConfiguration.target = "serverless";
-  }
-};
-
 module.exports = async function () {
   const pluginBuildDir = this.pluginBuildDir;
   const nextConfigDir = pluginBuildDir.nextConfigDir;
@@ -40,8 +32,6 @@ module.exports = async function () {
   );
 
   const { nextConfiguration } = await parseNextConfiguration(nextConfigDir);
-
-  overrideTargetIfNotServerless(nextConfiguration);
 
   await nextBuild(path.resolve(nextConfigDir), nextConfiguration);
   await copyBuildFiles(
