@@ -81040,8 +81040,8 @@ module.exports.serializeURLOrigin = function (url) {
         port: url.port
       });
     case "file":
-      // spec says "exercise to the reader", chrome says "file://"
-      return "file://";
+      // spec says "exercise to the reader", chrome says "link://"
+      return "link://";
     default:
       // serializing an opaque origin returns "null"
       return "null";

@@ -63,7 +63,7 @@ var require$$0__default = /*#__PURE__*/_interopDefaultLegacy(require$$0$3);
 var tty__default = /*#__PURE__*/_interopDefaultLegacy(tty);
 var require$$2__default = /*#__PURE__*/_interopDefaultLegacy(require$$2);
 
-/******************************************************************************
+/*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
 Permission to use, copy, modify, and/or distribute this software for any
@@ -77,7 +77,7 @@ LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 ***************************************************************************** */
-/* global Reflect, Promise, SuppressedError, Symbol */
+/* global Reflect, Promise */
 
 var extendStatics$2 = function(d, b) {
     extendStatics$2 = Object.setPrototypeOf ||
@@ -133,7 +133,7 @@ function __generator$2(thisArg, body) {
     function verb(n) { return function (v) { return step([n, v]); }; }
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
-        while (g && (g = 0, op[0] && (_ = 0)), _) try {
+        while (_) try {
             if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
             if (y = 0, t) op = [op[0] & 2, t.value];
             switch (op[0]) {
@@ -217,11 +217,6 @@ function __asyncValues$2(o) {
     function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }
     function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }
 }
-
-typeof SuppressedError === "function" ? SuppressedError : function (error, suppressed, message) {
-    var e = new Error(message);
-    return e.name = "SuppressedError", e.error = error, e.suppressed = suppressed, e;
-};
 
 var SelectorType;
 (function (SelectorType) {
@@ -10546,44 +10541,44 @@ var tslib_es6$1 = /*#__PURE__*/Object.freeze({
     __classPrivateFieldSet: __classPrivateFieldSet$1
 });
 
-const fromUtf8$3 = (input) => {
-    const bytes = [];
-    for (let i = 0, len = input.length; i < len; i++) {
-        const value = input.charCodeAt(i);
+var fromUtf8$3 = function (input) {
+    var bytes = [];
+    for (var i = 0, len = input.length; i < len; i++) {
+        var value = input.charCodeAt(i);
         if (value < 0x80) {
             bytes.push(value);
         }
         else if (value < 0x800) {
-            bytes.push((value >> 6) | 0b11000000, (value & 0b111111) | 0b10000000);
+            bytes.push((value >> 6) | 192, (value & 63) | 128);
         }
         else if (i + 1 < input.length && (value & 0xfc00) === 0xd800 && (input.charCodeAt(i + 1) & 0xfc00) === 0xdc00) {
-            const surrogatePair = 0x10000 + ((value & 0b1111111111) << 10) + (input.charCodeAt(++i) & 0b1111111111);
-            bytes.push((surrogatePair >> 18) | 0b11110000, ((surrogatePair >> 12) & 0b111111) | 0b10000000, ((surrogatePair >> 6) & 0b111111) | 0b10000000, (surrogatePair & 0b111111) | 0b10000000);
+            var surrogatePair = 0x10000 + ((value & 1023) << 10) + (input.charCodeAt(++i) & 1023);
+            bytes.push((surrogatePair >> 18) | 240, ((surrogatePair >> 12) & 63) | 128, ((surrogatePair >> 6) & 63) | 128, (surrogatePair & 63) | 128);
         }
         else {
-            bytes.push((value >> 12) | 0b11100000, ((value >> 6) & 0b111111) | 0b10000000, (value & 0b111111) | 0b10000000);
+            bytes.push((value >> 12) | 224, ((value >> 6) & 63) | 128, (value & 63) | 128);
         }
     }
     return Uint8Array.from(bytes);
 };
-const toUtf8$3 = (input) => {
-    let decoded = "";
-    for (let i = 0, len = input.length; i < len; i++) {
-        const byte = input[i];
+var toUtf8$3 = function (input) {
+    var decoded = "";
+    for (var i = 0, len = input.length; i < len; i++) {
+        var byte = input[i];
         if (byte < 0x80) {
             decoded += String.fromCharCode(byte);
         }
-        else if (0b11000000 <= byte && byte < 0b11100000) {
-            const nextByte = input[++i];
-            decoded += String.fromCharCode(((byte & 0b11111) << 6) | (nextByte & 0b111111));
+        else if (192 <= byte && byte < 224) {
+            var nextByte = input[++i];
+            decoded += String.fromCharCode(((byte & 31) << 6) | (nextByte & 63));
         }
-        else if (0b11110000 <= byte && byte < 0b101101101) {
-            const surrogatePair = [byte, input[++i], input[++i], input[++i]];
-            const encoded = "%" + surrogatePair.map((byteValue) => byteValue.toString(16)).join("%");
+        else if (240 <= byte && byte < 365) {
+            var surrogatePair = [byte, input[++i], input[++i], input[++i]];
+            var encoded = "%" + surrogatePair.map(function (byteValue) { return byteValue.toString(16); }).join("%");
             decoded += decodeURIComponent(encoded);
         }
         else {
-            decoded += String.fromCharCode(((byte & 0b1111) << 12) | ((input[++i] & 0b111111) << 6) | (input[++i] & 0b111111));
+            decoded += String.fromCharCode(((byte & 15) << 12) | ((input[++i] & 63) << 6) | (input[++i] & 63));
         }
     }
     return decoded;
@@ -10596,8 +10591,12 @@ function toUtf8$2(input) {
     return new TextDecoder("utf-8").decode(input);
 }
 
-const fromUtf8$1 = (input) => typeof TextEncoder === "function" ? fromUtf8$2(input) : fromUtf8$3(input);
-const toUtf8$1 = (input) => typeof TextDecoder === "function" ? toUtf8$2(input) : toUtf8$3(input);
+var fromUtf8$1 = function (input) {
+    return typeof TextEncoder === "function" ? fromUtf8$2(input) : fromUtf8$3(input);
+};
+var toUtf8$1 = function (input) {
+    return typeof TextDecoder === "function" ? toUtf8$2(input) : toUtf8$3(input);
+};
 
 var distEs = /*#__PURE__*/Object.freeze({
     __proto__: null,
@@ -10672,12 +10671,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.uint32ArrayFrom = void 0;
 // IE 11 does not support Array.from, so we do it manually
 function uint32ArrayFrom(a_lookUpTable) {
-    if (!Uint32Array.from) {
+    if (!Array.from) {
         var return_array = new Uint32Array(a_lookUpTable.length);
         var a_index = 0;
         while (a_index < a_lookUpTable.length) {
             return_array[a_index] = a_lookUpTable[a_index];
-            a_index += 1;
         }
         return return_array;
     }
@@ -100997,7 +100995,7 @@ fetch.Promise = global.Promise;
 var stringify$1 = function (...args) {
 
     try {
-        return JSON.stringify(...args);
+        return JSON.stringify.apply(null, args);
     }
     catch (err) {
         return '[Cannot display object: ' + err.message + ']';
@@ -101042,7 +101040,7 @@ var assert$1 = function (condition, ...args) {
     throw new error(args);
 };
 
-const internals$c = {};
+const internals$9 = {};
 
 
 var reach$1 = function (obj, chain, options) {
@@ -101061,13 +101059,13 @@ var reach$1 = function (obj, chain, options) {
 
     const isChainArray = Array.isArray(chain);
 
-    assert$1(!isChainArray || !options.separator, 'Separator option is not valid for array-based chain');
+    assert$1(!isChainArray || !options.separator, 'Separator option no valid for array-based chain');
 
     const path = isChainArray ? chain : chain.split(options.separator || '.');
     let ref = obj;
     for (let i = 0; i < path.length; ++i) {
         let key = path[i];
-        const type = options.iterables && internals$c.iterables(ref);
+        const type = options.iterables && internals$9.iterables(ref);
 
         if (Array.isArray(ref) ||
             type === 'set') {
@@ -101103,7 +101101,7 @@ var reach$1 = function (obj, chain, options) {
 };
 
 
-internals$c.iterables = function (ref) {
+internals$9.iterables = function (ref) {
 
     if (ref instanceof Set) {
         return 'set';
@@ -101180,12 +101178,12 @@ var utils = {
 	keys: keys
 };
 
-const internals$b = {
+const internals$8 = {
     needsProtoHack: new Set([types.set, types.map, types.weakSet, types.weakMap])
 };
 
 
-var clone$1 = internals$b.clone = function (obj, options = {}, _seen = null) {
+var clone$1 = internals$8.clone = function (obj, options = {}, _seen = null) {
 
     if (typeof obj !== 'object' ||
         obj === null) {
@@ -101193,12 +101191,12 @@ var clone$1 = internals$b.clone = function (obj, options = {}, _seen = null) {
         return obj;
     }
 
-    let clone = internals$b.clone;
+    let clone = internals$8.clone;
     let seen = _seen;
 
     if (options.shallow) {
         if (options.shallow !== true) {
-            return internals$b.cloneWithShallow(obj, options);
+            return internals$8.cloneWithShallow(obj, options);
         }
 
         clone = (value) => value;
@@ -101230,7 +101228,7 @@ var clone$1 = internals$b.clone = function (obj, options = {}, _seen = null) {
 
     // Generic objects
 
-    const newObj = internals$b.base(obj, baseProto, options);
+    const newObj = internals$8.base(obj, baseProto, options);
     if (newObj === obj) {
         return obj;
     }
@@ -101291,7 +101289,7 @@ var clone$1 = internals$b.clone = function (obj, options = {}, _seen = null) {
 };
 
 
-internals$b.cloneWithShallow = function (source, options) {
+internals$8.cloneWithShallow = function (source, options) {
 
     const keys = options.shallow;
     options = Object.assign({}, options);
@@ -101308,14 +101306,14 @@ internals$b.cloneWithShallow = function (source, options) {
         }
     }
 
-    return internals$b.clone(source, options, seen);
+    return internals$8.clone(source, options, seen);
 };
 
 
-internals$b.base = function (obj, baseProto, options) {
+internals$8.base = function (obj, baseProto, options) {
 
     if (options.prototype === false) {                  // Defaults to true
-        if (internals$b.needsProtoHack.has(baseProto)) {
+        if (internals$8.needsProtoHack.has(baseProto)) {
             return new baseProto.constructor();
         }
 
@@ -101338,7 +101336,7 @@ internals$b.base = function (obj, baseProto, options) {
         return newObj;
     }
 
-    if (internals$b.needsProtoHack.has(baseProto)) {
+    if (internals$8.needsProtoHack.has(baseProto)) {
         const newObj = new proto.constructor();
         if (proto !== baseProto) {
             Object.setPrototypeOf(newObj, proto);
@@ -101350,10 +101348,10 @@ internals$b.base = function (obj, baseProto, options) {
     return Object.create(proto);
 };
 
-const internals$a = {};
+const internals$7 = {};
 
 
-var merge$1 = internals$a.merge = function (target, source, options) {
+var merge$1 = internals$7.merge = function (target, source, options) {
 
     assert$1(target && typeof target === 'object', 'Invalid target value: must be an object');
     assert$1(source === null || source === undefined || typeof source === 'object', 'Invalid source value: must be null, undefined, or an object');
@@ -101404,7 +101402,7 @@ var merge$1 = internals$a.merge = function (target, source, options) {
                 target[key] = clone$1(value, { symbols: options.symbols });
             }
             else {
-                internals$a.merge(target[key], value, options);
+                internals$7.merge(target[key], value, options);
             }
         }
         else {
@@ -101422,7 +101420,7 @@ var merge$1 = internals$a.merge = function (target, source, options) {
     return target;
 };
 
-const internals$9 = {};
+const internals$6 = {};
 
 
 var applyToDefaults$1 = function (defaults, source, options = {}) {
@@ -101436,7 +101434,7 @@ var applyToDefaults$1 = function (defaults, source, options = {}) {
     }
 
     if (options.shallow) {
-        return internals$9.applyToDefaultsWithShallow(defaults, source, options);
+        return internals$6.applyToDefaultsWithShallow(defaults, source, options);
     }
 
     const copy = clone$1(defaults);
@@ -101450,7 +101448,7 @@ var applyToDefaults$1 = function (defaults, source, options = {}) {
 };
 
 
-internals$9.applyToDefaultsWithShallow = function (defaults, source, options) {
+internals$6.applyToDefaultsWithShallow = function (defaults, source, options) {
 
     const keys = options.shallow;
     assert$1(Array.isArray(keys), 'Invalid keys');
@@ -101479,7 +101477,7 @@ internals$9.applyToDefaultsWithShallow = function (defaults, source, options) {
     }
 
     for (const key of merge) {
-        internals$9.reachCopy(copy, source, key);
+        internals$6.reachCopy(copy, source, key);
     }
 
     const nullOverride = options.nullOverride !== undefined ? options.nullOverride : false;
@@ -101487,7 +101485,7 @@ internals$9.applyToDefaultsWithShallow = function (defaults, source, options) {
 };
 
 
-internals$9.reachCopy = function (dst, src, path) {
+internals$6.reachCopy = function (dst, src, path) {
 
     for (const segment of path) {
         if (!(segment in src)) {
@@ -101517,10 +101515,10 @@ internals$9.reachCopy = function (dst, src, path) {
     ref[path[path.length - 1]] = value;
 };
 
-const internals$8 = {};
+const internals$5 = {};
 
 
-var bench = internals$8.Bench = class {
+var bench = internals$5.Bench = class {
 
     constructor() {
 
@@ -101530,12 +101528,12 @@ var bench = internals$8.Bench = class {
 
     reset() {
 
-        this.ts = internals$8.Bench.now();
+        this.ts = internals$5.Bench.now();
     }
 
     elapsed() {
 
-        return internals$8.Bench.now() - this.ts;
+        return internals$5.Bench.now() - this.ts;
     }
 
     static now() {
@@ -101552,7 +101550,7 @@ var block$1 = function () {
     return new Promise(ignore$1);
 };
 
-const internals$7 = {
+const internals$4 = {
     mismatched: null
 };
 
@@ -101561,11 +101559,11 @@ var deepEqual$1 = function (obj, ref, options) {
 
     options = Object.assign({ prototype: true }, options);
 
-    return !!internals$7.isDeepEqual(obj, ref, options, []);
+    return !!internals$4.isDeepEqual(obj, ref, options, []);
 };
 
 
-internals$7.isDeepEqual = function (obj, ref, options, seen) {
+internals$4.isDeepEqual = function (obj, ref, options, seen) {
 
     if (obj === ref) {                                                      // Copied from Deep-eql, copyright(c) 2013 Jake Luer, jake@alogicalparadox.com, MIT Licensed, https://github.com/chaijs/deep-eql
         return obj !== 0 || 1 / obj === 1 / ref;
@@ -101596,7 +101594,7 @@ internals$7.isDeepEqual = function (obj, ref, options, seen) {
         return obj !== obj && ref !== ref;                                  // NaN
     }
 
-    const instanceType = internals$7.getSharedType(obj, ref, !!options.prototype);
+    const instanceType = internals$4.getSharedType(obj, ref, !!options.prototype);
     switch (instanceType) {
         case types.buffer:
             return Buffer && Buffer.prototype.equals.call(obj, ref);        // $lab:coverage:ignore$
@@ -101604,7 +101602,7 @@ internals$7.isDeepEqual = function (obj, ref, options, seen) {
             return obj === ref;
         case types.regex:
             return obj.toString() === ref.toString();
-        case internals$7.mismatched:
+        case internals$4.mismatched:
             return false;
     }
 
@@ -101614,10 +101612,10 @@ internals$7.isDeepEqual = function (obj, ref, options, seen) {
         }
     }
 
-    seen.push(new internals$7.SeenEntry(obj, ref));
+    seen.push(new internals$4.SeenEntry(obj, ref));
 
     try {
-        return !!internals$7.isDeepEqualObj(instanceType, obj, ref, options, seen);
+        return !!internals$4.isDeepEqualObj(instanceType, obj, ref, options, seen);
     }
     finally {
         seen.pop();
@@ -101625,11 +101623,11 @@ internals$7.isDeepEqual = function (obj, ref, options, seen) {
 };
 
 
-internals$7.getSharedType = function (obj, ref, checkPrototype) {
+internals$4.getSharedType = function (obj, ref, checkPrototype) {
 
     if (checkPrototype) {
         if (Object.getPrototypeOf(obj) !== Object.getPrototypeOf(ref)) {
-            return internals$7.mismatched;
+            return internals$4.mismatched;
         }
 
         return types.getInternalProto(obj);
@@ -101637,14 +101635,14 @@ internals$7.getSharedType = function (obj, ref, checkPrototype) {
 
     const type = types.getInternalProto(obj);
     if (type !== types.getInternalProto(ref)) {
-        return internals$7.mismatched;
+        return internals$4.mismatched;
     }
 
     return type;
 };
 
 
-internals$7.valueOf = function (obj) {
+internals$4.valueOf = function (obj) {
 
     const objValueOf = obj.valueOf;
     if (objValueOf === undefined) {
@@ -101660,13 +101658,13 @@ internals$7.valueOf = function (obj) {
 };
 
 
-internals$7.hasOwnEnumerableProperty = function (obj, key) {
+internals$4.hasOwnEnumerableProperty = function (obj, key) {
 
     return Object.prototype.propertyIsEnumerable.call(obj, key);
 };
 
 
-internals$7.isSetSimpleEqual = function (obj, ref) {
+internals$4.isSetSimpleEqual = function (obj, ref) {
 
     for (const entry of Set.prototype.values.call(obj)) {
         if (!Set.prototype.has.call(ref, entry)) {
@@ -101678,9 +101676,9 @@ internals$7.isSetSimpleEqual = function (obj, ref) {
 };
 
 
-internals$7.isDeepEqualObj = function (instanceType, obj, ref, options, seen) {
+internals$4.isDeepEqualObj = function (instanceType, obj, ref, options, seen) {
 
-    const { isDeepEqual, valueOf, hasOwnEnumerableProperty } = internals$7;
+    const { isDeepEqual, valueOf, hasOwnEnumerableProperty } = internals$4;
     const { keys, getOwnPropertySymbols } = Object;
 
     if (instanceType === types.array) {
@@ -101715,7 +101713,7 @@ internals$7.isDeepEqualObj = function (instanceType, obj, ref, options, seen) {
             return false;
         }
 
-        if (!internals$7.isSetSimpleEqual(obj, ref)) {
+        if (!internals$4.isSetSimpleEqual(obj, ref)) {
 
             // Check for deep equality
 
@@ -101851,7 +101849,7 @@ internals$7.isDeepEqualObj = function (instanceType, obj, ref, options, seen) {
 };
 
 
-internals$7.SeenEntry = class {
+internals$4.SeenEntry = class {
 
     constructor(obj, ref) {
 
@@ -101872,7 +101870,7 @@ var escapeRegex$1 = function (string) {
     return string.replace(/[\^\$\.\*\+\-\?\=\!\:\|\\\/\(\)\[\]\{\}\,]/g, '\\$&');
 };
 
-const internals$6 = {};
+const internals$3 = {};
 
 
 var contain$1 = function (ref, values, options = {}) {        // options: { deep, once, only, part, symbols }
@@ -101893,23 +101891,23 @@ var contain$1 = function (ref, values, options = {}) {        // options: { deep
     // String
 
     if (typeof ref === 'string') {
-        return internals$6.string(ref, values, options);
+        return internals$3.string(ref, values, options);
     }
 
     // Array
 
     if (Array.isArray(ref)) {
-        return internals$6.array(ref, values, options);
+        return internals$3.array(ref, values, options);
     }
 
     // Object
 
     assert$1(typeof ref === 'object', 'Reference must be string or an object');
-    return internals$6.object(ref, values, options);
+    return internals$3.object(ref, values, options);
 };
 
 
-internals$6.array = function (ref, values, options) {
+internals$3.array = function (ref, values, options) {
 
     if (!Array.isArray(values)) {
         values = [values];
@@ -101945,7 +101943,7 @@ internals$6.array = function (ref, values, options) {
             }
         }
         else {
-            compare = compare || internals$6.compare(options);
+            compare = compare || internals$3.compare(options);
 
             let found = false;
             for (const [key, existing] of map.entries()) {
@@ -101974,7 +101972,7 @@ internals$6.array = function (ref, values, options) {
             match = map.get(item);
         }
         else {
-            compare = compare || internals$6.compare(options);
+            compare = compare || internals$3.compare(options);
 
             for (const [key, existing] of map.entries()) {
                 if (compare(key, item)) {
@@ -102020,7 +102018,7 @@ internals$6.array = function (ref, values, options) {
 };
 
 
-internals$6.object = function (ref, values, options) {
+internals$3.object = function (ref, values, options) {
 
     assert$1(options.once === undefined, 'Cannot use option once with object');
 
@@ -102032,7 +102030,7 @@ internals$6.object = function (ref, values, options) {
     // Keys list
 
     if (Array.isArray(values)) {
-        return internals$6.array(keys, values, options);
+        return internals$3.array(keys, values, options);
     }
 
     // Key value pairs
@@ -102040,7 +102038,7 @@ internals$6.object = function (ref, values, options) {
     const symbols = Object.getOwnPropertySymbols(values).filter((sym) => values.propertyIsEnumerable(sym));
     const targets = [...Object.keys(values), ...symbols];
 
-    const compare = internals$6.compare(options);
+    const compare = internals$3.compare(options);
     const set = new Set(targets);
 
     for (const key of keys) {
@@ -102067,7 +102065,7 @@ internals$6.object = function (ref, values, options) {
 };
 
 
-internals$6.string = function (ref, values, options) {
+internals$3.string = function (ref, values, options) {
 
     // Empty string
 
@@ -102149,10 +102147,10 @@ internals$6.string = function (ref, values, options) {
 };
 
 
-internals$6.compare = function (options) {
+internals$3.compare = function (options) {
 
     if (!options.deep) {
-        return internals$6.shallow;
+        return internals$3.shallow;
     }
 
     const hasOnly = options.only !== undefined;
@@ -102167,7 +102165,7 @@ internals$6.compare = function (options) {
 };
 
 
-internals$6.shallow = function (a, b) {
+internals$3.shallow = function (a, b) {
 
     return a === b;
 };
@@ -102181,7 +102179,7 @@ var escapeHeaderAttribute$1 = function (attribute) {
     return attribute.replace(/\\/g, '\\\\').replace(/\"/g, '\\"');                             // Escape quotes and slash
 };
 
-const internals$5 = {};
+const internals$2 = {};
 
 
 var escapeHtml$2 = function (input) {
@@ -102196,11 +102194,11 @@ var escapeHtml$2 = function (input) {
 
         const charCode = input.charCodeAt(i);
 
-        if (internals$5.isSafe(charCode)) {
+        if (internals$2.isSafe(charCode)) {
             escaped += input[i];
         }
         else {
-            escaped += internals$5.escapeHtmlChar(charCode);
+            escaped += internals$2.escapeHtmlChar(charCode);
         }
     }
 
@@ -102208,10 +102206,10 @@ var escapeHtml$2 = function (input) {
 };
 
 
-internals$5.escapeHtmlChar = function (charCode) {
+internals$2.escapeHtmlChar = function (charCode) {
 
-    const namedEscape = internals$5.namedHtml.get(charCode);
-    if (namedEscape) {
+    const namedEscape = internals$2.namedHtml[charCode];
+    if (typeof namedEscape !== 'undefined') {
         return namedEscape;
     }
 
@@ -102224,29 +102222,29 @@ internals$5.escapeHtmlChar = function (charCode) {
 };
 
 
-internals$5.isSafe = function (charCode) {
+internals$2.isSafe = function (charCode) {
 
-    return internals$5.safeCharCodes.has(charCode);
+    return (typeof internals$2.safeCharCodes[charCode] !== 'undefined');
 };
 
 
-internals$5.namedHtml = new Map([
-    [38, '&amp;'],
-    [60, '&lt;'],
-    [62, '&gt;'],
-    [34, '&quot;'],
-    [160, '&nbsp;'],
-    [162, '&cent;'],
-    [163, '&pound;'],
-    [164, '&curren;'],
-    [169, '&copy;'],
-    [174, '&reg;']
-]);
+internals$2.namedHtml = {
+    '38': '&amp;',
+    '60': '&lt;',
+    '62': '&gt;',
+    '34': '&quot;',
+    '160': '&nbsp;',
+    '162': '&cent;',
+    '163': '&pound;',
+    '164': '&curren;',
+    '169': '&copy;',
+    '174': '&reg;'
+};
 
 
-internals$5.safeCharCodes = (function () {
+internals$2.safeCharCodes = (function () {
 
-    const safe = new Set();
+    const safe = {};
 
     for (let i = 32; i < 123; ++i) {
 
@@ -102260,15 +102258,12 @@ internals$5.safeCharCodes = (function () {
             i === 58 ||                     // :
             i === 95) {                     // _
 
-            safe.add(i);
+            safe[i] = null;
         }
     }
 
     return safe;
 }());
-
-const internals$4 = {};
-
 
 var escapeJson$1 = function (input) {
 
@@ -102276,44 +102271,57 @@ var escapeJson$1 = function (input) {
         return '';
     }
 
-    return input.replace(/[<>&\u2028\u2029]/g, internals$4.escape);
+    const lessThan = 0x3C;
+    const greaterThan = 0x3E;
+    const andSymbol = 0x26;
+    const lineSeperator = 0x2028;
+
+    // replace method
+    let charCode;
+    return input.replace(/[<>&\u2028\u2029]/g, (match) => {
+
+        charCode = match.charCodeAt(0);
+
+        if (charCode === lessThan) {
+            return '\\u003c';
+        }
+
+        if (charCode === greaterThan) {
+            return '\\u003e';
+        }
+
+        if (charCode === andSymbol) {
+            return '\\u0026';
+        }
+
+        if (charCode === lineSeperator) {
+            return '\\u2028';
+        }
+
+        return '\\u2029';
+    });
 };
 
-
-internals$4.escape = function (char) {
-
-    return internals$4.replacements.get(char);
-};
+const internals$1 = {};
 
 
-internals$4.replacements = new Map([
-    ['<', '\\u003c'],
-    ['>', '\\u003e'],
-    ['&', '\\u0026'],
-    ['\u2028', '\\u2028'],
-    ['\u2029', '\\u2029']
-]);
-
-const internals$3 = {};
-
-
-var flatten$1 = internals$3.flatten = function (array, target) {
+var flatten$1 = internals$1.flatten = function (array, target) {
 
     const result = target || [];
 
-    for (const entry of array) {
-        if (Array.isArray(entry)) {
-            internals$3.flatten(entry, result);
+    for (let i = 0; i < array.length; ++i) {
+        if (Array.isArray(array[i])) {
+            internals$1.flatten(array[i], result);
         }
         else {
-            result.push(entry);
+            result.push(array[i]);
         }
     }
 
     return result;
 };
 
-const internals$2 = {};
+const internals = {};
 
 
 var intersect$1 = function (array1, array2, options = {}) {
@@ -102328,7 +102336,7 @@ var intersect$1 = function (array1, array2, options = {}) {
     const hash = (Array.isArray(array1) ? new Set(array1) : array1);
     const found = new Set();
     for (const value of array2) {
-        if (internals$2.has(hash, value) &&
+        if (internals.has(hash, value) &&
             !found.has(value)) {
 
             if (options.first) {
@@ -102344,7 +102352,7 @@ var intersect$1 = function (array1, array2, options = {}) {
 };
 
 
-internals$2.has = function (ref, key) {
+internals.has = function (ref, key) {
 
     if (typeof ref.has === 'function') {
         return ref.has(key);
@@ -102358,19 +102366,14 @@ var isPromise$1 = function (promise) {
     return !!promise && typeof promise.then === 'function';
 };
 
-const internals$1 = {
-    wrapped: Symbol('wrapped')
-};
-
-
 var once$1 = function (method) {
 
-    if (method[internals$1.wrapped]) {
+    if (method._hoekOnce) {
         return method;
     }
 
     let once = false;
-    const wrappedFn = function (...args) {
+    const wrapped = function (...args) {
 
         if (!once) {
             once = true;
@@ -102378,8 +102381,8 @@ var once$1 = function (method) {
         }
     };
 
-    wrappedFn[internals$1.wrapped] = true;
-    return wrappedFn;
+    wrapped._hoekOnce = true;
+    return wrapped;
 };
 
 var reachTemplate$1 = function (obj, template, options) {
@@ -102391,40 +102394,13 @@ var reachTemplate$1 = function (obj, template, options) {
     });
 };
 
-const internals = {
-    maxTimer: 2 ** 31 - 1              // ~25 days
-};
-
-
-var wait$1 = function (timeout, returnValue, options) {
-
-    if (typeof timeout === 'bigint') {
-        timeout = Number(timeout);
-    }
-
-    if (timeout >= Number.MAX_SAFE_INTEGER) {         // Thousands of years
-        timeout = Infinity;
-    }
+var wait$1 = function (timeout, returnValue) {
 
     if (typeof timeout !== 'number' && timeout !== undefined) {
-        throw new TypeError('Timeout must be a number or bigint');
+        throw new TypeError('Timeout must be a number');
     }
 
-    return new Promise((resolve) => {
-
-        const _setTimeout = options ? options.setTimeout : setTimeout;
-
-        const activate = () => {
-
-            const time = Math.min(timeout, internals.maxTimer);
-            timeout -= time;
-            _setTimeout(() => (timeout > 0 ? activate() : resolve(returnValue)), time);
-        };
-
-        if (timeout !== Infinity) {
-            activate();
-        }
-    });
+    return new Promise((resolve) => setTimeout(resolve, timeout, returnValue));
 };
 
 var applyToDefaults = applyToDefaults$1;

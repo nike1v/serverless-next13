@@ -7,7 +7,7 @@ require('./manifest.json');
 require('./routes-manifest.json');
 require('./lambda-manifest.json');
 require('http');
-var defaultHandler = require('./default-handler-029d33b2.js');
+var defaultHandler = require('./default-handler-9dfee995.js');
 require('stream');
 require('perf_hooks');
 require('url');
