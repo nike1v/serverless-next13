@@ -1545,13 +1545,13 @@
   dependencies:
     "@aws-sdk/client-s3" "3.48.0"
     "@aws-sdk/client-sqs" "3.48.0"
-    "@sls-next/core" "file:../../../../libs/core"
+    "@sls-next/core" "link:../../../../libs/core"
 
 "@sls-next/cdk-construct@link:../..":
   version "3.7.0-alpha.9"
   dependencies:
-    "@sls-next/core" "file:../../../../libs/core"
-    "@sls-next/lambda-at-edge" "file:../../../../libs/lambda-at-edge"
+    "@sls-next/core" "link:../../../../libs/core"
+    "@sls-next/lambda-at-edge" "link:../../../../libs/lambda-at-edge"
     fast-glob "3.2.11"
     fs-extra "9.1.0"
 
@@ -1580,8 +1580,8 @@
   dependencies:
     "@aws-sdk/client-s3" "3.48.0"
     "@aws-sdk/client-sqs" "3.48.0"
-    "@sls-next/aws-common" "file:../../../../libs/aws-common"
-    "@sls-next/core" "file:../../../../libs/core"
+    "@sls-next/aws-common" "link:../../../../libs/aws-common"
+    "@sls-next/core" "link:../../../../libs/core"
     "@vercel/nft" "0.17.4"
     execa "5.1.1"
     fs-extra "9.1.0"
