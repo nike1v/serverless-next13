@@ -20,9 +20,9 @@
   "homepage": "https://github.com/serverless-next.js/serverless-next.js",
   "dependencies": {
     "isomorphic-fetch": "3.0.0",
-    "next": "12.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@bahmutov/print-env": "2.1.2",
@@ -31,7 +31,7 @@
     "@types/mocha": "9.1.0",
     "@types/node": "17.0.19",
     "@types/node-fetch": "2.5.7",
-    "@types/react": "17.0.39",
+    "@types/react": "18.2.0",
     "@types/uuid": "8.3.4",
     "aws-sdk": "2.1093.0",
     "babel-plugin-istanbul": "6.1.1",
@@ -41,7 +41,7 @@
     "istanbul-lib-coverage": "3.2.0",
     "nyc": "15.1.0",
     "ts-node": "10.4.0",
-    "typescript": "4.5.5",
+    "typescript": "5.1.6",
     "uuid": "8.3.2",
     "yargs": "17.3.1"
   },

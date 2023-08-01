@@ -4,6 +4,7 @@ export const toLambdaOption = <T>(
   key: "defaultLambda" | "apiLambda" | "imageLambda" | "regenerationLambda",
   option?: LambdaOption<T>
 ): T | undefined => {
+  if (!option) return undefined;
   if (
     typeof option !== "object" ||
     !(
@@ -12,8 +13,8 @@ export const toLambdaOption = <T>(
       "imageLambda" in option ||
       "regenerationLambda" in option
     )
-  ) {
+  )
     return option as T | undefined;
-  }
+
   return option[key];
 };

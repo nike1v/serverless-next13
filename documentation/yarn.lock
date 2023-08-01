@@ -2106,9 +2106,9 @@ __metadata:
     "@docsearch/css": 3.0.0-alpha.42
     algoliasearch: ^4.0.0
   peerDependencies:
-    "@types/react": ">= 16.8.0 < 18.0.0"
-    react: ">= 16.8.0 < 18.0.0"
-    react-dom: ">= 16.8.0 < 18.0.0"
+    "@types/react": ">= 16.8.0 < 18.2.0"
+    react: ">= 16.8.0 < 18.2.0"
+    react-dom: ">= 16.8.0 < 18.2.0"
   checksum: 4766b44059d598a961ed58b6aa5a958fcd2c8749f98b601c971d77f2da3d3fec5c4e07a98e5d0b93e6f1a0417248ef9ecef0378198c15337090cb70c88556d35
   languageName: node
   linkType: hard

@@ -57,7 +57,7 @@ export default abstract class CoreBuilder {
       this.buildOptions.nextStaticDir ?? this.buildOptions.nextConfigDir
     );
     this.dotNextDir = path.join(this.nextConfigDir, ".next");
-    this.serverlessDir = path.join(this.dotNextDir, "serverless");
+    this.serverlessDir = path.join(this.dotNextDir, "server");
     this.outputDir = this.buildOptions.outputDir;
   }
 

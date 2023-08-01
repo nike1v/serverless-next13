@@ -1,4 +1,3 @@
-import { resultsToString } from "next/dist/server/utils";
 import { IncomingMessage, ServerResponse } from "http";
 
 /**
@@ -36,14 +35,6 @@ export const renderPageToHtml = async (
   } else {
     if (htmlResult) {
       html = await htmlResult.toUnchunkedString?.(); // Next >= 12
-
-      if (!html) {
-        try {
-          html = await resultsToString([htmlResult]); // Next >= 11.1.1
-        } catch (e) {
-          console.log("html could not be rendered using resultsToString().");
-        }
-      }
     }
   }
 
