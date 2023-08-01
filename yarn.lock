@@ -5755,11 +5755,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sls-next/aws-cloudfront@link:../aws-cloudfront::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/aws-cloudfront@link:../aws-cloudfront::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+"@sls-next/aws-cloudfront@file:../aws-cloudfront::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/aws-cloudfront@file:../aws-cloudfront#../aws-cloudfront::hash=e8a1a9&locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+  dependencies:
+    "@serverless/core": "npm:1.1.2"
+    aws-sdk: "npm:2.1093.0"
+    ramda: "npm:0.27.1"
+  peerDependencies:
+    "@babel/core": 7.17.5
+    "@serverless/core": 1.1.2
+    aws-sdk: 2.1093.0
+  checksum: 25a93ae07f8a5512d4f0b47c3363e49665e1d65e966b926d063738e55fca702279b84c0fb91efe97e21c8b83b892aecab5ab1ca733ce55606d5ffc24b5336642
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@sls-next/aws-cloudfront@workspace:packages/serverless-components/aws-cloudfront":
   version: 0.0.0-use.local
@@ -5789,17 +5798,49 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sls-next/aws-common@link:../aws-common::locator=%40sls-next%2Flambda%40workspace%3Apackages%2Flibs%2Flambda":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/aws-common@link:../aws-common::locator=%40sls-next%2Flambda%40workspace%3Apackages%2Flibs%2Flambda"
+"@sls-next/aws-common@file:../aws-common::locator=%40sls-next%2Flambda%40workspace%3Apackages%2Flibs%2Flambda":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/aws-common@file:../aws-common#../aws-common::hash=7d0508&locator=%40sls-next%2Flambda%40workspace%3Apackages%2Flibs%2Flambda"
+  dependencies:
+    "@aws-sdk/client-s3": "npm:3.54.0"
+    "@aws-sdk/client-sqs": "npm:3.54.0"
+    "@sls-next/core": "file:../core"
+  checksum: 80632b6228fd06c94a31f8cb2960994f9a8f3546cf061883278c1b88d06e32c2204abd215c0d618c81c6a76bd89b7dd6b629b2fadc408652f06047b55ffe20e8
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@sls-next/aws-common@link:../aws-common::locator=%40sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/aws-common@link:../aws-common::locator=%40sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge"
+"@sls-next/aws-common@file:../aws-common::locator=%40sls-next%2Flambda-at-edge%40file%3A..%2F..%2Flibs%2Flambda-at-edge%23..%2F..%2Flibs%2Flambda-at-edge%3A%3Ahash%3D6b415f%26locator%3D%2540sls-next%252Fcdk-construct%2540workspace%253Apackages%252Fserverless-components%252Fnextjs-cdk-construct":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/aws-common@file:../aws-common#../aws-common::hash=7d0508&locator=%40sls-next%2Flambda-at-edge%40file%3A..%2F..%2Flibs%2Flambda-at-edge%23..%2F..%2Flibs%2Flambda-at-edge%3A%3Ahash%3D6b415f%26locator%3D%2540sls-next%252Fcdk-construct%2540workspace%253Apackages%252Fserverless-components%252Fnextjs-cdk-construct"
+  dependencies:
+    "@aws-sdk/client-s3": "npm:3.54.0"
+    "@aws-sdk/client-sqs": "npm:3.54.0"
+    "@sls-next/core": "file:../core"
+  checksum: 80632b6228fd06c94a31f8cb2960994f9a8f3546cf061883278c1b88d06e32c2204abd215c0d618c81c6a76bd89b7dd6b629b2fadc408652f06047b55ffe20e8
   languageName: node
-  linkType: soft
+  linkType: hard
+
+"@sls-next/aws-common@file:../aws-common::locator=%40sls-next%2Flambda-at-edge%40file%3A..%2F..%2Flibs%2Flambda-at-edge%23..%2F..%2Flibs%2Flambda-at-edge%3A%3Ahash%3D6b415f%26locator%3D%2540sls-next%252Fserverless-component%2540workspace%253Apackages%252Fserverless-components%252Fnextjs-component":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/aws-common@file:../aws-common#../aws-common::hash=7d0508&locator=%40sls-next%2Flambda-at-edge%40file%3A..%2F..%2Flibs%2Flambda-at-edge%23..%2F..%2Flibs%2Flambda-at-edge%3A%3Ahash%3D6b415f%26locator%3D%2540sls-next%252Fserverless-component%2540workspace%253Apackages%252Fserverless-components%252Fnextjs-component"
+  dependencies:
+    "@aws-sdk/client-s3": "npm:3.54.0"
+    "@aws-sdk/client-sqs": "npm:3.54.0"
+    "@sls-next/core": "file:../core"
+  checksum: 80632b6228fd06c94a31f8cb2960994f9a8f3546cf061883278c1b88d06e32c2204abd215c0d618c81c6a76bd89b7dd6b629b2fadc408652f06047b55ffe20e8
+  languageName: node
+  linkType: hard
+
+"@sls-next/aws-common@file:../aws-common::locator=%40sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/aws-common@file:../aws-common#../aws-common::hash=7d0508&locator=%40sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge"
+  dependencies:
+    "@aws-sdk/client-s3": "npm:3.54.0"
+    "@aws-sdk/client-sqs": "npm:3.54.0"
+    "@sls-next/core": "file:../core"
+  checksum: 80632b6228fd06c94a31f8cb2960994f9a8f3546cf061883278c1b88d06e32c2204abd215c0d618c81c6a76bd89b7dd6b629b2fadc408652f06047b55ffe20e8
+  languageName: node
+  linkType: hard
 
 "@sls-next/aws-common@workspace:packages/libs/aws-common":
   version: 0.0.0-use.local
@@ -5807,18 +5848,33 @@ __metadata:
   dependencies:
     "@aws-sdk/client-s3": "npm:3.54.0"
     "@aws-sdk/client-sqs": "npm:3.54.0"
-    "@sls-next/core": "link:../core"
+    "@sls-next/core": "file:../core"
     "@types/node": "npm:20.4.5"
     rimraf: "npm:3.0.2"
     typescript: "npm:5.1.6"
   languageName: unknown
   linkType: soft
 
-"@sls-next/aws-lambda@link:../aws-lambda::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/aws-lambda@link:../aws-lambda::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+"@sls-next/aws-lambda@file:../aws-lambda::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/aws-lambda@file:../aws-lambda#../aws-lambda::hash=2adab3&locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+  dependencies:
+    "@serverless/aws-iam-role": "npm:1.0.0"
+    "@serverless/aws-lambda-layer": "npm:1.0.0"
+    "@serverless/aws-s3": "npm:4.2.0"
+    "@serverless/core": "npm:1.1.2"
+    archiver: "npm:5.3.0"
+    aws-sdk: "npm:2.1093.0"
+    fs-extra: "npm:9.1.0"
+    globby: "npm:11.0.4"
+    lodash: "npm:4.17.21"
+    ramda: "npm:0.27.1"
+  peerDependencies:
+    "@serverless/core": 1.1.2
+    aws-sdk: 2.1093.0
+  checksum: 254fbb7aecdf46b2c92987b9e70ab037995167e41f8cf48277f0822edab9a6318d34909a33acde88c3bc3b71cf96f7369f50cc6c7c5171c42f28cb9f7b6a9ffe
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@sls-next/aws-lambda@workspace:packages/serverless-components/aws-lambda":
   version: 0.0.0-use.local
@@ -5850,11 +5906,22 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sls-next/aws-s3@link:../aws-s3::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/aws-s3@link:../aws-s3::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+"@sls-next/aws-s3@file:../aws-s3::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/aws-s3@file:../aws-s3#../aws-s3::hash=c6630d&locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+  dependencies:
+    "@serverless/core": "npm:1.1.2"
+    archiver: "npm:5.3.0"
+    aws-sdk: "npm:2.1093.0"
+    fs-extra: "npm:9.1.0"
+    klaw-sync: "npm:6.0.0"
+    lodash: "npm:4.17.21"
+    mime-types: "npm:2.1.34"
+    ramda: "npm:0.27.1"
+    s3-stream-upload: "npm:2.0.2"
+  checksum: 4735d0c758591aeab00a83bf881030f5e21bf20a6d130e64a9f77c630ec91f3168ee23d55f210e9ceacb1c4857ba7dae59a51c2142376c38cfc7092126bad9b7
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@sls-next/aws-s3@workspace:packages/serverless-components/aws-s3":
   version: 0.0.0-use.local
@@ -5886,11 +5953,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sls-next/aws-sqs@link:../aws-sqs::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/aws-sqs@link:../aws-sqs::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+"@sls-next/aws-sqs@file:../aws-sqs::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/aws-sqs@file:../aws-sqs#../aws-sqs::hash=9c91de&locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+  dependencies:
+    "@serverless/core": "npm:1.1.2"
+    aws-sdk: "npm:2.1093.0"
+    fs-extra: "npm:9.1.0"
+    lodash: "npm:4.17.21"
+  peerDependencies:
+    "@serverless/core": 1.1.2
+    aws-sdk: 2.1093.0
+  checksum: 0bb560f93e6c07a0f71f2e364ce83855fec1f0a0941c6ba6e64964cfdc697ccf3ab227c8c526a9c432f32664f8cb0fbf33ea7a8d1fd35a947b37e386bb6b0dc5
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@sls-next/aws-sqs@workspace:packages/serverless-components/aws-sqs":
   version: 0.0.0-use.local
@@ -5911,8 +5987,8 @@ __metadata:
   resolution: "@sls-next/cdk-construct@workspace:packages/serverless-components/nextjs-cdk-construct"
   dependencies:
     "@aws-cdk/assert": "npm:^2.68.0"
-    "@sls-next/core": "link:../../libs/core"
-    "@sls-next/lambda-at-edge": "link:../../libs/lambda-at-edge"
+    "@sls-next/core": "file:../../libs/core"
+    "@sls-next/lambda-at-edge": "file:../../libs/lambda-at-edge"
     "@types/fs-extra": "npm:9.0.13"
     aws-cdk: "npm:^2.89.0"
     aws-cdk-lib: "npm:^2.89.0"
@@ -5928,11 +6004,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sls-next/cloudfront@link:../../libs/cloudfront::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/cloudfront@link:../../libs/cloudfront::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+"@sls-next/cloudfront@file:../../libs/cloudfront::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/cloudfront@file:../../libs/cloudfront#../../libs/cloudfront::hash=e717ec&locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+  dependencies:
+    aws-sdk: "npm:2.1093.0"
+  checksum: d586f68330047adaafc945e3284fe5d3859c5af3c17fd0720d733ead721702dd3f272f7420b82d3a39bfe10a94aa07d4cba9ebe894a3c8d66e902147b2ebc17a
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@sls-next/cloudfront@workspace:packages/libs/cloudfront":
   version: 0.0.0-use.local
@@ -5946,29 +6025,245 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sls-next/core@link:../../libs/core::locator=%40sls-next%2Fcdk-construct%40workspace%3Apackages%2Fserverless-components%2Fnextjs-cdk-construct":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/core@link:../../libs/core::locator=%40sls-next%2Fcdk-construct%40workspace%3Apackages%2Fserverless-components%2Fnextjs-cdk-construct"
+"@sls-next/core@file:../../libs/core::locator=%40sls-next%2Fcdk-construct%40workspace%3Apackages%2Fserverless-components%2Fnextjs-cdk-construct":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/core@file:../../libs/core#../../libs/core::hash=b8d90a&locator=%40sls-next%2Fcdk-construct%40workspace%3Apackages%2Fserverless-components%2Fnextjs-cdk-construct"
+  dependencies:
+    "@hapi/accept": "npm:5.0.2"
+    cookie: "npm:0.4.2"
+    execa: "npm:5.1.1"
+    fast-glob: "npm:3.2.11"
+    fresh: "npm:0.5.2"
+    fs-extra: "npm:9.1.0"
+    is-animated: "npm:2.0.2"
+    jsonwebtoken: "npm:8.5.1"
+    next: "npm:13.4.12"
+    node-fetch: "npm:2.6.5"
+    normalize-path: "npm:3.0.0"
+    path-to-regexp: "npm:6.2.0"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    send: "npm:0.17.2"
+    sharp: "npm:0.29.1"
+  checksum: 7e517299c36924a5bb0371467412fe8ecd8f92c38c3cac8ea064ec26ef295310a959206bf91ef10b7b2247a765e7fa422e3bc2e8d710934a50ba53ab8fa5294f
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@sls-next/core@link:../core::locator=%40sls-next%2Faws-common%40workspace%3Apackages%2Flibs%2Faws-common":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/core@link:../core::locator=%40sls-next%2Faws-common%40workspace%3Apackages%2Flibs%2Faws-common"
+"@sls-next/core@file:../core::locator=%40sls-next%2Faws-common%40file%3A..%2Faws-common%23..%2Faws-common%3A%3Ahash%3D7d0508%26locator%3D%2540sls-next%252Flambda%2540workspace%253Apackages%252Flibs%252Flambda":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/core@file:../core#../core::hash=b8d90a&locator=%40sls-next%2Faws-common%40file%3A..%2Faws-common%23..%2Faws-common%3A%3Ahash%3D7d0508%26locator%3D%2540sls-next%252Flambda%2540workspace%253Apackages%252Flibs%252Flambda"
+  dependencies:
+    "@hapi/accept": "npm:5.0.2"
+    cookie: "npm:0.4.2"
+    execa: "npm:5.1.1"
+    fast-glob: "npm:3.2.11"
+    fresh: "npm:0.5.2"
+    fs-extra: "npm:9.1.0"
+    is-animated: "npm:2.0.2"
+    jsonwebtoken: "npm:8.5.1"
+    next: "npm:13.4.12"
+    node-fetch: "npm:2.6.5"
+    normalize-path: "npm:3.0.0"
+    path-to-regexp: "npm:6.2.0"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    send: "npm:0.17.2"
+    sharp: "npm:0.29.1"
+  checksum: 7e517299c36924a5bb0371467412fe8ecd8f92c38c3cac8ea064ec26ef295310a959206bf91ef10b7b2247a765e7fa422e3bc2e8d710934a50ba53ab8fa5294f
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@sls-next/core@link:../core::locator=%40sls-next%2Flambda%40workspace%3Apackages%2Flibs%2Flambda":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/core@link:../core::locator=%40sls-next%2Flambda%40workspace%3Apackages%2Flibs%2Flambda"
+"@sls-next/core@file:../core::locator=%40sls-next%2Faws-common%40file%3A..%2Faws-common%23..%2Faws-common%3A%3Ahash%3D7d0508%26locator%3D%2540sls-next%252Flambda-at-edge%2540file%253A..%252F..%252Flibs%252Flambda-at-edge%2523..%252F..%252Flibs%252Flambda-at-edge%253A%253Ahash%253D6b415f%2526locator%253D%252540sls-next%25252Fcdk-construct%252540workspace%25253Apackages%25252Fserverless-components%25252Fnextjs-cdk-construct":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/core@file:../core#../core::hash=b8d90a&locator=%40sls-next%2Faws-common%40file%3A..%2Faws-common%23..%2Faws-common%3A%3Ahash%3D7d0508%26locator%3D%2540sls-next%252Flambda-at-edge%2540file%253A..%252F..%252Flibs%252Flambda-at-edge%2523..%252F..%252Flibs%252Flambda-at-edge%253A%253Ahash%253D6b415f%2526locator%253D%252540sls-next%25252Fcdk-construct%252540workspace%25253Apackages%25252Fserverless-components%25252Fnextjs-cdk-construct"
+  dependencies:
+    "@hapi/accept": "npm:5.0.2"
+    cookie: "npm:0.4.2"
+    execa: "npm:5.1.1"
+    fast-glob: "npm:3.2.11"
+    fresh: "npm:0.5.2"
+    fs-extra: "npm:9.1.0"
+    is-animated: "npm:2.0.2"
+    jsonwebtoken: "npm:8.5.1"
+    next: "npm:13.4.12"
+    node-fetch: "npm:2.6.5"
+    normalize-path: "npm:3.0.0"
+    path-to-regexp: "npm:6.2.0"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    send: "npm:0.17.2"
+    sharp: "npm:0.29.1"
+  checksum: 7e517299c36924a5bb0371467412fe8ecd8f92c38c3cac8ea064ec26ef295310a959206bf91ef10b7b2247a765e7fa422e3bc2e8d710934a50ba53ab8fa5294f
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@sls-next/core@link:../core::locator=%40sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/core@link:../core::locator=%40sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge"
+"@sls-next/core@file:../core::locator=%40sls-next%2Faws-common%40file%3A..%2Faws-common%23..%2Faws-common%3A%3Ahash%3D7d0508%26locator%3D%2540sls-next%252Flambda-at-edge%2540file%253A..%252F..%252Flibs%252Flambda-at-edge%2523..%252F..%252Flibs%252Flambda-at-edge%253A%253Ahash%253D6b415f%2526locator%253D%252540sls-next%25252Fserverless-component%252540workspace%25253Apackages%25252Fserverless-components%25252Fnextjs-component":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/core@file:../core#../core::hash=b8d90a&locator=%40sls-next%2Faws-common%40file%3A..%2Faws-common%23..%2Faws-common%3A%3Ahash%3D7d0508%26locator%3D%2540sls-next%252Flambda-at-edge%2540file%253A..%252F..%252Flibs%252Flambda-at-edge%2523..%252F..%252Flibs%252Flambda-at-edge%253A%253Ahash%253D6b415f%2526locator%253D%252540sls-next%25252Fserverless-component%252540workspace%25253Apackages%25252Fserverless-components%25252Fnextjs-component"
+  dependencies:
+    "@hapi/accept": "npm:5.0.2"
+    cookie: "npm:0.4.2"
+    execa: "npm:5.1.1"
+    fast-glob: "npm:3.2.11"
+    fresh: "npm:0.5.2"
+    fs-extra: "npm:9.1.0"
+    is-animated: "npm:2.0.2"
+    jsonwebtoken: "npm:8.5.1"
+    next: "npm:13.4.12"
+    node-fetch: "npm:2.6.5"
+    normalize-path: "npm:3.0.0"
+    path-to-regexp: "npm:6.2.0"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    send: "npm:0.17.2"
+    sharp: "npm:0.29.1"
+  checksum: 7e517299c36924a5bb0371467412fe8ecd8f92c38c3cac8ea064ec26ef295310a959206bf91ef10b7b2247a765e7fa422e3bc2e8d710934a50ba53ab8fa5294f
   languageName: node
-  linkType: soft
+  linkType: hard
+
+"@sls-next/core@file:../core::locator=%40sls-next%2Faws-common%40file%3A..%2Faws-common%23..%2Faws-common%3A%3Ahash%3D7d0508%26locator%3D%2540sls-next%252Flambda-at-edge%2540workspace%253Apackages%252Flibs%252Flambda-at-edge":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/core@file:../core#../core::hash=b8d90a&locator=%40sls-next%2Faws-common%40file%3A..%2Faws-common%23..%2Faws-common%3A%3Ahash%3D7d0508%26locator%3D%2540sls-next%252Flambda-at-edge%2540workspace%253Apackages%252Flibs%252Flambda-at-edge"
+  dependencies:
+    "@hapi/accept": "npm:5.0.2"
+    cookie: "npm:0.4.2"
+    execa: "npm:5.1.1"
+    fast-glob: "npm:3.2.11"
+    fresh: "npm:0.5.2"
+    fs-extra: "npm:9.1.0"
+    is-animated: "npm:2.0.2"
+    jsonwebtoken: "npm:8.5.1"
+    next: "npm:13.4.12"
+    node-fetch: "npm:2.6.5"
+    normalize-path: "npm:3.0.0"
+    path-to-regexp: "npm:6.2.0"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    send: "npm:0.17.2"
+    sharp: "npm:0.29.1"
+  checksum: 7e517299c36924a5bb0371467412fe8ecd8f92c38c3cac8ea064ec26ef295310a959206bf91ef10b7b2247a765e7fa422e3bc2e8d710934a50ba53ab8fa5294f
+  languageName: node
+  linkType: hard
+
+"@sls-next/core@file:../core::locator=%40sls-next%2Faws-common%40workspace%3Apackages%2Flibs%2Faws-common":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/core@file:../core#../core::hash=b8d90a&locator=%40sls-next%2Faws-common%40workspace%3Apackages%2Flibs%2Faws-common"
+  dependencies:
+    "@hapi/accept": "npm:5.0.2"
+    cookie: "npm:0.4.2"
+    execa: "npm:5.1.1"
+    fast-glob: "npm:3.2.11"
+    fresh: "npm:0.5.2"
+    fs-extra: "npm:9.1.0"
+    is-animated: "npm:2.0.2"
+    jsonwebtoken: "npm:8.5.1"
+    next: "npm:13.4.12"
+    node-fetch: "npm:2.6.5"
+    normalize-path: "npm:3.0.0"
+    path-to-regexp: "npm:6.2.0"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    send: "npm:0.17.2"
+    sharp: "npm:0.29.1"
+  checksum: 7e517299c36924a5bb0371467412fe8ecd8f92c38c3cac8ea064ec26ef295310a959206bf91ef10b7b2247a765e7fa422e3bc2e8d710934a50ba53ab8fa5294f
+  languageName: node
+  linkType: hard
+
+"@sls-next/core@file:../core::locator=%40sls-next%2Flambda%40workspace%3Apackages%2Flibs%2Flambda":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/core@file:../core#../core::hash=b8d90a&locator=%40sls-next%2Flambda%40workspace%3Apackages%2Flibs%2Flambda"
+  dependencies:
+    "@hapi/accept": "npm:5.0.2"
+    cookie: "npm:0.4.2"
+    execa: "npm:5.1.1"
+    fast-glob: "npm:3.2.11"
+    fresh: "npm:0.5.2"
+    fs-extra: "npm:9.1.0"
+    is-animated: "npm:2.0.2"
+    jsonwebtoken: "npm:8.5.1"
+    next: "npm:13.4.12"
+    node-fetch: "npm:2.6.5"
+    normalize-path: "npm:3.0.0"
+    path-to-regexp: "npm:6.2.0"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    send: "npm:0.17.2"
+    sharp: "npm:0.29.1"
+  checksum: 7e517299c36924a5bb0371467412fe8ecd8f92c38c3cac8ea064ec26ef295310a959206bf91ef10b7b2247a765e7fa422e3bc2e8d710934a50ba53ab8fa5294f
+  languageName: node
+  linkType: hard
+
+"@sls-next/core@file:../core::locator=%40sls-next%2Flambda-at-edge%40file%3A..%2F..%2Flibs%2Flambda-at-edge%23..%2F..%2Flibs%2Flambda-at-edge%3A%3Ahash%3D6b415f%26locator%3D%2540sls-next%252Fcdk-construct%2540workspace%253Apackages%252Fserverless-components%252Fnextjs-cdk-construct":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/core@file:../core#../core::hash=b8d90a&locator=%40sls-next%2Flambda-at-edge%40file%3A..%2F..%2Flibs%2Flambda-at-edge%23..%2F..%2Flibs%2Flambda-at-edge%3A%3Ahash%3D6b415f%26locator%3D%2540sls-next%252Fcdk-construct%2540workspace%253Apackages%252Fserverless-components%252Fnextjs-cdk-construct"
+  dependencies:
+    "@hapi/accept": "npm:5.0.2"
+    cookie: "npm:0.4.2"
+    execa: "npm:5.1.1"
+    fast-glob: "npm:3.2.11"
+    fresh: "npm:0.5.2"
+    fs-extra: "npm:9.1.0"
+    is-animated: "npm:2.0.2"
+    jsonwebtoken: "npm:8.5.1"
+    next: "npm:13.4.12"
+    node-fetch: "npm:2.6.5"
+    normalize-path: "npm:3.0.0"
+    path-to-regexp: "npm:6.2.0"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    send: "npm:0.17.2"
+    sharp: "npm:0.29.1"
+  checksum: 7e517299c36924a5bb0371467412fe8ecd8f92c38c3cac8ea064ec26ef295310a959206bf91ef10b7b2247a765e7fa422e3bc2e8d710934a50ba53ab8fa5294f
+  languageName: node
+  linkType: hard
+
+"@sls-next/core@file:../core::locator=%40sls-next%2Flambda-at-edge%40file%3A..%2F..%2Flibs%2Flambda-at-edge%23..%2F..%2Flibs%2Flambda-at-edge%3A%3Ahash%3D6b415f%26locator%3D%2540sls-next%252Fserverless-component%2540workspace%253Apackages%252Fserverless-components%252Fnextjs-component":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/core@file:../core#../core::hash=b8d90a&locator=%40sls-next%2Flambda-at-edge%40file%3A..%2F..%2Flibs%2Flambda-at-edge%23..%2F..%2Flibs%2Flambda-at-edge%3A%3Ahash%3D6b415f%26locator%3D%2540sls-next%252Fserverless-component%2540workspace%253Apackages%252Fserverless-components%252Fnextjs-component"
+  dependencies:
+    "@hapi/accept": "npm:5.0.2"
+    cookie: "npm:0.4.2"
+    execa: "npm:5.1.1"
+    fast-glob: "npm:3.2.11"
+    fresh: "npm:0.5.2"
+    fs-extra: "npm:9.1.0"
+    is-animated: "npm:2.0.2"
+    jsonwebtoken: "npm:8.5.1"
+    next: "npm:13.4.12"
+    node-fetch: "npm:2.6.5"
+    normalize-path: "npm:3.0.0"
+    path-to-regexp: "npm:6.2.0"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    send: "npm:0.17.2"
+    sharp: "npm:0.29.1"
+  checksum: 7e517299c36924a5bb0371467412fe8ecd8f92c38c3cac8ea064ec26ef295310a959206bf91ef10b7b2247a765e7fa422e3bc2e8d710934a50ba53ab8fa5294f
+  languageName: node
+  linkType: hard
+
+"@sls-next/core@file:../core::locator=%40sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/core@file:../core#../core::hash=b8d90a&locator=%40sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge"
+  dependencies:
+    "@hapi/accept": "npm:5.0.2"
+    cookie: "npm:0.4.2"
+    execa: "npm:5.1.1"
+    fast-glob: "npm:3.2.11"
+    fresh: "npm:0.5.2"
+    fs-extra: "npm:9.1.0"
+    is-animated: "npm:2.0.2"
+    jsonwebtoken: "npm:8.5.1"
+    next: "npm:13.4.12"
+    node-fetch: "npm:2.6.5"
+    normalize-path: "npm:3.0.0"
+    path-to-regexp: "npm:6.2.0"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    send: "npm:0.17.2"
+    sharp: "npm:0.29.1"
+  checksum: 7e517299c36924a5bb0371467412fe8ecd8f92c38c3cac8ea064ec26ef295310a959206bf91ef10b7b2247a765e7fa422e3bc2e8d710934a50ba53ab8fa5294f
+  languageName: node
+  linkType: hard
 
 "@sls-next/core@workspace:packages/libs/core":
   version: 0.0.0-use.local
@@ -6016,11 +6311,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sls-next/domain@link:../domain::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/domain@link:../domain::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+"@sls-next/domain@file:../domain::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/domain@file:../domain#../domain::hash=0399df&locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+  dependencies:
+    "@serverless/core": "npm:1.1.2"
+    aws-sdk: "npm:2.1093.0"
+  peerDependencies:
+    "@serverless/core": 1.1.2
+    aws-sdk: 2.1093.0
+  checksum: 8d0986499666e220418e77571aae5228b3caca9ed42185da2f780c69f95eea727fc9f2cb1c18c2c178cf4d14b8f5c4919f41d4f5473d9de334aedfdcc7bb5644
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@sls-next/domain@workspace:packages/serverless-components/domain":
   version: 0.0.0-use.local
@@ -6037,17 +6339,49 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sls-next/lambda-at-edge@link:../../libs/lambda-at-edge::locator=%40sls-next%2Fcdk-construct%40workspace%3Apackages%2Fserverless-components%2Fnextjs-cdk-construct":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/lambda-at-edge@link:../../libs/lambda-at-edge::locator=%40sls-next%2Fcdk-construct%40workspace%3Apackages%2Fserverless-components%2Fnextjs-cdk-construct"
+"@sls-next/lambda-at-edge@file:../../libs/lambda-at-edge::locator=%40sls-next%2Fcdk-construct%40workspace%3Apackages%2Fserverless-components%2Fnextjs-cdk-construct":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/lambda-at-edge@file:../../libs/lambda-at-edge#../../libs/lambda-at-edge::hash=6b415f&locator=%40sls-next%2Fcdk-construct%40workspace%3Apackages%2Fserverless-components%2Fnextjs-cdk-construct"
+  dependencies:
+    "@aws-sdk/client-s3": "npm:3.54.0"
+    "@aws-sdk/client-sqs": "npm:3.54.0"
+    "@sls-next/aws-common": "file:../aws-common"
+    "@sls-next/core": "file:../core"
+    "@vercel/nft": "npm:0.17.5"
+    execa: "npm:5.1.1"
+    fs-extra: "npm:9.1.0"
+    get-stream: "npm:6.0.1"
+    node-fetch: "npm:2.6.5"
+    normalize-path: "npm:3.0.0"
+  peerDependencies:
+    builtin-modules: 3.2.0
+  bin:
+    build-lambda-at-edge: dist/command.js
+  checksum: d5aa5593d4613820948742ddd15d4eee066be85ece97bdf0445d327e10938cedb82b0a6aaad053858ed59e4f0f04a8d07e430b691ece1f54faf60715eb04bb4c
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@sls-next/lambda-at-edge@link:../../libs/lambda-at-edge::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/lambda-at-edge@link:../../libs/lambda-at-edge::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+"@sls-next/lambda-at-edge@file:../../libs/lambda-at-edge::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/lambda-at-edge@file:../../libs/lambda-at-edge#../../libs/lambda-at-edge::hash=6b415f&locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+  dependencies:
+    "@aws-sdk/client-s3": "npm:3.54.0"
+    "@aws-sdk/client-sqs": "npm:3.54.0"
+    "@sls-next/aws-common": "file:../aws-common"
+    "@sls-next/core": "file:../core"
+    "@vercel/nft": "npm:0.17.5"
+    execa: "npm:5.1.1"
+    fs-extra: "npm:9.1.0"
+    get-stream: "npm:6.0.1"
+    node-fetch: "npm:2.6.5"
+    normalize-path: "npm:3.0.0"
+  peerDependencies:
+    builtin-modules: 3.2.0
+  bin:
+    build-lambda-at-edge: dist/command.js
+  checksum: d5aa5593d4613820948742ddd15d4eee066be85ece97bdf0445d327e10938cedb82b0a6aaad053858ed59e4f0f04a8d07e430b691ece1f54faf60715eb04bb4c
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@sls-next/lambda-at-edge@workspace:packages/libs/lambda-at-edge":
   version: 0.0.0-use.local
@@ -6065,9 +6399,9 @@ __metadata:
     "@rollup/plugin-commonjs": "npm:18.1.0"
     "@rollup/plugin-json": "npm:4.1.0"
     "@rollup/plugin-node-resolve": "npm:10.0.0"
-    "@sls-next/aws-common": "link:../aws-common"
-    "@sls-next/core": "link:../core"
-    "@sls-next/next-aws-cloudfront": "link:../../compat-layers/lambda-at-edge-compat"
+    "@sls-next/aws-common": "file:../aws-common"
+    "@sls-next/core": "file:../core"
+    "@sls-next/next-aws-cloudfront": "file:../../compat-layers/lambda-at-edge-compat"
     "@types/aws-lambda": "npm:8.10.92"
     "@types/fs-extra": "npm:9.0.13"
     "@types/jest": "npm:27.4.0"
@@ -6123,8 +6457,8 @@ __metadata:
     "@rollup/plugin-commonjs": "npm:18.1.0"
     "@rollup/plugin-json": "npm:4.1.0"
     "@rollup/plugin-node-resolve": "npm:10.0.0"
-    "@sls-next/aws-common": "link:../aws-common"
-    "@sls-next/core": "link:../core"
+    "@sls-next/aws-common": "file:../aws-common"
+    "@sls-next/core": "file:../core"
     "@types/aws-lambda": "npm:8.10.92"
     "@types/fs-extra": "npm:9.0.13"
     "@types/jest": "npm:^27.4.0"
@@ -6146,17 +6480,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sls-next/next-aws-cloudfront@link:../../compat-layers/lambda-at-edge-compat::locator=%40sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/next-aws-cloudfront@link:../../compat-layers/lambda-at-edge-compat::locator=%40sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge"
+"@sls-next/next-aws-cloudfront@file:../../compat-layers/lambda-at-edge-compat::locator=%40sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/next-aws-cloudfront@file:../../compat-layers/lambda-at-edge-compat#../../compat-layers/lambda-at-edge-compat::hash=51e421&locator=%40sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge"
+  checksum: e93e4803174a555fe9d51239eaf336e00c977395eba8e631402211c865f9f3d0fcc518a2ffda89fb2de0d044a71ebc93c337474193276dc6ab1211b95d262b8b
   languageName: node
-  linkType: soft
+  linkType: hard
 
-"@sls-next/next-aws-cloudfront@link:../../compat-layers/lambda-at-edge-compat::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/next-aws-cloudfront@link:../../compat-layers/lambda-at-edge-compat::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+"@sls-next/next-aws-cloudfront@file:../../compat-layers/lambda-at-edge-compat::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/next-aws-cloudfront@file:../../compat-layers/lambda-at-edge-compat#../../compat-layers/lambda-at-edge-compat::hash=51e421&locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+  checksum: e93e4803174a555fe9d51239eaf336e00c977395eba8e631402211c865f9f3d0fcc518a2ffda89fb2de0d044a71ebc93c337474193276dc6ab1211b95d262b8b
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@sls-next/next-aws-cloudfront@workspace:packages/compat-layers/lambda-at-edge-compat":
   version: 0.0.0-use.local
@@ -6172,11 +6508,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sls-next/s3-static-assets@link:../../libs/s3-static-assets::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@sls-next/s3-static-assets@link:../../libs/s3-static-assets::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+"@sls-next/s3-static-assets@file:../../libs/s3-static-assets::locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
+  version: 3.8.0-alpha.1
+  resolution: "@sls-next/s3-static-assets@file:../../libs/s3-static-assets#../../libs/s3-static-assets::hash=601e49&locator=%40sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
+  dependencies:
+    aws-sdk: "npm:2.1093.0"
+    fast-glob: "npm:3.2.11"
+    fs-extra: "npm:9.1.0"
+    mime-types: "npm:2.1.34"
+    normalize-path: "npm:3.0.0"
+    regex-parser: "npm:2.2.11"
+  checksum: a845613411abb7937ecf7de357a9cd7a608f78e431b250fae05e89ebce618e0130902563a6d713a8371632ca2f3055adfb2c4605a1d631d2a5422d0c7608d9de
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@sls-next/s3-static-assets@workspace:packages/libs/s3-static-assets":
   version: 0.0.0-use.local
@@ -6207,15 +6551,15 @@ __metadata:
     "@babel/preset-typescript": "npm:7.15.0"
     "@jest/globals": "npm:27.3.1"
     "@serverless/core": "npm:1.1.2"
-    "@sls-next/aws-cloudfront": "link:../aws-cloudfront"
-    "@sls-next/aws-lambda": "link:../aws-lambda"
-    "@sls-next/aws-s3": "link:../aws-s3"
-    "@sls-next/aws-sqs": "link:../aws-sqs"
-    "@sls-next/cloudfront": "link:../../libs/cloudfront"
-    "@sls-next/domain": "link:../domain"
-    "@sls-next/lambda-at-edge": "link:../../libs/lambda-at-edge"
-    "@sls-next/next-aws-cloudfront": "link:../../compat-layers/lambda-at-edge-compat"
-    "@sls-next/s3-static-assets": "link:../../libs/s3-static-assets"
+    "@sls-next/aws-cloudfront": "file:../aws-cloudfront"
+    "@sls-next/aws-lambda": "file:../aws-lambda"
+    "@sls-next/aws-s3": "file:../aws-s3"
+    "@sls-next/aws-sqs": "file:../aws-sqs"
+    "@sls-next/cloudfront": "file:../../libs/cloudfront"
+    "@sls-next/domain": "file:../domain"
+    "@sls-next/lambda-at-edge": "file:../../libs/lambda-at-edge"
+    "@sls-next/next-aws-cloudfront": "file:../../compat-layers/lambda-at-edge-compat"
+    "@sls-next/s3-static-assets": "file:../../libs/s3-static-assets"
     "@types/fs-extra": "npm:9.0.13"
     "@types/jest": "npm:27.0.2"
     "@types/node": "npm:16.11.4"
