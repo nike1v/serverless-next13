@@ -7,7 +7,7 @@ const build = async (input) => {
     minify: input.minify,
     platform: "node",
     bundle: true,
-    target: "node14",
+    target: "node16",
     entryPoints: [`./src/handlers/${input.handler}.ts`],
     outfile: `./dist/${input.handler}/${
       input.minify ? "minified" : "standard"

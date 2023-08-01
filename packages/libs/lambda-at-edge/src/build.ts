@@ -78,7 +78,7 @@ class Builder {
   nextConfigDir: string;
   nextStaticDir: string;
   dotNextDir: string;
-  serverlessDir: string;
+  serverDir: string;
   outputDir: string;
   buildOptions: BuildOptions = defaultBuildOptions;
 
@@ -91,7 +91,7 @@ class Builder {
     this.nextConfigDir = path.resolve(nextConfigDir);
     this.nextStaticDir = path.resolve(nextStaticDir ?? nextConfigDir);
     this.dotNextDir = path.join(this.nextConfigDir, ".next");
-    this.serverlessDir = path.join(this.dotNextDir, "serverless");
+    this.serverDir = path.join(this.dotNextDir, "server");
     this.outputDir = outputDir;
     if (buildOptions) {
       this.buildOptions = buildOptions;
@@ -116,12 +116,12 @@ class Builder {
   }
 
   async readPagesManifest(): Promise<{ [key: string]: string }> {
-    const path = join(this.serverlessDir, "pages-manifest.json");
-    const hasServerlessPageManifest = await fse.pathExists(path);
+    const path = join(this.serverDir, "pages-manifest.json");
+    const hasServerPageManifest = await fse.pathExists(path);
 
-    if (!hasServerlessPageManifest) {
+    if (!hasServerPageManifest) {
       return Promise.reject(
-        "pages-manifest not found. Check if `next.config.js` target is set to 'serverless'"
+        "pages-manifest not found. Check if project correctly builded"
       );
     }
 
@@ -154,7 +154,7 @@ class Builder {
       .map((filePath: string) => {
         const resolvedFilePath = path.resolve(join(base, filePath));
         const dst = normalizeNodeModules(
-          path.relative(this.serverlessDir, resolvedFilePath)
+          path.relative(this.serverDir, resolvedFilePath)
         );
 
         if (resolvedFilePath !== join(this.outputDir, handlerDirectory, dst)) {
@@ -170,7 +170,7 @@ class Builder {
   }
 
   /**
-   * Check whether this .next/serverless/pages file is a JS file used for runtime rendering.
+   * Check whether this .next/server/pages file is a JS file used for runtime rendering.
    * @param buildManifest
    * @param relativePageFile
    */
@@ -260,7 +260,7 @@ class Builder {
       ].filter(ignoreAppAndDocumentPages);
 
       const ssrPages = Object.values(allSsrPages).map((pageFile) =>
-        path.join(this.serverlessDir, pageFile)
+        path.join(this.serverDir, pageFile)
       );
 
       const base = this.buildOptions.baseDir || process.cwd();
@@ -287,7 +287,7 @@ class Builder {
     useV2Handler: boolean
   ): Promise<void[]> {
     const hasAPIRoutes = await fse.pathExists(
-      join(this.serverlessDir, "pages/api")
+      join(this.serverDir, "pages/api")
     );
 
     return Promise.all([
@@ -312,7 +312,7 @@ class Builder {
         buildManifest
       ),
       fse.copy(
-        join(this.serverlessDir, "pages"),
+        join(this.serverDir, "pages"),
         join(this.outputDir, DEFAULT_LAMBDA_CODE_DIR, "pages"),
         {
           filter: (file: string) => {
@@ -335,7 +335,7 @@ class Builder {
               this.isSSRJSFile(
                 buildManifest,
                 pathToPosix(
-                  path.relative(path.join(this.serverlessDir, "pages"), file)
+                  path.relative(path.join(this.serverDir, "pages"), file)
                 ) // important: make sure to use posix path to generate forward-slash path across both posix/windows
               );
 
@@ -379,7 +379,7 @@ class Builder {
       ];
 
       const apiPages = Object.values(allApiPages).map((pageFile) =>
-        path.join(this.serverlessDir, pageFile)
+        path.join(this.serverDir, pageFile)
       );
 
       const base = this.buildOptions.baseDir || process.cwd();
@@ -410,7 +410,7 @@ class Builder {
           )
         : Promise.resolve(),
       fse.copy(
-        join(this.serverlessDir, "pages/api"),
+        join(this.serverDir, "pages/api"),
         join(this.outputDir, API_LAMBDA_CODE_DIR, "pages/api")
       ),
       this.copyJSFiles(API_LAMBDA_CODE_DIR),
@@ -444,7 +444,7 @@ class Builder {
       this.copyJSFiles(REGENERATION_LAMBDA_CODE_DIR),
       this.copyChunks(REGENERATION_LAMBDA_CODE_DIR),
       fse.copy(
-        join(this.serverlessDir, "pages"),
+        join(this.serverDir, "pages"),
         join(this.outputDir, REGENERATION_LAMBDA_CODE_DIR, "pages"),
         {
           filter: (file: string) => {
@@ -464,13 +464,13 @@ class Builder {
   }
 
   /**
-   * copy chunks if present and not using serverless trace
+   * copy chunks if present and not using server trace
    */
   copyChunks(handlerDir: string): Promise<void> {
     return !this.buildOptions.useServerlessTraceTarget &&
-      fse.existsSync(join(this.serverlessDir, "chunks"))
+      fse.existsSync(join(this.serverDir, "chunks"))
       ? fse.copy(
-          join(this.serverlessDir, "chunks"),
+          join(this.serverDir, "chunks"),
           join(this.outputDir, handlerDir, "chunks")
         )
       : Promise.resolve();
@@ -481,15 +481,15 @@ class Builder {
    */
   async copyJSFiles(handlerDir: string): Promise<void> {
     await Promise.all([
-      (await fse.pathExists(join(this.serverlessDir, "webpack-api-runtime.js")))
+      (await fse.pathExists(join(this.serverDir, "webpack-api-runtime.js")))
         ? fse.copy(
-            join(this.serverlessDir, "webpack-api-runtime.js"),
+            join(this.serverDir, "webpack-api-runtime.js"),
             join(this.outputDir, handlerDir, "webpack-api-runtime.js")
           )
         : Promise.resolve(),
-      (await fse.pathExists(join(this.serverlessDir, "webpack-runtime.js")))
+      (await fse.pathExists(join(this.serverDir, "webpack-runtime.js")))
         ? fse.copy(
-            join(this.serverlessDir, "webpack-runtime.js"),
+            join(this.serverDir, "webpack-runtime.js"),
             join(this.outputDir, handlerDir, "webpack-runtime.js")
           )
         : Promise.resolve()
@@ -637,7 +637,7 @@ class Builder {
     });
 
     const htmlAssets = [...htmlFiles, ...fallbackFiles].map((file) => {
-      const source = path.join(dotNextDirectory, `serverless/pages${file}`);
+      const source = path.join(dotNextDirectory, `server/pages${file}`);
       const destination = path.join(
         assetOutputDirectory,
         withBasePath(`static-pages/${buildId}${file}`)
@@ -647,7 +647,7 @@ class Builder {
     });
 
     const jsonAssets = jsonFiles.map((file) => {
-      const source = path.join(dotNextDirectory, `serverless/pages${file}`);
+      const source = path.join(dotNextDirectory, `server/pages${file}`);
       const destination = path.join(
         assetOutputDirectory,
         withBasePath(`_next/data/${buildId}${file}`)

@@ -16,7 +16,7 @@ cd yourProjectName
 ```js
 // next.config.js
 module.exports = {
-  target: "serverless"
+  output: "standalone"
 };
 ```
 

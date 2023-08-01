@@ -19,13 +19,13 @@ describe("With Trailing Slash Config Build", () => {
 
   describe.each`
     fixture                                                    | expectedTrailingSlash | expectedBasePath | expectedOriginalNextConfig
-    ${"fixture-next-config-as-obj"}                            | ${true}               | ${""}            | ${'module.exports = { target: "serverless", trailingSlash: true };'}
-    ${"fixture-next-config-as-func"}                           | ${true}               | ${""}            | ${'module.exports = () => ({ target: "serverless", trailingSlash: true });'}
-    ${"fixture-next-config-as-obj-no-trailing-slash"}          | ${false}              | ${""}            | ${'module.exports = { target: "serverless" };'}
-    ${"fixture-next-config-as-func-no-trailing-slash"}         | ${false}              | ${""}            | ${'module.exports = () => ({ target: "serverless" });'}
+    ${"fixture-next-config-as-obj"}                            | ${true}               | ${""}            | ${'module.exports = { output: "standalone", trailingSlash: true };'}
+    ${"fixture-next-config-as-func"}                           | ${true}               | ${""}            | ${'module.exports = () => ({ output: "standalone", trailingSlash: true });'}
+    ${"fixture-next-config-as-obj-no-trailing-slash"}          | ${false}              | ${""}            | ${'module.exports = { output: "standalone" };'}
+    ${"fixture-next-config-as-func-no-trailing-slash"}         | ${false}              | ${""}            | ${'module.exports = () => ({ output: "standalone" });'}
     ${"fixture-no-next-config"}                                | ${false}              | ${""}            | ${undefined}
-    ${"fixture-next-config-as-obj-basepath"}                   | ${true}               | ${"/basepath"}   | ${'module.exports = {  basePath: "/basepath",  target: "serverless",  trailingSlash: true};'}
-    ${"fixture-next-config-as-obj-basepath-no-trailing-slash"} | ${false}              | ${"/basepath"}   | ${'module.exports = { basePath: "/basepath", target: "serverless" };'}
+    ${"fixture-next-config-as-obj-basepath"}                   | ${true}               | ${"/basepath"}   | ${'module.exports = {  basePath: "/basepath",  output: "standalone",  trailingSlash: true};'}
+    ${"fixture-next-config-as-obj-basepath-no-trailing-slash"} | ${false}              | ${"/basepath"}   | ${'module.exports = { basePath: "/basepath", output: "standalone" };'}
   `(
     "with fixture: $fixture",
     ({

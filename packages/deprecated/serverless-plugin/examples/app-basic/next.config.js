@@ -1,7 +1,7 @@
 const withCSS = require("@zeit/next-css");
 
 const config = {
-  target: "serverless",
+  output: "standalone",
   assetPrefix: "https://s3.amazonaws.com/foobarbazban"
 };
 

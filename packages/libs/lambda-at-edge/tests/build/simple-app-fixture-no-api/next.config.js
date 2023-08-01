@@ -1,5 +1,5 @@
 module.exports = {
-  target: "serverless",
+  output: "standalone",
   images: {
     loader: "imgix",
     path: "https://example.com/"

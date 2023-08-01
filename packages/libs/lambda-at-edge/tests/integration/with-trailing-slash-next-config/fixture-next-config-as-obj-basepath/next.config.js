@@ -1,5 +1,5 @@
 module.exports = {
   basePath: "/basepath",
-  target: "serverless",
+  output: "standalone",
   trailingSlash: true
 };

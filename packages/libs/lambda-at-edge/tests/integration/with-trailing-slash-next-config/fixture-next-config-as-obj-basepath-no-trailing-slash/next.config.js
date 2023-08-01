@@ -1,1 +1,1 @@
-module.exports = { basePath: "/basepath", target: "serverless" };
+module.exports = { basePath: "/basepath", output: "standalone" };

@@ -18,7 +18,7 @@ _next.config.js_
 ```js
 module.exports = {
   ...
-  target: "serverless"
+  output: "standalone"
 };
 ```
 

@@ -1,7 +1,7 @@
 const withCSS = require("@zeit/next-css");
 
 const config = {
-  target: "serverless"
+  output: "standalone"
 };
 
 module.exports = withCSS(config);

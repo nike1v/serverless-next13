@@ -16,7 +16,7 @@ describe("parseNextConfiguration", () => {
   it("should call nextLoadConfig with config dir given", () => {
     const configDir = "/path/to/next";
     nextLoadConfig.mockReturnValueOnce({
-      target: "serverless",
+      output: "standalone",
       assetPrefix: "https://s3.amazonaws.com/my-bucket"
     });
 
@@ -27,7 +27,7 @@ describe("parseNextConfiguration", () => {
 
   it("should return empty staticAssetsBucket when no assetPrefix is configured", () => {
     nextLoadConfig.mockReturnValueOnce({
-      target: "serverless"
+      output: "standalone"
     });
 
     const { staticAssetsBucket } = parseNextConfiguration("/path/to/next");
@@ -37,7 +37,7 @@ describe("parseNextConfiguration", () => {
   it("should return empty staticAssetsBucket when assetPrefix exists but has no bucket", () => {
     const configDir = "/path/to/next";
     const nextConfig = {
-      target: "serverless",
+      output: "standalone",
       assetPrefix: `https://cdn.com/assets`
     };
     nextLoadConfig.mockReturnValueOnce(nextConfig);
@@ -51,7 +51,7 @@ describe("parseNextConfiguration", () => {
     const configDir = "/path/to/next";
     const bucketName = "my-bucket";
     const nextConfig = {
-      target: "serverless",
+      output: "standalone",
       assetPrefix: `https://s3.amazonaws.com/${bucketName}`
     };
     nextLoadConfig.mockReturnValueOnce(nextConfig);
@@ -66,7 +66,7 @@ describe("parseNextConfiguration", () => {
     const bucketName = "my-bucket";
     const distDir = "build";
     const nextConfig = {
-      target: "serverless",
+      output: "standalone",
       distDir,
       assetPrefix: `https://s3.amazonaws.com/${bucketName}`
     };
