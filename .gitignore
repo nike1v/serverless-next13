@@ -6,11 +6,11 @@ node_modules
 examples/basic-next-serverless-app/build
 .serverless
 .next
-sls-next-build
+# sls-next-build
 .serverless_nextjs
 **/examples/**/package-lock.json
 .DS_Store
-dist
+# dist
 .vscode
 .env
 .package-lock.json

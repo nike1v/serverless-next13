@@ -1,0 +1,3 @@
+import { Event, ExternalRoute, NextStaticFileRoute, PageManifest, PrerenderManifest, PublicFileRoute, RenderRoute, RoutesManifest, StaticRoute } from "../types";
+export declare const renderRoute: (event: Event, route: RenderRoute, manifest: PageManifest, routesManifest: RoutesManifest, getPage: (page: string) => any) => Promise<void | StaticRoute>;
+export declare const handleDefault: (event: Event, manifest: PageManifest, prerenderManifest: PrerenderManifest, routesManifest: RoutesManifest, getPage: (page: string) => any) => Promise<ExternalRoute | PublicFileRoute | NextStaticFileRoute | StaticRoute | void>;
