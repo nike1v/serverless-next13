@@ -35,10 +35,10 @@
   "dependencies": {
     "@aws-sdk/client-s3": "3.54.0",
     "@aws-sdk/client-sqs": "3.54.0",
-    "@sls-next/core": "link:../core"
+    "@sls-next/core": "file:../core"
   },
   "devDependencies": {
-    "@types/node": "17.0.19",
+    "@types/node": "20.4.5",
     "rimraf": "3.0.2",
     "typescript": "5.1.6"
   }
