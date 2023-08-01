@@ -157,7 +157,6 @@ describe("build", () => {
     expect.assertions(1);
 
     const parsedConfig = parsedNextConfigurationFactory({
-      target: "server",
       distDir: ".next"
     });
 
