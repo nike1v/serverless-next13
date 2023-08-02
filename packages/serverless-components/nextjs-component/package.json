@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "restricted"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Serverless Next.js powered by Serverless Components",
   "main": "./serverless.js",
   "types": "dist/component.d.ts",
@@ -33,15 +33,15 @@
     "node": ">=10.11.0"
   },
   "dependencies": {
-    "@cryptodiffer-sls-next/aws-cloudfront": "link:../aws-cloudfront",
-    "@cryptodiffer-sls-next/aws-lambda": "link:../aws-lambda",
-    "@cryptodiffer-sls-next/aws-s3": "link:../aws-s3",
-    "@cryptodiffer-sls-next/aws-sqs": "link:../aws-sqs",
-    "@cryptodiffer-sls-next/cloudfront": "link:../../libs/cloudfront",
-    "@cryptodiffer-sls-next/domain": "link:../domain",
-    "@cryptodiffer-sls-next/lambda-at-edge": "link:../../libs/lambda-at-edge",
-    "@cryptodiffer-sls-next/next-aws-cloudfront": "link:../../compat-layers/lambda-at-edge-compat",
-    "@cryptodiffer-sls-next/s3-static-assets": "link:../../libs/s3-static-assets",
+    "@cryptodiffer-sls-next/aws-cloudfront": "1.0.2",
+    "@cryptodiffer-sls-next/aws-lambda": "1.0.2",
+    "@cryptodiffer-sls-next/aws-s3": "1.0.2",
+    "@cryptodiffer-sls-next/aws-sqs": "1.0.2",
+    "@cryptodiffer-sls-next/cloudfront": "1.0.2",
+    "@cryptodiffer-sls-next/domain": "1.0.2",
+    "@cryptodiffer-sls-next/lambda-at-edge": "1.0.2",
+    "@cryptodiffer-sls-next/next-aws-cloudfront": "1.0.2",
+    "@cryptodiffer-sls-next/s3-static-assets": "1.0.2",
     "@serverless/core": "1.1.2",
     "aws-sdk": "2.1012.0",
     "fs-extra": "9.1.0",
@@ -69,5 +69,6 @@
       "/fixtures/",
       "aws-sdk.mock.ts"
     ]
-  }
+  },
+  "gitHead": "963fe853d0281e0766beca6c20ed555689014c43"
 }

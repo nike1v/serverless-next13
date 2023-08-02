@@ -3874,13 +3874,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cryptodiffer-sls-next/aws-cloudfront@link:../aws-cloudfront::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/aws-cloudfront@link:../aws-cloudfront::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/aws-cloudfront@workspace:packages/serverless-components/aws-cloudfront":
+"@cryptodiffer-sls-next/aws-cloudfront@1.0.2, @cryptodiffer-sls-next/aws-cloudfront@workspace:packages/serverless-components/aws-cloudfront":
   version: 0.0.0-use.local
   resolution: "@cryptodiffer-sls-next/aws-cloudfront@workspace:packages/serverless-components/aws-cloudfront"
   dependencies:
@@ -3908,38 +3902,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/aws-common@link:../aws-common::locator=%40cryptodiffer-sls-next%2Flambda%40workspace%3Apackages%2Flibs%2Flambda":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/aws-common@link:../aws-common::locator=%40cryptodiffer-sls-next%2Flambda%40workspace%3Apackages%2Flibs%2Flambda"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/aws-common@link:../aws-common::locator=%40cryptodiffer-sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/aws-common@link:../aws-common::locator=%40cryptodiffer-sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/aws-common@workspace:packages/libs/aws-common":
+"@cryptodiffer-sls-next/aws-common@1.0.2, @cryptodiffer-sls-next/aws-common@workspace:packages/libs/aws-common":
   version: 0.0.0-use.local
   resolution: "@cryptodiffer-sls-next/aws-common@workspace:packages/libs/aws-common"
   dependencies:
     "@aws-sdk/client-s3": 3.54.0
     "@aws-sdk/client-sqs": 3.54.0
-    "@cryptodiffer-sls-next/core": "link:../core"
+    "@cryptodiffer-sls-next/core": 1.0.2
     "@types/node": 20.4.5
     rimraf: 3.0.2
     typescript: 5.1.6
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/aws-lambda@link:../aws-lambda::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/aws-lambda@link:../aws-lambda::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/aws-lambda@workspace:packages/serverless-components/aws-lambda":
+"@cryptodiffer-sls-next/aws-lambda@1.0.2, @cryptodiffer-sls-next/aws-lambda@workspace:packages/serverless-components/aws-lambda":
   version: 0.0.0-use.local
   resolution: "@cryptodiffer-sls-next/aws-lambda@workspace:packages/serverless-components/aws-lambda"
   dependencies:
@@ -3969,13 +3945,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/aws-s3@link:../aws-s3::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/aws-s3@link:../aws-s3::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/aws-s3@workspace:packages/serverless-components/aws-s3":
+"@cryptodiffer-sls-next/aws-s3@1.0.2, @cryptodiffer-sls-next/aws-s3@workspace:packages/serverless-components/aws-s3":
   version: 0.0.0-use.local
   resolution: "@cryptodiffer-sls-next/aws-s3@workspace:packages/serverless-components/aws-s3"
   dependencies:
@@ -4005,13 +3975,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/aws-sqs@link:../aws-sqs::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/aws-sqs@link:../aws-sqs::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/aws-sqs@workspace:packages/serverless-components/aws-sqs":
+"@cryptodiffer-sls-next/aws-sqs@1.0.2, @cryptodiffer-sls-next/aws-sqs@workspace:packages/serverless-components/aws-sqs":
   version: 0.0.0-use.local
   resolution: "@cryptodiffer-sls-next/aws-sqs@workspace:packages/serverless-components/aws-sqs"
   dependencies:
@@ -4030,8 +3994,8 @@ __metadata:
   resolution: "@cryptodiffer-sls-next/cdk-construct@workspace:packages/serverless-components/nextjs-cdk-construct"
   dependencies:
     "@aws-cdk/assert": ^2.68.0
-    "@cryptodiffer-sls-next/core": "link:../../libs/core"
-    "@cryptodiffer-sls-next/lambda-at-edge": "link:../../libs/lambda-at-edge"
+    "@cryptodiffer-sls-next/core": 1.0.2
+    "@cryptodiffer-sls-next/lambda-at-edge": 1.0.2
     "@types/fs-extra": 9.0.13
     aws-cdk: ^2.89.0
     aws-cdk-lib: ^2.89.0
@@ -4047,13 +4011,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/cloudfront@link:../../libs/cloudfront::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/cloudfront@link:../../libs/cloudfront::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/cloudfront@workspace:packages/libs/cloudfront":
+"@cryptodiffer-sls-next/cloudfront@1.0.2, @cryptodiffer-sls-next/cloudfront@workspace:packages/libs/cloudfront":
   version: 0.0.0-use.local
   resolution: "@cryptodiffer-sls-next/cloudfront@workspace:packages/libs/cloudfront"
   dependencies:
@@ -4065,31 +4023,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/core@link:../../libs/core::locator=%40cryptodiffer-sls-next%2Fcdk-construct%40workspace%3Apackages%2Fserverless-components%2Fnextjs-cdk-construct":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/core@link:../../libs/core::locator=%40cryptodiffer-sls-next%2Fcdk-construct%40workspace%3Apackages%2Fserverless-components%2Fnextjs-cdk-construct"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/core@link:../core::locator=%40cryptodiffer-sls-next%2Faws-common%40workspace%3Apackages%2Flibs%2Faws-common":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/core@link:../core::locator=%40cryptodiffer-sls-next%2Faws-common%40workspace%3Apackages%2Flibs%2Faws-common"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/core@link:../core::locator=%40cryptodiffer-sls-next%2Flambda%40workspace%3Apackages%2Flibs%2Flambda":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/core@link:../core::locator=%40cryptodiffer-sls-next%2Flambda%40workspace%3Apackages%2Flibs%2Flambda"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/core@link:../core::locator=%40cryptodiffer-sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/core@link:../core::locator=%40cryptodiffer-sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/core@workspace:packages/libs/core":
+"@cryptodiffer-sls-next/core@1.0.2, @cryptodiffer-sls-next/core@workspace:packages/libs/core":
   version: 0.0.0-use.local
   resolution: "@cryptodiffer-sls-next/core@workspace:packages/libs/core"
   dependencies:
@@ -4135,13 +4069,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/domain@link:../domain::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/domain@link:../domain::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/domain@workspace:packages/serverless-components/domain":
+"@cryptodiffer-sls-next/domain@1.0.2, @cryptodiffer-sls-next/domain@workspace:packages/serverless-components/domain":
   version: 0.0.0-use.local
   resolution: "@cryptodiffer-sls-next/domain@workspace:packages/serverless-components/domain"
   dependencies:
@@ -4156,19 +4084,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/lambda-at-edge@link:../../libs/lambda-at-edge::locator=%40cryptodiffer-sls-next%2Fcdk-construct%40workspace%3Apackages%2Fserverless-components%2Fnextjs-cdk-construct":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/lambda-at-edge@link:../../libs/lambda-at-edge::locator=%40cryptodiffer-sls-next%2Fcdk-construct%40workspace%3Apackages%2Fserverless-components%2Fnextjs-cdk-construct"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/lambda-at-edge@link:../../libs/lambda-at-edge::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/lambda-at-edge@link:../../libs/lambda-at-edge::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/lambda-at-edge@workspace:packages/libs/lambda-at-edge":
+"@cryptodiffer-sls-next/lambda-at-edge@1.0.2, @cryptodiffer-sls-next/lambda-at-edge@workspace:packages/libs/lambda-at-edge":
   version: 0.0.0-use.local
   resolution: "@cryptodiffer-sls-next/lambda-at-edge@workspace:packages/libs/lambda-at-edge"
   dependencies:
@@ -4180,9 +4096,9 @@ __metadata:
     "@babel/preset-env": 7.16.11
     "@babel/preset-react": 7.16.7
     "@babel/preset-typescript": 7.16.7
-    "@cryptodiffer-sls-next/aws-common": "link:../aws-common"
-    "@cryptodiffer-sls-next/core": "link:../core"
-    "@cryptodiffer-sls-next/next-aws-cloudfront": "link:../../compat-layers/lambda-at-edge-compat"
+    "@cryptodiffer-sls-next/aws-common": 1.0.2
+    "@cryptodiffer-sls-next/core": 1.0.2
+    "@cryptodiffer-sls-next/next-aws-cloudfront": 1.0.2
     "@jest/globals": 27.4.6
     "@rollup/plugin-commonjs": 18.1.0
     "@rollup/plugin-json": 4.1.0
@@ -4239,8 +4155,8 @@ __metadata:
     "@cdktf/provider-archive": 0.3.31
     "@cdktf/provider-aws": 5.0.48
     "@cdktf/provider-null": 0.5.30
-    "@cryptodiffer-sls-next/aws-common": "link:../aws-common"
-    "@cryptodiffer-sls-next/core": "link:../core"
+    "@cryptodiffer-sls-next/aws-common": 1.0.2
+    "@cryptodiffer-sls-next/core": 1.0.2
     "@rollup/plugin-commonjs": 18.1.0
     "@rollup/plugin-json": 4.1.0
     "@rollup/plugin-node-resolve": 10.0.0
@@ -4265,19 +4181,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/next-aws-cloudfront@link:../../compat-layers/lambda-at-edge-compat::locator=%40cryptodiffer-sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/next-aws-cloudfront@link:../../compat-layers/lambda-at-edge-compat::locator=%40cryptodiffer-sls-next%2Flambda-at-edge%40workspace%3Apackages%2Flibs%2Flambda-at-edge"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/next-aws-cloudfront@link:../../compat-layers/lambda-at-edge-compat::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/next-aws-cloudfront@link:../../compat-layers/lambda-at-edge-compat::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/next-aws-cloudfront@workspace:packages/compat-layers/lambda-at-edge-compat":
+"@cryptodiffer-sls-next/next-aws-cloudfront@1.0.2, @cryptodiffer-sls-next/next-aws-cloudfront@workspace:packages/compat-layers/lambda-at-edge-compat":
   version: 0.0.0-use.local
   resolution: "@cryptodiffer-sls-next/next-aws-cloudfront@workspace:packages/compat-layers/lambda-at-edge-compat"
   dependencies:
@@ -4291,13 +4195,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/s3-static-assets@link:../../libs/s3-static-assets::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component":
-  version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/s3-static-assets@link:../../libs/s3-static-assets::locator=%40cryptodiffer-sls-next%2Fserverless-component%40workspace%3Apackages%2Fserverless-components%2Fnextjs-component"
-  languageName: node
-  linkType: soft
-
-"@cryptodiffer-sls-next/s3-static-assets@workspace:packages/libs/s3-static-assets":
+"@cryptodiffer-sls-next/s3-static-assets@1.0.2, @cryptodiffer-sls-next/s3-static-assets@workspace:packages/libs/s3-static-assets":
   version: 0.0.0-use.local
   resolution: "@cryptodiffer-sls-next/s3-static-assets@workspace:packages/libs/s3-static-assets"
   dependencies:
@@ -4324,15 +4222,15 @@ __metadata:
     "@babel/plugin-proposal-class-properties": 7.14.5
     "@babel/preset-env": 7.15.8
     "@babel/preset-typescript": 7.15.0
-    "@cryptodiffer-sls-next/aws-cloudfront": "link:../aws-cloudfront"
-    "@cryptodiffer-sls-next/aws-lambda": "link:../aws-lambda"
-    "@cryptodiffer-sls-next/aws-s3": "link:../aws-s3"
-    "@cryptodiffer-sls-next/aws-sqs": "link:../aws-sqs"
-    "@cryptodiffer-sls-next/cloudfront": "link:../../libs/cloudfront"
-    "@cryptodiffer-sls-next/domain": "link:../domain"
-    "@cryptodiffer-sls-next/lambda-at-edge": "link:../../libs/lambda-at-edge"
-    "@cryptodiffer-sls-next/next-aws-cloudfront": "link:../../compat-layers/lambda-at-edge-compat"
-    "@cryptodiffer-sls-next/s3-static-assets": "link:../../libs/s3-static-assets"
+    "@cryptodiffer-sls-next/aws-cloudfront": 1.0.2
+    "@cryptodiffer-sls-next/aws-lambda": 1.0.2
+    "@cryptodiffer-sls-next/aws-s3": 1.0.2
+    "@cryptodiffer-sls-next/aws-sqs": 1.0.2
+    "@cryptodiffer-sls-next/cloudfront": 1.0.2
+    "@cryptodiffer-sls-next/domain": 1.0.2
+    "@cryptodiffer-sls-next/lambda-at-edge": 1.0.2
+    "@cryptodiffer-sls-next/next-aws-cloudfront": 1.0.2
+    "@cryptodiffer-sls-next/s3-static-assets": 1.0.2
     "@jest/globals": 27.3.1
     "@serverless/core": 1.1.2
     "@types/fs-extra": 9.0.13

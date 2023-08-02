@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "restricted"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Compat layer between next.js serverless page and AWS Lambda",
   "files": [
     "lib/**",
@@ -23,5 +23,6 @@
     "directory": "packages/compat-layers/apigw-lambda-compat"
   },
   "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "963fe853d0281e0766beca6c20ed555689014c43"
 }
