@@ -1,6 +1,6 @@
 {
   "name": "@cryptodiffer-sls-next/core",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Handles Next.js routing independent of provider",
   "publishConfig": {
     "access": "public"
@@ -82,5 +82,5 @@
       "/sharp_node_modules/"
     ]
   },
-  "gitHead": "e3474070c2a8b079fff099306cb719e5897d5356"
+  "gitHead": "ef0fdf2b84aa61537317a1c15a8089dfea5601df"
 }
