@@ -1,9 +1,9 @@
 {
   "name": "@sls-next/lambda",
-  "version": "3.8.0-alpha.1",
+  "version": "1.0.0",
   "description": "Code to build and deploy for Lambda + API Gateway",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   },
   "main": "dist/index.js",
   "module": "dist/module/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverless-nextjs/serverless-next.js.git",
+    "url": "git+https://github.com/nike1v/serverless-next13.git",
     "directory": "packages/libs/lambda"
   },
   "scripts": {
@@ -31,12 +31,12 @@
     "Serverless",
     "cdktf"
   ],
-  "author": "Daniel Phang <serverlessnextjs@gmail.com>",
+  "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/serverless-nextjs/serverless-next.js/issues"
+    "url": "https://github.com/nike1v/serverless-next13/issues"
   },
-  "homepage": "https://github.com/serverless-nextjs/serverless-next.js#readme",
+  "homepage": "https://github.com/nike1v/serverless-next13#readme",
   "dependencies": {
     "@cdktf/provider-archive": "0.3.31",
     "@cdktf/provider-aws": "5.0.48",

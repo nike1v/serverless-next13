@@ -1,9 +1,9 @@
 {
-  "name": "@sls-next/aws-common",
-  "version": "3.8.0-alpha.1",
+  "name": "@cryptodiffer-sls-next/aws-common",
+  "version": "1.0.0",
   "description": "Common AWS code that is used in Lambda, Lambda@Edge and other AWS platforms.",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   },
   "main": "dist/index.js",
   "module": "dist/module/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverless-nextjs/serverless-next.js.git",
+    "url": "git+https://github.com/nike1v/serverless-next13.git",
     "directory": "packages/libs/aws-common"
   },
   "scripts": {
@@ -26,12 +26,12 @@
     "Next.js",
     "Serverless"
   ],
-  "author": "Daniel Phang <serverlessnextjs@gmail.com>",
+  "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/serverless-nextjs/serverless-next.js/issues"
+    "url": "https://github.com/nike1v/serverless-next13/issues"
   },
-  "homepage": "https://github.com/serverless-nextjs/serverless-next.js#readme",
+  "homepage": "https://github.com/nike1v/serverless-next13#readme",
   "dependencies": {
     "@aws-sdk/client-s3": "3.54.0",
     "@aws-sdk/client-sqs": "3.54.0",

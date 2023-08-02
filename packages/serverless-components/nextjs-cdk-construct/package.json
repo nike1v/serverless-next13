@@ -1,13 +1,13 @@
 {
   "name": "@sls-next/cdk-construct",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   },
   "description": "Serverless Next.js powered by AWS CDK",
-  "version": "3.8.0-alpha.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "author": "Henry Kirkness <henry@planes.studio>",
+  "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
   "keywords": [
     "serverless",
     "cdk",
@@ -20,11 +20,11 @@
     "test": "jest"
   },
   "bugs": {
-    "url": "https://github.com/serverless-nextjs/serverless-next.js/issues"
+    "url": "https://github.com/nike1v/serverless-next13/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverless-nextjs/serverless-next.js.git",
+    "url": "git+https://github.com/nike1v/serverless-next13.git",
     "directory": "packages/serverless-components/nextjs-cdk-construct"
   },
   "license": "MIT",

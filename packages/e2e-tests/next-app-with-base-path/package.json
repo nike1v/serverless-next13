@@ -15,7 +15,7 @@
     "url": "git+https://github.com/serverless-next.js/serverless-next.js"
   },
   "keywords": [],
-  "author": "Daniel Phang",
+  "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/serverless-next.js/serverless-next.js",
   "dependencies": {

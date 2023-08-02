@@ -1,9 +1,9 @@
 {
   "name": "@sls-next/core",
-  "version": "3.8.0-alpha.1",
+  "version": "1.0.0",
   "description": "Handles Next.js routing independent of provider",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverless-nextjs/serverless-next.js.git",
+    "url": "git+https://github.com/nike1v/serverless-next13.git",
     "directory": "packages/libs/core"
   },
   "scripts": {
@@ -27,12 +27,12 @@
     "Next.js",
     "Serverless"
   ],
-  "author": "Jan Varho <jan.varho@gmail.com> et al",
+  "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/serverless-nextjs/serverless-next.js/issues"
+    "url": "https://github.com/nike1v/serverless-next13/issues"
   },
-  "homepage": "https://github.com/serverless-nextjs/serverless-next.js#readme",
+  "homepage": "https://github.com/nike1v/serverless-next13#readme",
   "dependencies": {
     "@hapi/accept": "5.0.2",
     "cookie": "0.4.2",

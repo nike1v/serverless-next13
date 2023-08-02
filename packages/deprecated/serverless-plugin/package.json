@@ -1,9 +1,9 @@
 {
   "name": "@sls-next/serverless-plugin",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   },
-  "version": "3.5.0-alpha.10",
+  "version": "1.0.0",
   "description": "A serverless plugin for nextjs 8 serverless target",
   "main": "index.js",
   "keywords": [
@@ -13,14 +13,14 @@
     "next",
     "api gateway"
   ],
-  "author": "Daniel Conde Marin <danielconde9@gmail.com>",
+  "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "next": "^8.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverless-nextjs/serverless-next.js.git",
+    "url": "git+https://github.com/nike1v/serverless-next13.git",
     "directory": "packages/serverless-plugin"
   },
   "dependencies": {

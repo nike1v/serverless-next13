@@ -1,15 +1,15 @@
 {
   "name": "@sls-next/serverless-component",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   },
-  "version": "3.8.0-alpha.1",
+  "version": "1.0.0",
   "description": "Serverless Next.js powered by Serverless Components",
   "main": "./serverless.js",
   "types": "dist/component.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverless-nextjs/serverless-next.js.git",
+    "url": "git+https://github.com/nike1v/serverless-next13.git",
     "directory": "packages/serverless-components/nextjs-component"
   },
   "scripts": {
@@ -23,12 +23,12 @@
     "component",
     "nextjs"
   ],
-  "author": "Daniel Conde Marin <danielconde9@gmail.com>",
+  "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/serverless-nextjs/serverless-next.js/issues"
+    "url": "https://github.com/nike1v/serverless-next13/issues"
   },
-  "homepage": "https://github.com/serverless-nextjs/serverless-next.js#readme",
+  "homepage": "https://github.com/nike1v/serverless-next13#readme",
   "engines": {
     "node": ">=10.11.0"
   },

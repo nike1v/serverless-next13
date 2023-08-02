@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverless-nextjs/serverless-next.js.git"
+    "url": "git+https://github.com/nike1v/serverless-next13.git"
   },
   "keywords": [
     "Cache",
     "Serverless",
     "Next.js"
   ],
-  "author": "Daniel Conde <danielconde9@gmail.com>",
+  "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/serverless-nextjs/serverless-next.js/issues"
+    "url": "https://github.com/nike1v/serverless-next13/issues"
   },
-  "homepage": "https://github.com/serverless-nextjs/serverless-next.js#readme",
+  "homepage": "https://github.com/nike1v/serverless-next13#readme",
   "dependencies": {
     "next": "^9.3.6",
     "react": "^16.13.1",

@@ -1,9 +1,9 @@
 {
   "name": "@sls-next/aws-s3",
-  "version": "3.8.0-alpha.1",
+  "version": "1.0.0",
   "main": "./serverless.js",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   },
   "scripts": {
     "lint": "eslint . --fix --cache",
@@ -11,7 +11,7 @@
     "build": "tsc -p tsconfig.build.json",
     "prepack": "yarn clean && yarn build"
   },
-  "author": "Serverless, Inc and Daniel Phang",
+  "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "@serverless/core": "1.1.2",

@@ -1,9 +1,9 @@
 {
   "name": "@sls-next/aws-lambda",
-  "version": "3.8.0-alpha.1",
+  "version": "1.0.0",
   "main": "serverless.js",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   },
   "keywords": [
     "AWS",
@@ -11,12 +11,12 @@
     "Next.js",
     "Serverless"
   ],
-  "author": "Daniel Conde Marin <danielconde9@gmail.com>",
+  "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/serverless-nextjs/serverless-next.js/issues"
+    "url": "https://github.com/nike1v/serverless-next13/issues"
   },
-  "homepage": "https://github.com/serverless-nextjs/serverless-next.js#readme",
+  "homepage": "https://github.com/nike1v/serverless-next13#readme",
   "scripts": {
     "test": "jest",
     "clean": "yarn rimraf dist",
