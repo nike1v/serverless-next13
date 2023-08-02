@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/aws-cloudfront",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "./serverless.js",
   "types": "dist/component.d.ts",
   "publishConfig": {

@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A serverless plugin for nextjs 8 serverless target",
   "main": "index.js",
   "keywords": [
@@ -24,7 +24,7 @@
     "directory": "packages/serverless-plugin"
   },
   "dependencies": {
-    "@dolsze/next-aws-lambda": "1.0.8",
+    "@dolsze/next-aws-lambda": "1.0.9",
     "@mapbox/s3urls": "^2.0.0",
     "chalk": "^4.1.1",
     "debug": "^4.1.1",
