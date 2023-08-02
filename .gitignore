@@ -16,6 +16,7 @@ dist
 .package-lock.json
 yarn-error.log
 instructions.txt
+.npmrc
 
 # Lerna
 lerna-debug.log
