@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Compat layer between next.js serverless page and AWS Lambda",
   "files": [
     "lib/**",
@@ -24,5 +24,5 @@
   },
   "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
   "license": "MIT",
-  "gitHead": "ef0fdf2b84aa61537317a1c15a8089dfea5601df"
+  "gitHead": "70911eeaf040fbe82efae3c98d947addd4355a25"
 }

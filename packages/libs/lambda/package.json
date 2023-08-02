@@ -1,6 +1,6 @@
 {
   "name": "@cryptodiffer-sls-next/lambda",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Code to build and deploy for Lambda + API Gateway",
   "publishConfig": {
     "access": "public"
@@ -41,8 +41,8 @@
     "@cdktf/provider-archive": "0.3.31",
     "@cdktf/provider-aws": "5.0.48",
     "@cdktf/provider-null": "0.5.30",
-    "@cryptodiffer-sls-next/aws-common": "1.0.6",
-    "@cryptodiffer-sls-next/core": "1.0.6",
+    "@cryptodiffer-sls-next/aws-common": "1.0.7",
+    "@cryptodiffer-sls-next/core": "1.0.7",
     "cdktf": "0.9.2",
     "cdktf-cli": "0.9.2",
     "constructs": "10.0.88",
@@ -68,5 +68,5 @@
     "rollup-plugin-typescript2": "0.31.2",
     "typescript": "5.1.6"
   },
-  "gitHead": "ef0fdf2b84aa61537317a1c15a8089dfea5601df"
+  "gitHead": "70911eeaf040fbe82efae3c98d947addd4355a25"
 }

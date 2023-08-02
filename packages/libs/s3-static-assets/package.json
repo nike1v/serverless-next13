@@ -1,6 +1,6 @@
 {
   "name": "@cryptodiffer-sls-next/s3-static-assets",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Handles upload to S3 of next.js static assets",
   "publishConfig": {
     "access": "public"
@@ -49,5 +49,5 @@
     "rimraf": "3.0.2",
     "typescript": "5.1.6"
   },
-  "gitHead": "ef0fdf2b84aa61537317a1c15a8089dfea5601df"
+  "gitHead": "70911eeaf040fbe82efae3c98d947addd4355a25"
 }

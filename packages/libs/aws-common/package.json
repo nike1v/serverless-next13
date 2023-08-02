@@ -1,6 +1,6 @@
 {
   "name": "@cryptodiffer-sls-next/aws-common",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Common AWS code that is used in Lambda, Lambda@Edge and other AWS platforms.",
   "publishConfig": {
     "access": "public"
@@ -35,12 +35,12 @@
   "dependencies": {
     "@aws-sdk/client-s3": "3.54.0",
     "@aws-sdk/client-sqs": "3.54.0",
-    "@cryptodiffer-sls-next/core": "1.0.6"
+    "@cryptodiffer-sls-next/core": "1.0.7"
   },
   "devDependencies": {
     "@types/node": "20.4.5",
     "rimraf": "3.0.2",
     "typescript": "5.1.6"
   },
-  "gitHead": "ef0fdf2b84aa61537317a1c15a8089dfea5601df"
+  "gitHead": "70911eeaf040fbe82efae3c98d947addd4355a25"
 }
