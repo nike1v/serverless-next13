@@ -5,7 +5,7 @@ import Manifest from "./manifest.json";
 // @ts-ignore
 import RoutesManifestJson from "./routes-manifest.json";
 // @ts-ignore
-import lambdaAtEdgeCompat from "@sls-next/next-aws-cloudfront";
+import lambdaAtEdgeCompat from "@cryptodiffer-sls-next/next-aws-cloudfront";
 import {
   OriginRequestDefaultHandlerManifest,
   OriginRequestEvent,
@@ -16,10 +16,10 @@ import {
   PreRenderedManifest as PrerenderManifestType,
   RoutesManifest,
   defaultHandler
-} from "@sls-next/core";
+} from "@cryptodiffer-sls-next/core";
 import { removeBlacklistedHeaders } from "./headers/removeBlacklistedHeaders";
 import { s3BucketNameFromEventRequest } from "./s3/s3BucketNameFromEventRequest";
-import { AwsPlatformClient } from "@sls-next/aws-common";
+import { AwsPlatformClient } from "@cryptodiffer-sls-next/aws-common";
 
 /**
  * V2 Lambda@Edge handler that wraps the platform-agnostic handler.

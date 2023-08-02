@@ -1,4 +1,4 @@
-import lambdaAtEdgeCompat from "@sls-next/next-aws-cloudfront";
+import lambdaAtEdgeCompat from "@cryptodiffer-sls-next/next-aws-cloudfront";
 // @ts-ignore
 import Manifest from "./manifest.json";
 import {
@@ -6,7 +6,7 @@ import {
   RegenerationEvent
 } from "./types";
 import { s3StorePage } from "./s3/s3StorePage";
-import { renderPageToHtml } from "@sls-next/core";
+import { renderPageToHtml } from "@cryptodiffer-sls-next/core";
 
 export const handler = async (event: AWSLambda.SQSEvent): Promise<void> => {
   await Promise.all(

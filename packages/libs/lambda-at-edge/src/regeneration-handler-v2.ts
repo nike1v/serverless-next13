@@ -1,14 +1,14 @@
 // @ts-ignore
 import Manifest from "./manifest.json";
 import { OriginRequestDefaultHandlerManifest } from "./types";
-import { AwsPlatformClient } from "@sls-next/aws-common";
+import { AwsPlatformClient } from "@cryptodiffer-sls-next/aws-common";
 import Stream from "stream";
 import http from "http";
 import {
   regenerationHandler,
   RegenerationEvent,
   RegenerationEventRequest
-} from "@sls-next/core";
+} from "@cryptodiffer-sls-next/core";
 import AWSLambda from "aws-lambda";
 
 export const handler = async (event: AWSLambda.SQSEvent): Promise<void> => {

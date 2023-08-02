@@ -1,5 +1,5 @@
 import { LambdaBuilder } from "src/build";
-import { CoreBuildOptions } from "@sls-next/core";
+import { CoreBuildOptions } from "@cryptodiffer-sls-next/core";
 import { v4 as uuidv4 } from "uuid";
 import { join } from "path";
 import { LambdaBuildOptions } from "src/types";

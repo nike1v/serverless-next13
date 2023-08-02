@@ -2,7 +2,7 @@
 import manifest from "./manifest.json";
 // @ts-ignore
 import RoutesManifestJson from "./routes-manifest.json";
-import cloudFrontCompat from "@sls-next/next-aws-cloudfront";
+import cloudFrontCompat from "@cryptodiffer-sls-next/next-aws-cloudfront";
 import {
   OriginRequestApiHandlerManifest,
   OriginRequestEvent,
@@ -10,7 +10,7 @@ import {
 } from "./types";
 import { CloudFrontResultResponse } from "aws-lambda";
 import { createExternalRewriteResponse } from "./routing/rewriter";
-import { handleApi } from "@sls-next/core/dist/module/handle/api";
+import { handleApi } from "@cryptodiffer-sls-next/core/dist/module/handle/api";
 import { removeBlacklistedHeaders } from "./headers/removeBlacklistedHeaders";
 
 export const handler = async (

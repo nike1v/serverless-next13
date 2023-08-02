@@ -1,5 +1,5 @@
 import * as path from "path";
-import { OriginRequestDefaultHandlerManifest } from "@sls-next/lambda-at-edge";
+import { OriginRequestDefaultHandlerManifest } from "@cryptodiffer-sls-next/lambda-at-edge";
 
 const dynamicPathToInvalidationPath = (dynamicPath: string) => {
   // Match "/:", "/[" or "/[[..."

@@ -3,12 +3,15 @@ import type {
   CloudFrontEvent,
   CloudFrontResponse
 } from "aws-lambda";
-import { ApiManifest, PageManifest } from "@sls-next/core/dist/module/types";
+import {
+  ApiManifest,
+  PageManifest
+} from "@cryptodiffer-sls-next/core/dist/module/types";
 export {
   ImageConfig,
   ImagesManifest
-} from "@sls-next/core/dist/module/build/types";
-export { RoutesManifest } from "@sls-next/core/dist/module/types";
+} from "@cryptodiffer-sls-next/core/dist/module/build/types";
+export { RoutesManifest } from "@cryptodiffer-sls-next/core/dist/module/types";
 
 export type OriginRequestApiHandlerManifest = ApiManifest & {
   enableHTTPCompression?: boolean;

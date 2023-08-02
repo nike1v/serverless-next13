@@ -2,19 +2,22 @@
 import LambdaManifestJson from "./lambda-manifest.json";
 // @ts-ignore
 import RoutesManifestJson from "./routes-manifest.json";
-import { AwsPlatformClient } from "@sls-next/aws-common";
+import { AwsPlatformClient } from "@cryptodiffer-sls-next/aws-common";
 import { httpCompat } from "src/compat/apigw";
 import {
   APIGatewayProxyEventV2,
   APIGatewayProxyStructuredResultV2
 } from "aws-lambda";
-import { ImagesManifest, setCustomHeaders } from "@sls-next/core/dist/module";
+import {
+  ImagesManifest,
+  setCustomHeaders
+} from "@cryptodiffer-sls-next/core/dist/module";
 import url, { UrlWithParsedQuery } from "url";
 import { LambdaManifest, RoutesManifest } from "src/types";
 import {
   imageOptimizer,
   normaliseUri
-} from "@sls-next/core/dist/module/images";
+} from "@cryptodiffer-sls-next/core/dist/module/images";
 
 const basePath = RoutesManifestJson.basePath;
 

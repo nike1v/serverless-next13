@@ -1,12 +1,15 @@
 import fse from "fs-extra";
 import path from "path";
-import { mockDomain } from "@sls-next/domain";
-import { mockS3 } from "@sls-next/aws-s3";
+import { mockDomain } from "@cryptodiffer-sls-next/domain";
+import { mockS3 } from "@cryptodiffer-sls-next/aws-s3";
 import { mockUpload } from "aws-sdk";
-import { mockLambda, mockLambdaPublish } from "@sls-next/aws-lambda";
-import { mockCreateInvalidation } from "@sls-next/cloudfront";
-import { mockCloudFront } from "@sls-next/aws-cloudfront";
-import { mockSQS } from "@sls-next/aws-sqs";
+import {
+  mockLambda,
+  mockLambdaPublish
+} from "@cryptodiffer-sls-next/aws-lambda";
+import { mockCreateInvalidation } from "@cryptodiffer-sls-next/cloudfront";
+import { mockCloudFront } from "@cryptodiffer-sls-next/aws-cloudfront";
+import { mockSQS } from "@cryptodiffer-sls-next/aws-sqs";
 
 import NextjsComponent, { DeploymentResult } from "../src/component";
 import obtainDomains from "../src/lib/obtainDomains";
@@ -16,7 +19,7 @@ import {
   IMAGE_LAMBDA_CODE_DIR
 } from "../src/constants";
 import { cleanupFixtureDirectory } from "../src/lib/test-utils";
-import { mockRemoveLambdaVersions } from "@sls-next/aws-lambda/dist/removeLambdaVersions";
+import { mockRemoveLambdaVersions } from "@cryptodiffer-sls-next/aws-lambda/dist/removeLambdaVersions";
 
 // unfortunately can't use __mocks__ because aws-sdk is being mocked in other
 // packages in the monorepo
@@ -162,7 +165,7 @@ describe("Custom inputs", () => {
       return cleanupFixtureDirectory(fixturePath);
     });
 
-    it("uses @sls-next/domain to provision custom domain", () => {
+    it("uses @cryptodiffer-sls-next/domain to provision custom domain", () => {
       const { domain, subdomain } = obtainDomains(inputDomains);
 
       expect(mockDomain).toBeCalledWith({

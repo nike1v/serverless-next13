@@ -1,6 +1,6 @@
 import { IncomingMessage, ServerResponse } from "http";
 import { OriginRequestEvent } from "../types";
-import lambdaAtEdgeCompat from "@sls-next/next-aws-cloudfront";
+import lambdaAtEdgeCompat from "@cryptodiffer-sls-next/next-aws-cloudfront";
 import { CloudFrontResultResponse } from "aws-lambda";
 
 // Blacklisted or read-only headers in CloudFront

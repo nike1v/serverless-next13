@@ -1,15 +1,18 @@
 import path from "path";
 import fse from "fs-extra";
-import { mockS3 } from "@sls-next/aws-s3";
-import { mockCloudFront } from "@sls-next/aws-cloudfront";
-import { mockLambda, mockLambdaPublish } from "@sls-next/aws-lambda";
-import { mockRemoveLambdaVersions } from "@sls-next/aws-lambda/dist/removeLambdaVersions";
+import { mockS3 } from "@cryptodiffer-sls-next/aws-s3";
+import { mockCloudFront } from "@cryptodiffer-sls-next/aws-cloudfront";
+import {
+  mockLambda,
+  mockLambdaPublish
+} from "@cryptodiffer-sls-next/aws-lambda";
+import { mockRemoveLambdaVersions } from "@cryptodiffer-sls-next/aws-lambda/dist/removeLambdaVersions";
 import {
   mockCreateInvalidation,
   mockCheckCloudFrontDistributionReady
-} from "@sls-next/cloudfront";
+} from "@cryptodiffer-sls-next/cloudfront";
 import NextjsComponent from "../src/component";
-import { mockSQS } from "@sls-next/aws-sqs";
+import { mockSQS } from "@cryptodiffer-sls-next/aws-sqs";
 import {
   DEFAULT_LAMBDA_CODE_DIR,
   API_LAMBDA_CODE_DIR,

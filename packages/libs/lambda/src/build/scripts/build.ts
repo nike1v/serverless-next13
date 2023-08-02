@@ -6,7 +6,7 @@
 
 import { LambdaBuilder } from "src/build";
 import yargs from "yargs";
-import { CoreBuildOptions } from "@sls-next/core";
+import { CoreBuildOptions } from "@cryptodiffer-sls-next/core";
 import { LambdaBuildOptions } from "src/types";
 
 yargs(process.argv)
