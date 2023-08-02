@@ -4,7 +4,7 @@
     "access": "public"
   },
   "description": "Serverless Next.js powered by AWS CDK",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
@@ -29,8 +29,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@cryptodiffer-sls-next/core": "1.0.7",
-    "@cryptodiffer-sls-next/lambda-at-edge": "1.0.7",
+    "@cryptodiffer-sls-next/core": "1.0.8",
+    "@cryptodiffer-sls-next/lambda-at-edge": "1.0.8",
     "fast-glob": "3.2.11",
     "fs-extra": "9.1.0"
   },
@@ -48,5 +48,5 @@
     "rimraf": "3.0.2",
     "typescript": "5.1.6"
   },
-  "gitHead": "70911eeaf040fbe82efae3c98d947addd4355a25"
+  "gitHead": "fbe17ce181e782b78ff946dd51380e3a7c9df444"
 }

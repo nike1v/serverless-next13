@@ -1,6 +1,6 @@
 {
   "name": "@cryptodiffer-sls-next/aws-sqs",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "serverless.js",
   "publishConfig": {
     "access": "public"
@@ -30,5 +30,5 @@
     "@serverless/core": "1.1.2",
     "aws-sdk": "2.1093.0"
   },
-  "gitHead": "70911eeaf040fbe82efae3c98d947addd4355a25"
+  "gitHead": "fbe17ce181e782b78ff946dd51380e3a7c9df444"
 }
