@@ -51,5 +51,5 @@
     "@serverless/core": "1.1.2",
     "aws-sdk": "2.1093.0"
   },
-  "gitHead": "963fe853d0281e0766beca6c20ed555689014c43"
+  "gitHead": "462e3e9b567c2a98d148f2b5dc5912e3bda1e0e3"
 }
