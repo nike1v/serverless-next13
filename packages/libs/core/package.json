@@ -1,6 +1,6 @@
 {
   "name": "@cryptodiffer-sls-next/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Handles Next.js routing independent of provider",
   "publishConfig": {
     "access": "restricted"

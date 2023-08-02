@@ -1,6 +1,6 @@
 {
   "name": "@cryptodiffer-sls-next/aws-cloudfront",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./serverless.js",
   "types": "dist/component.d.ts",
   "publishConfig": {

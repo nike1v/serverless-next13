@@ -1,6 +1,6 @@
 {
   "name": "@cryptodiffer-sls-next/cloudfront",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Handles CloudFront invalidation",
   "publishConfig": {
     "access": "restricted"
