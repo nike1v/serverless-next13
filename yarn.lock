@@ -4273,6 +4273,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@dolsze/cryptodiffer-serverless-nextjs-monorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@dolsze/cryptodiffer-serverless-nextjs-monorepo@workspace:."
+  dependencies:
+    "@babel/core": 7.17.5
+    "@babel/plugin-proposal-class-properties": ^7.16.7
+    "@babel/preset-env": ^7.16.11
+    "@babel/preset-typescript": ^7.16.7
+    "@jest/test-sequencer": ^27.4.6
+    "@types/jest": ^27.4.0
+    "@types/node": ^20.4.5
+    "@types/webpack": ^5.28.0
+    "@typescript-eslint/eslint-plugin": ^5.10.1
+    "@typescript-eslint/parser": ^5.10.1
+    eslint: ^8.7.0
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-prettier: ^4.0.0
+    eslint-plugin-promise: 6.0.0
+    husky: ^7.0.4
+    jest: ^27.4.7
+    jest-junit: ^13.0.0
+    jest-pnp-resolver: ^1.2.2
+    lerna: ^7.1.4
+    lint-staged: ^12.3.4
+    opencollective-postinstall: ^2.0.3
+    prettier: ^2.5.1
+    ts-node: ^10.4.0
+    typescript: 5.1.6
+  languageName: unknown
+  linkType: soft
+
 "@eslint/eslintrc@npm:^1.0.5":
   version: 1.0.5
   resolution: "@eslint/eslintrc@npm:1.0.5"
@@ -8558,37 +8589,6 @@ __metadata:
   checksum: baf4c7bbe05df656ec230018af8cf7dbe8c14b36b98726939cef008d473f6fe7a4fad906cfea4062c93af516f1550a3f43ceb4d6615329612c6511378ed9fe34
   languageName: node
   linkType: hard
-
-"cryptodiffer-serverless-nextjs-monorepo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "cryptodiffer-serverless-nextjs-monorepo@workspace:."
-  dependencies:
-    "@babel/core": 7.17.5
-    "@babel/plugin-proposal-class-properties": ^7.16.7
-    "@babel/preset-env": ^7.16.11
-    "@babel/preset-typescript": ^7.16.7
-    "@jest/test-sequencer": ^27.4.6
-    "@types/jest": ^27.4.0
-    "@types/node": ^20.4.5
-    "@types/webpack": ^5.28.0
-    "@typescript-eslint/eslint-plugin": ^5.10.1
-    "@typescript-eslint/parser": ^5.10.1
-    eslint: ^8.7.0
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-prettier: ^4.0.0
-    eslint-plugin-promise: 6.0.0
-    husky: ^7.0.4
-    jest: ^27.4.7
-    jest-junit: ^13.0.0
-    jest-pnp-resolver: ^1.2.2
-    lerna: ^7.1.4
-    lint-staged: ^12.3.4
-    opencollective-postinstall: ^2.0.3
-    prettier: ^2.5.1
-    ts-node: ^10.4.0
-    typescript: 5.1.6
-  languageName: unknown
-  linkType: soft
 
 "cssom@npm:^0.4.4":
   version: 0.4.4
