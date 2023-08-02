@@ -1,6 +1,6 @@
 {
   "name": "@cryptodiffer-sls-next/aws-lambda",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "serverless.js",
   "publishConfig": {
     "access": "public"
@@ -51,5 +51,5 @@
     "@serverless/core": "1.1.2",
     "aws-sdk": "2.1093.0"
   },
-  "gitHead": "4349574719cef2199b65a913304c9e19ac6daa69"
+  "gitHead": "e3474070c2a8b079fff099306cb719e5897d5356"
 }

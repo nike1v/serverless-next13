@@ -1,6 +1,6 @@
 {
   "name": "@cryptodiffer-sls-next/aws-s3",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "./serverless.js",
   "publishConfig": {
     "access": "public"
@@ -40,5 +40,5 @@
     "rimraf": "3.0.2",
     "typescript": "5.1.6"
   },
-  "gitHead": "4349574719cef2199b65a913304c9e19ac6daa69"
+  "gitHead": "e3474070c2a8b079fff099306cb719e5897d5356"
 }
