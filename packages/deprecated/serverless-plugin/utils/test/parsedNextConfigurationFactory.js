@@ -1,6 +1,5 @@
 const parsedNextConfigurationFactory = (
   nextConfiguration = {
-    output: "standalone",
     distDir: ".next"
   },
   staticAssetsBucket = "my-bucket"

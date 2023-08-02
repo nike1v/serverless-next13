@@ -1,7 +1,5 @@
 const withCSS = require("@zeit/next-css");
 
-const config = {
-  output: "standalone"
-};
+const config = {};
 
 module.exports = withCSS(config);

@@ -1,1 +1,1 @@
-module.exports = { basePath: "/basepath", output: "standalone" };
+module.exports = { basePath: "/basepath" };

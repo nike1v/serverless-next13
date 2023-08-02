@@ -164,8 +164,7 @@ describe("build", () => {
 
     const nextConfigDir = "path/to/next-app";
     const expectedNextConfig = {
-      ...parsedConfig.nextConfiguration,
-      output: "standalone"
+      ...parsedConfig.nextConfiguration
     };
 
     const plugin = new ServerlessPluginBuilder()

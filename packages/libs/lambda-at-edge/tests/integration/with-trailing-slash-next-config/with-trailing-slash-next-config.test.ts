@@ -19,13 +19,13 @@ describe("With Trailing Slash Config Build", () => {
 
   describe.each`
     fixture                                                    | expectedTrailingSlash | expectedBasePath | expectedOriginalNextConfig
-    ${"fixture-next-config-as-obj"}                            | ${true}               | ${""}            | ${'module.exports = { output: "standalone", trailingSlash: true };'}
-    ${"fixture-next-config-as-func"}                           | ${true}               | ${""}            | ${'module.exports = () => ({ output: "standalone", trailingSlash: true });'}
-    ${"fixture-next-config-as-obj-no-trailing-slash"}          | ${false}              | ${""}            | ${'module.exports = { output: "standalone" };'}
-    ${"fixture-next-config-as-func-no-trailing-slash"}         | ${false}              | ${""}            | ${'module.exports = () => ({ output: "standalone" });'}
+    ${"fixture-next-config-as-obj"}                            | ${true}               | ${""}            | ${"module.exports = { trailingSlash: true };"}
+    ${"fixture-next-config-as-func"}                           | ${true}               | ${""}            | ${"module.exports = () => ({ trailingSlash: true });"}
+    ${"fixture-next-config-as-obj-no-trailing-slash"}          | ${false}              | ${""}            | ${"module.exports = {};"}
+    ${"fixture-next-config-as-func-no-trailing-slash"}         | ${false}              | ${""}            | ${"module.exports = () => ({});"}
     ${"fixture-no-next-config"}                                | ${false}              | ${""}            | ${undefined}
-    ${"fixture-next-config-as-obj-basepath"}                   | ${true}               | ${"/basepath"}   | ${'module.exports = {  basePath: "/basepath",  output: "standalone",  trailingSlash: true};'}
-    ${"fixture-next-config-as-obj-basepath-no-trailing-slash"} | ${false}              | ${"/basepath"}   | ${'module.exports = { basePath: "/basepath", output: "standalone" };'}
+    ${"fixture-next-config-as-obj-basepath"}                   | ${true}               | ${"/basepath"}   | ${'module.exports = {  basePath: "/basepath",  trailingSlash: true};'}
+    ${"fixture-next-config-as-obj-basepath-no-trailing-slash"} | ${false}              | ${"/basepath"}   | ${'module.exports = { basePath: "/basepath", };'}
   `(
     "with fixture: $fixture",
     ({
@@ -88,7 +88,7 @@ describe("With Trailing Slash Config Build", () => {
         ).toBe(false);
       });
 
-      it(`sets trailingSlash in defaultBuildManifest to ${expectedTrailingSlash}`, async () => {
+      it(`sets trailingSlash in defaultBuildManifest to ${expectedTrailingSlash}`, () => {
         const { trailingSlash } = defaultBuildManifest;
         expect(trailingSlash).toBe(expectedTrailingSlash);
       });

@@ -18,7 +18,6 @@ _next.config.js_
 ```js
 module.exports = {
   ...
-  output: "standalone"
 };
 ```
 

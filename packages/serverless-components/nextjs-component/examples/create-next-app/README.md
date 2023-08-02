@@ -15,9 +15,7 @@ cd yourProjectName
 
 ```js
 // next.config.js
-module.exports = {
-  output: "standalone"
-};
+module.exports = {};
 ```
 
 ### Add your AWS credentials

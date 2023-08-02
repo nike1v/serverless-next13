@@ -1,1 +1,1 @@
-module.exports = () => ({ output: "standalone", trailingSlash: true });
+module.exports = () => ({ trailingSlash: true });
