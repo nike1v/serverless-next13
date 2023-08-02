@@ -1,7 +1,7 @@
 {
   "name": "@cryptodiffer-sls-next/serverless-plugin",
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "version": "1.0.3",
   "description": "A serverless plugin for nextjs 8 serverless target",
@@ -38,5 +38,5 @@
   "engines": {
     "node": ">=8.5.0"
   },
-  "gitHead": "462e3e9b567c2a98d148f2b5dc5912e3bda1e0e3"
+  "gitHead": "4349574719cef2199b65a913304c9e19ac6daa69"
 }

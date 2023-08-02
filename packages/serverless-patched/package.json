@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Patched serverless package",
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "exports": "./dist/serverless-patched.js",
   "engines": {

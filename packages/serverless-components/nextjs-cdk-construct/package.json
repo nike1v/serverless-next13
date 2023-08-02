@@ -1,7 +1,7 @@
 {
   "name": "@cryptodiffer-sls-next/cdk-construct",
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "description": "Serverless Next.js powered by AWS CDK",
   "version": "1.0.3",
@@ -48,5 +48,5 @@
     "rimraf": "3.0.2",
     "typescript": "5.1.6"
   },
-  "gitHead": "462e3e9b567c2a98d148f2b5dc5912e3bda1e0e3"
+  "gitHead": "4349574719cef2199b65a913304c9e19ac6daa69"
 }

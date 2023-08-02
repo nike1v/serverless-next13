@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "Handles Next.js routing independent of provider",
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -82,5 +82,5 @@
       "/sharp_node_modules/"
     ]
   },
-  "gitHead": "462e3e9b567c2a98d148f2b5dc5912e3bda1e0e3"
+  "gitHead": "4349574719cef2199b65a913304c9e19ac6daa69"
 }

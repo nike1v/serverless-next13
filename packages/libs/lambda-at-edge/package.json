@@ -1,7 +1,7 @@
 {
   "name": "@cryptodiffer-sls-next/lambda-at-edge",
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "version": "1.0.3",
   "description": "Provides handlers that can be used in CloudFront Lambda@Edge to deploy next.js applications to the edge",
@@ -95,5 +95,5 @@
   "peerDependencies": {
     "builtin-modules": "3.2.0"
   },
-  "gitHead": "462e3e9b567c2a98d148f2b5dc5912e3bda1e0e3"
+  "gitHead": "4349574719cef2199b65a913304c9e19ac6daa69"
 }
