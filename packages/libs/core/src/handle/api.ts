@@ -1,3 +1,4 @@
+/* eslint-disable require-await */
 import { setCustomHeaders } from "./headers";
 import { notFound } from "./notfound";
 import { redirect } from "./redirect";
@@ -22,12 +23,12 @@ import { unauthorized } from "./unauthorized";
  * If return is void, the response has already been generated in
  * event.res/event.responsePromise which the caller should wait on.
  */
-export const handleApi = (
+export const handleApi = async (
   event: Event,
   manifest: ApiManifest,
   routesManifest: RoutesManifest,
   getPage: (page: string) => any
-): ExternalRoute | void => {
+): Promise<ExternalRoute | void> => {
   const request = toRequest(event);
   const route = routeApi(request, manifest, routesManifest);
   if (!route) {
@@ -51,10 +52,8 @@ export const handleApi = (
         get: () => event.res
       });
     }
-    console.log({ page });
-    console.log("getPage:", getPage(page));
-    // getPage(page).default(event.req, event.res);
-    getPage(page);
+    console.log("getPage", getPage(page));
+    getPage(page).default(event.req, event.res);
     return;
   }
   if (route.isRedirect) {
