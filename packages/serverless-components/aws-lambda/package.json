@@ -1,5 +1,5 @@
 {
-  "name": "@sls-next/aws-lambda",
+  "name": "@cryptodiffer-sls-next/aws-lambda",
   "version": "1.0.0",
   "main": "serverless.js",
   "publishConfig": {

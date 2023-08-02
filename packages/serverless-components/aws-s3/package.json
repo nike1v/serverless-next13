@@ -1,5 +1,5 @@
 {
-  "name": "@sls-next/aws-s3",
+  "name": "@cryptodiffer-sls-next/aws-s3",
   "version": "1.0.0",
   "main": "./serverless.js",
   "publishConfig": {

@@ -1,5 +1,5 @@
 {
-  "name": "@sls-next/domain",
+  "name": "@cryptodiffer-sls-next/domain",
   "version": "1.0.0",
   "main": "serverless.js",
   "publishConfig": {
