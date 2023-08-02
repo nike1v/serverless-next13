@@ -1,9 +1,5 @@
-import { ApiManifest, PageManifest } from "@cryptodiffer-sls-next/core";
-export {
-  ImageConfig,
-  ImagesManifest,
-  RoutesManifest
-} from "@cryptodiffer-sls-next/core";
+import { ApiManifest, PageManifest } from "@dolsze/core";
+export { ImageConfig, ImagesManifest, RoutesManifest } from "@dolsze/core";
 
 export type LambdaManifest = {
   bucketName: string;

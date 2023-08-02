@@ -1,4 +1,4 @@
-import { PublicDirectoryCache } from "@cryptodiffer-sls-next/s3-static-assets/src/lib/getPublicAssetCacheControl";
+import { PublicDirectoryCache } from "@dolsze/s3-static-assets/src/lib/getPublicAssetCacheControl";
 
 export type ServerlessComponentInputs = {
   build?: BuildOptions | boolean;

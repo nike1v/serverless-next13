@@ -1,5 +1,5 @@
 {
-  "name": "@cryptodiffer-sls-next/serverless-plugin",
+  "name": "@dolsze/serverless-plugin",
   "publishConfig": {
     "access": "public"
   },
@@ -24,7 +24,7 @@
     "directory": "packages/serverless-plugin"
   },
   "dependencies": {
-    "@cryptodiffer-sls-next/next-aws-lambda": "1.0.8",
+    "@dolsze/next-aws-lambda": "1.0.8",
     "@mapbox/s3urls": "^2.0.0",
     "chalk": "^4.1.1",
     "debug": "^4.1.1",
@@ -38,5 +38,5 @@
   "engines": {
     "node": ">=8.5.0"
   },
-  "gitHead": "fbe17ce181e782b78ff946dd51380e3a7c9df444"
+  "gitHead": "2e99be1978340d91775f58b89d6a0745582b7ee9"
 }

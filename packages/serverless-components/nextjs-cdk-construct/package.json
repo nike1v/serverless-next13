@@ -1,5 +1,5 @@
 {
-  "name": "@cryptodiffer-sls-next/cdk-construct",
+  "name": "@dolsze/cdk-construct",
   "publishConfig": {
     "access": "public"
   },
@@ -29,8 +29,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@cryptodiffer-sls-next/core": "1.0.8",
-    "@cryptodiffer-sls-next/lambda-at-edge": "1.0.8",
+    "@dolsze/core": "1.0.8",
+    "@dolsze/lambda-at-edge": "1.0.8",
     "fast-glob": "3.2.11",
     "fs-extra": "9.1.0"
   },
@@ -48,5 +48,5 @@
     "rimraf": "3.0.2",
     "typescript": "5.1.6"
   },
-  "gitHead": "fbe17ce181e782b78ff946dd51380e3a7c9df444"
+  "gitHead": "2e99be1978340d91775f58b89d6a0745582b7ee9"
 }

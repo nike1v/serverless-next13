@@ -1,5 +1,5 @@
 {
-  "name": "@cryptodiffer-sls-next/core",
+  "name": "@dolsze/core",
   "version": "1.0.8",
   "description": "Handles Next.js routing independent of provider",
   "publishConfig": {
@@ -82,5 +82,5 @@
       "/sharp_node_modules/"
     ]
   },
-  "gitHead": "fbe17ce181e782b78ff946dd51380e3a7c9df444"
+  "gitHead": "2e99be1978340d91775f58b89d6a0745582b7ee9"
 }

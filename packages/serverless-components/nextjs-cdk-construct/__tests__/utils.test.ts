@@ -1,6 +1,6 @@
 import { toLambdaOption } from "../src/utils/toLambdaOption";
 import { readInvalidationPathsFromManifest } from "../src/utils/readInvalidationPathsFromManifest";
-import { OriginRequestDefaultHandlerManifest } from "@cryptodiffer-sls-next/lambda-at-edge";
+import { OriginRequestDefaultHandlerManifest } from "@dolsze/lambda-at-edge";
 import { reduceInvalidationPaths } from "../src/utils/reduceInvalidationPaths";
 
 describe("CDK Utils", () => {

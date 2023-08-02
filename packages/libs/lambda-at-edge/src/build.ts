@@ -9,16 +9,16 @@ import {
   RoutesManifest,
   OriginRequestImageHandlerManifest
 } from "./types";
-import pathToPosix from "@cryptodiffer-sls-next/core/dist/build/lib/pathToPosix";
-import normalizeNodeModules from "@cryptodiffer-sls-next/core/dist/build/lib/normalizeNodeModules";
-import createServerlessConfig from "@cryptodiffer-sls-next/core/dist/build/lib/createServerlessConfig";
-import { isTrailingSlashRedirect } from "@cryptodiffer-sls-next/core/dist/build/lib/redirector";
-import readDirectoryFiles from "@cryptodiffer-sls-next/core/dist/build/lib/readDirectoryFiles";
-import filterOutDirectories from "@cryptodiffer-sls-next/core/dist/build/lib/filterOutDirectories";
+import pathToPosix from "@dolsze/core/dist/build/lib/pathToPosix";
+import normalizeNodeModules from "@dolsze/core/dist/build/lib/normalizeNodeModules";
+import createServerlessConfig from "@dolsze/core/dist/build/lib/createServerlessConfig";
+import { isTrailingSlashRedirect } from "@dolsze/core/dist/build/lib/redirector";
+import readDirectoryFiles from "@dolsze/core/dist/build/lib/readDirectoryFiles";
+import filterOutDirectories from "@dolsze/core/dist/build/lib/filterOutDirectories";
 import { Job } from "@vercel/nft/out/node-file-trace";
-import { prepareBuildManifests } from "@cryptodiffer-sls-next/core";
-import { NextConfig } from "@cryptodiffer-sls-next/core";
-import { NextI18nextIntegration } from "@cryptodiffer-sls-next/core/dist/build/third-party/next-i18next";
+import { prepareBuildManifests } from "@dolsze/core";
+import { NextConfig } from "@dolsze/core";
+import { NextI18nextIntegration } from "@dolsze/core/dist/build/third-party/next-i18next";
 import normalizePath from "normalize-path";
 
 export const DEFAULT_LAMBDA_CODE_DIR = "default-lambda";
@@ -233,7 +233,7 @@ class Builder {
   ): Promise<void> {
     const source = path.dirname(
       require.resolve(
-        `@cryptodiffer-sls-next/lambda-at-edge/dist/${handlerType}/${
+        `@dolsze/lambda-at-edge/dist/${handlerType}/${
           shouldMinify ? "minified" : "standard"
         }`
       )
@@ -529,9 +529,7 @@ class Builder {
       ),
       fse.copy(
         join(
-          path.dirname(
-            require.resolve("@cryptodiffer-sls-next/core/package.json")
-          ),
+          path.dirname(require.resolve("@dolsze/core/package.json")),
           "dist",
           "sharp_node_modules"
         ),

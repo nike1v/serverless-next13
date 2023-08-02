@@ -306,12 +306,9 @@ async function runEndToEndTest(): Promise<boolean> {
     }
 
     if (process.env.USE_PUBLISHED_SERVERLESS_PATCHED === "true") {
-      execSync(
-        `${serverlessCiEnv}npx @cryptodiffer-sls-next/serverless-patched --debug`,
-        {
-          stdio: "inherit"
-        }
-      );
+      execSync(`${serverlessCiEnv}npx @dolsze/serverless-patched --debug`, {
+        stdio: "inherit"
+      });
     } else {
       // The below will always use the latest version in this monorepo, above will use latest published version
       const serverlessPatchedPath = path.join(

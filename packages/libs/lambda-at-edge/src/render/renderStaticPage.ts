@@ -6,7 +6,7 @@ import {
   Route,
   RoutesManifest,
   StaticRoute
-} from "@cryptodiffer-sls-next/core";
+} from "@dolsze/core";
 import { CloudFrontRequest, CloudFrontResultResponse } from "aws-lambda";
 import { OriginRequestDefaultHandlerManifest } from "../types";
 import { Readable } from "stream";

@@ -1,5 +1,5 @@
 {
-  "name": "@cryptodiffer-sls-next/aws-cloudfront",
+  "name": "@dolsze/aws-cloudfront",
   "version": "1.0.8",
   "main": "./serverless.js",
   "types": "dist/component.d.ts",
@@ -41,5 +41,5 @@
     "rimraf": "3.0.2",
     "typescript": "5.1.6"
   },
-  "gitHead": "fbe17ce181e782b78ff946dd51380e3a7c9df444"
+  "gitHead": "2e99be1978340d91775f58b89d6a0745582b7ee9"
 }

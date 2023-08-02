@@ -5,28 +5,28 @@ import Manifest from "./manifest.json";
 // @ts-ignore
 import RoutesManifestJson from "./routes-manifest.json";
 // @ts-ignore
-import lambdaAtEdgeCompat from "@cryptodiffer-sls-next/next-aws-cloudfront";
+import lambdaAtEdgeCompat from "@dolsze/next-aws-cloudfront";
 import { renderStaticPage } from "./render/renderStaticPage";
 import {
   getCustomHeaders,
   handleDefault,
   handleFallback
-} from "@cryptodiffer-sls-next/core/dist/module/handle";
+} from "@dolsze/core/dist/module/handle";
 import {
   handlePublicFiles,
   routeDefault
-} from "@cryptodiffer-sls-next/core/dist/module/route";
+} from "@dolsze/core/dist/module/route";
 import {
   getStaticRegenerationResponse,
   getThrottledStaticRegenerationCachePolicy
-} from "@cryptodiffer-sls-next/core/dist/module/revalidate";
+} from "@dolsze/core/dist/module/revalidate";
 import {
   ExternalRoute,
   PublicFileRoute,
   Route,
   StaticRoute,
   NextStaticFileRoute
-} from "@cryptodiffer-sls-next/core/dist/module/types";
+} from "@dolsze/core/dist/module/types";
 
 import {
   CloudFrontRequest,
@@ -42,7 +42,7 @@ import {
 import {
   PreRenderedManifest as PrerenderManifestType,
   PerfLogger
-} from "@cryptodiffer-sls-next/core/dist/module/types";
+} from "@dolsze/core/dist/module/types";
 import { performance } from "perf_hooks";
 import type { Readable } from "stream";
 import { externalRewrite } from "./routing/rewriter";
@@ -50,8 +50,8 @@ import { removeBlacklistedHeaders } from "./headers/removeBlacklistedHeaders";
 import { s3BucketNameFromEventRequest } from "./s3/s3BucketNameFromEventRequest";
 import { triggerStaticRegeneration } from "./lib/triggerStaticRegeneration";
 import { s3StorePage } from "./s3/s3StorePage";
-import { createRedirectResponse } from "@cryptodiffer-sls-next/core/dist/module/route/redirect";
-import { redirectByPageProps } from "@cryptodiffer-sls-next/core/dist/module/handle/redirect";
+import { createRedirectResponse } from "@dolsze/core/dist/module/route/redirect";
+import { redirectByPageProps } from "@dolsze/core/dist/module/handle/redirect";
 import { S3Client, GetObjectCommand } from "@aws-sdk/client-s3";
 import getStream from "get-stream";
 

@@ -1,5 +1,5 @@
 import * as cdk from "aws-cdk-lib";
-import { NextJSLambdaEdge } from "@cryptodiffer-sls-next/cdk-construct";
+import { NextJSLambdaEdge } from "@dolsze/cdk-construct";
 import { Construct } from "constructs";
 
 export class ServerlessNextjsCdkExampleStack extends cdk.Stack {

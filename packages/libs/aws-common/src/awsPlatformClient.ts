@@ -4,7 +4,7 @@ import {
   StorePageOptions,
   TriggerStaticRegenerationOptions,
   RegenerationEvent
-} from "@cryptodiffer-sls-next/core";
+} from "@dolsze/core";
 import type { Readable } from "stream";
 import {
   GetObjectCommand,

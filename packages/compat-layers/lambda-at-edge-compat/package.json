@@ -1,5 +1,5 @@
 {
-  "name": "@cryptodiffer-sls-next/next-aws-cloudfront",
+  "name": "@dolsze/next-aws-cloudfront",
   "version": "1.0.8",
   "publishConfig": {
     "access": "public"
@@ -27,5 +27,5 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.92"
   },
-  "gitHead": "fbe17ce181e782b78ff946dd51380e3a7c9df444"
+  "gitHead": "2e99be1978340d91775f58b89d6a0745582b7ee9"
 }

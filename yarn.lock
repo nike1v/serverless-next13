@@ -3874,9 +3874,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cryptodiffer-sls-next/aws-cloudfront@1.0.8, @cryptodiffer-sls-next/aws-cloudfront@workspace:packages/serverless-components/aws-cloudfront":
+"@cspotcode/source-map-consumer@npm:0.8.0":
+  version: 0.8.0
+  resolution: "@cspotcode/source-map-consumer@npm:0.8.0"
+  checksum: c0c16ca3d2f58898f1bd74c4f41a189dbcc202e642e60e489cbcc2e52419c4e89bdead02c886a12fb13ea37798ede9e562b2321df997ebc210ae9bd881561b4e
+  languageName: node
+  linkType: hard
+
+"@cspotcode/source-map-support@npm:0.7.0":
+  version: 0.7.0
+  resolution: "@cspotcode/source-map-support@npm:0.7.0"
+  dependencies:
+    "@cspotcode/source-map-consumer": "npm:0.8.0"
+  checksum: 9faddda7757cd778b5fd6812137b2cc265810043680d6399acc20441668fafcdc874053be9dccd0d9110087287bfad27eb3bf342f72bceca9aa9059f5d0c4be8
+  languageName: node
+  linkType: hard
+
+"@cspotcode/source-map-support@npm:^0.8.0":
+  version: 0.8.1
+  resolution: "@cspotcode/source-map-support@npm:0.8.1"
+  dependencies:
+    "@jridgewell/trace-mapping": "npm:0.3.9"
+  checksum: 5718f267085ed8edb3e7ef210137241775e607ee18b77d95aa5bd7514f47f5019aa2d82d96b3bf342ef7aa890a346fa1044532ff7cc3009e7d24fce3ce6200fa
+  languageName: node
+  linkType: hard
+
+"@dolsze/aws-cloudfront@1.0.8, @dolsze/aws-cloudfront@workspace:packages/serverless-components/aws-cloudfront":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/aws-cloudfront@workspace:packages/serverless-components/aws-cloudfront"
+  resolution: "@dolsze/aws-cloudfront@workspace:packages/serverless-components/aws-cloudfront"
   dependencies:
     "@babel/preset-typescript": 7.16.7
     "@serverless/core": 1.1.2
@@ -3902,22 +3927,22 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/aws-common@1.0.8, @cryptodiffer-sls-next/aws-common@workspace:packages/libs/aws-common":
+"@dolsze/aws-common@1.0.8, @dolsze/aws-common@workspace:packages/libs/aws-common":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/aws-common@workspace:packages/libs/aws-common"
+  resolution: "@dolsze/aws-common@workspace:packages/libs/aws-common"
   dependencies:
     "@aws-sdk/client-s3": 3.54.0
     "@aws-sdk/client-sqs": 3.54.0
-    "@cryptodiffer-sls-next/core": 1.0.8
+    "@dolsze/core": 1.0.8
     "@types/node": 20.4.5
     rimraf: 3.0.2
     typescript: 5.1.6
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/aws-lambda@1.0.8, @cryptodiffer-sls-next/aws-lambda@workspace:packages/serverless-components/aws-lambda":
+"@dolsze/aws-lambda@1.0.8, @dolsze/aws-lambda@workspace:packages/serverless-components/aws-lambda":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/aws-lambda@workspace:packages/serverless-components/aws-lambda"
+  resolution: "@dolsze/aws-lambda@workspace:packages/serverless-components/aws-lambda"
   dependencies:
     "@jest/globals": 27.4.6
     "@serverless/aws-iam-role": 1.0.0
@@ -3945,9 +3970,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/aws-s3@1.0.8, @cryptodiffer-sls-next/aws-s3@workspace:packages/serverless-components/aws-s3":
+"@dolsze/aws-s3@1.0.8, @dolsze/aws-s3@workspace:packages/serverless-components/aws-s3":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/aws-s3@workspace:packages/serverless-components/aws-s3"
+  resolution: "@dolsze/aws-s3@workspace:packages/serverless-components/aws-s3"
   dependencies:
     "@serverless/core": 1.1.2
     "@types/archiver": 5.3.1
@@ -3975,9 +4000,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/aws-sqs@1.0.8, @cryptodiffer-sls-next/aws-sqs@workspace:packages/serverless-components/aws-sqs":
+"@dolsze/aws-sqs@1.0.8, @dolsze/aws-sqs@workspace:packages/serverless-components/aws-sqs":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/aws-sqs@workspace:packages/serverless-components/aws-sqs"
+  resolution: "@dolsze/aws-sqs@workspace:packages/serverless-components/aws-sqs"
   dependencies:
     "@serverless/core": 1.1.2
     aws-sdk: 2.1093.0
@@ -3989,13 +4014,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/cdk-construct@workspace:packages/serverless-components/nextjs-cdk-construct":
+"@dolsze/cdk-construct@workspace:packages/serverless-components/nextjs-cdk-construct":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/cdk-construct@workspace:packages/serverless-components/nextjs-cdk-construct"
+  resolution: "@dolsze/cdk-construct@workspace:packages/serverless-components/nextjs-cdk-construct"
   dependencies:
     "@aws-cdk/assert": ^2.68.0
-    "@cryptodiffer-sls-next/core": 1.0.8
-    "@cryptodiffer-sls-next/lambda-at-edge": 1.0.8
+    "@dolsze/core": 1.0.8
+    "@dolsze/lambda-at-edge": 1.0.8
     "@types/fs-extra": 9.0.13
     aws-cdk: ^2.89.0
     aws-cdk-lib: ^2.89.0
@@ -4011,9 +4036,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/cloudfront@1.0.8, @cryptodiffer-sls-next/cloudfront@workspace:packages/libs/cloudfront":
+"@dolsze/cloudfront@1.0.8, @dolsze/cloudfront@workspace:packages/libs/cloudfront":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/cloudfront@workspace:packages/libs/cloudfront"
+  resolution: "@dolsze/cloudfront@workspace:packages/libs/cloudfront"
   dependencies:
     "@babel/preset-typescript": ^7.16.7
     "@types/node": 17.0.19
@@ -4023,9 +4048,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/core@1.0.8, @cryptodiffer-sls-next/core@workspace:packages/libs/core":
+"@dolsze/core@1.0.8, @dolsze/core@workspace:packages/libs/core":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/core@workspace:packages/libs/core"
+  resolution: "@dolsze/core@workspace:packages/libs/core"
   dependencies:
     "@babel/core": 7.17.5
     "@babel/plugin-proposal-class-properties": 7.16.7
@@ -4069,9 +4094,40 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/domain@1.0.8, @cryptodiffer-sls-next/domain@workspace:packages/serverless-components/domain":
+"@dolsze/cryptodiffer-serverless-nextjs-monorepo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/domain@workspace:packages/serverless-components/domain"
+  resolution: "@dolsze/cryptodiffer-serverless-nextjs-monorepo@workspace:."
+  dependencies:
+    "@babel/core": 7.17.5
+    "@babel/plugin-proposal-class-properties": ^7.16.7
+    "@babel/preset-env": ^7.16.11
+    "@babel/preset-typescript": ^7.16.7
+    "@jest/test-sequencer": ^27.4.6
+    "@types/jest": ^27.4.0
+    "@types/node": ^20.4.5
+    "@types/webpack": ^5.28.0
+    "@typescript-eslint/eslint-plugin": ^5.10.1
+    "@typescript-eslint/parser": ^5.10.1
+    eslint: ^8.7.0
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-prettier: ^4.0.0
+    eslint-plugin-promise: 6.0.0
+    husky: ^7.0.4
+    jest: ^27.4.7
+    jest-junit: ^13.0.0
+    jest-pnp-resolver: ^1.2.2
+    lerna: ^7.1.4
+    lint-staged: ^12.3.4
+    opencollective-postinstall: ^2.0.3
+    prettier: ^2.5.1
+    ts-node: ^10.4.0
+    typescript: 5.1.6
+  languageName: unknown
+  linkType: soft
+
+"@dolsze/domain@1.0.8, @dolsze/domain@workspace:packages/serverless-components/domain":
+  version: 0.0.0-use.local
+  resolution: "@dolsze/domain@workspace:packages/serverless-components/domain"
   dependencies:
     "@serverless/core": 1.1.2
     "@types/node": 17.0.19
@@ -4084,9 +4140,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/lambda-at-edge@1.0.8, @cryptodiffer-sls-next/lambda-at-edge@workspace:packages/libs/lambda-at-edge":
+"@dolsze/lambda-at-edge@1.0.8, @dolsze/lambda-at-edge@workspace:packages/libs/lambda-at-edge":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/lambda-at-edge@workspace:packages/libs/lambda-at-edge"
+  resolution: "@dolsze/lambda-at-edge@workspace:packages/libs/lambda-at-edge"
   dependencies:
     "@aws-sdk/client-s3": 3.54.0
     "@aws-sdk/client-sqs": 3.54.0
@@ -4096,9 +4152,9 @@ __metadata:
     "@babel/preset-env": 7.16.11
     "@babel/preset-react": 7.16.7
     "@babel/preset-typescript": 7.16.7
-    "@cryptodiffer-sls-next/aws-common": 1.0.8
-    "@cryptodiffer-sls-next/core": 1.0.8
-    "@cryptodiffer-sls-next/next-aws-cloudfront": 1.0.8
+    "@dolsze/aws-common": 1.0.8
+    "@dolsze/core": 1.0.8
+    "@dolsze/next-aws-cloudfront": 1.0.8
     "@jest/globals": 27.4.6
     "@rollup/plugin-commonjs": 18.1.0
     "@rollup/plugin-json": 4.1.0
@@ -4147,16 +4203,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/lambda@workspace:packages/libs/lambda":
+"@dolsze/lambda@workspace:packages/libs/lambda":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/lambda@workspace:packages/libs/lambda"
+  resolution: "@dolsze/lambda@workspace:packages/libs/lambda"
   dependencies:
     "@babel/preset-typescript": ^7.16.7
     "@cdktf/provider-archive": 0.3.31
     "@cdktf/provider-aws": 5.0.48
     "@cdktf/provider-null": 0.5.30
-    "@cryptodiffer-sls-next/aws-common": 1.0.8
-    "@cryptodiffer-sls-next/core": 1.0.8
+    "@dolsze/aws-common": 1.0.8
+    "@dolsze/core": 1.0.8
     "@rollup/plugin-commonjs": 18.1.0
     "@rollup/plugin-json": 4.1.0
     "@rollup/plugin-node-resolve": 10.0.0
@@ -4181,23 +4237,23 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/next-aws-cloudfront@1.0.8, @cryptodiffer-sls-next/next-aws-cloudfront@workspace:packages/compat-layers/lambda-at-edge-compat":
+"@dolsze/next-aws-cloudfront@1.0.8, @dolsze/next-aws-cloudfront@workspace:packages/compat-layers/lambda-at-edge-compat":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/next-aws-cloudfront@workspace:packages/compat-layers/lambda-at-edge-compat"
+  resolution: "@dolsze/next-aws-cloudfront@workspace:packages/compat-layers/lambda-at-edge-compat"
   dependencies:
     "@types/aws-lambda": ^8.10.92
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/next-aws-lambda@workspace:packages/compat-layers/apigw-lambda-compat":
+"@dolsze/next-aws-lambda@workspace:packages/compat-layers/apigw-lambda-compat":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/next-aws-lambda@workspace:packages/compat-layers/apigw-lambda-compat"
+  resolution: "@dolsze/next-aws-lambda@workspace:packages/compat-layers/apigw-lambda-compat"
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/s3-static-assets@1.0.8, @cryptodiffer-sls-next/s3-static-assets@workspace:packages/libs/s3-static-assets":
+"@dolsze/s3-static-assets@1.0.8, @dolsze/s3-static-assets@workspace:packages/libs/s3-static-assets":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/s3-static-assets@workspace:packages/libs/s3-static-assets"
+  resolution: "@dolsze/s3-static-assets@workspace:packages/libs/s3-static-assets"
   dependencies:
     "@types/fs-extra": 9.0.13
     "@types/mime-types": 2.1.1
@@ -4214,23 +4270,23 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cryptodiffer-sls-next/serverless-component@workspace:packages/serverless-components/nextjs-component":
+"@dolsze/serverless-component@workspace:packages/serverless-components/nextjs-component":
   version: 0.0.0-use.local
-  resolution: "@cryptodiffer-sls-next/serverless-component@workspace:packages/serverless-components/nextjs-component"
+  resolution: "@dolsze/serverless-component@workspace:packages/serverless-components/nextjs-component"
   dependencies:
     "@babel/core": 7.15.8
     "@babel/plugin-proposal-class-properties": 7.14.5
     "@babel/preset-env": 7.15.8
     "@babel/preset-typescript": 7.15.0
-    "@cryptodiffer-sls-next/aws-cloudfront": 1.0.8
-    "@cryptodiffer-sls-next/aws-lambda": 1.0.8
-    "@cryptodiffer-sls-next/aws-s3": 1.0.8
-    "@cryptodiffer-sls-next/aws-sqs": 1.0.8
-    "@cryptodiffer-sls-next/cloudfront": 1.0.8
-    "@cryptodiffer-sls-next/domain": 1.0.8
-    "@cryptodiffer-sls-next/lambda-at-edge": 1.0.8
-    "@cryptodiffer-sls-next/next-aws-cloudfront": 1.0.8
-    "@cryptodiffer-sls-next/s3-static-assets": 1.0.8
+    "@dolsze/aws-cloudfront": 1.0.8
+    "@dolsze/aws-lambda": 1.0.8
+    "@dolsze/aws-s3": 1.0.8
+    "@dolsze/aws-sqs": 1.0.8
+    "@dolsze/cloudfront": 1.0.8
+    "@dolsze/domain": 1.0.8
+    "@dolsze/lambda-at-edge": 1.0.8
+    "@dolsze/next-aws-cloudfront": 1.0.8
+    "@dolsze/s3-static-assets": 1.0.8
     "@jest/globals": 27.3.1
     "@serverless/core": 1.1.2
     "@types/fs-extra": 9.0.13
@@ -4245,62 +4301,6 @@ __metadata:
     rimraf: 3.0.2
     typescript: 5.1.6
     webpack: 5.59.1
-  languageName: unknown
-  linkType: soft
-
-"@cspotcode/source-map-consumer@npm:0.8.0":
-  version: 0.8.0
-  resolution: "@cspotcode/source-map-consumer@npm:0.8.0"
-  checksum: c0c16ca3d2f58898f1bd74c4f41a189dbcc202e642e60e489cbcc2e52419c4e89bdead02c886a12fb13ea37798ede9e562b2321df997ebc210ae9bd881561b4e
-  languageName: node
-  linkType: hard
-
-"@cspotcode/source-map-support@npm:0.7.0":
-  version: 0.7.0
-  resolution: "@cspotcode/source-map-support@npm:0.7.0"
-  dependencies:
-    "@cspotcode/source-map-consumer": "npm:0.8.0"
-  checksum: 9faddda7757cd778b5fd6812137b2cc265810043680d6399acc20441668fafcdc874053be9dccd0d9110087287bfad27eb3bf342f72bceca9aa9059f5d0c4be8
-  languageName: node
-  linkType: hard
-
-"@cspotcode/source-map-support@npm:^0.8.0":
-  version: 0.8.1
-  resolution: "@cspotcode/source-map-support@npm:0.8.1"
-  dependencies:
-    "@jridgewell/trace-mapping": "npm:0.3.9"
-  checksum: 5718f267085ed8edb3e7ef210137241775e607ee18b77d95aa5bd7514f47f5019aa2d82d96b3bf342ef7aa890a346fa1044532ff7cc3009e7d24fce3ce6200fa
-  languageName: node
-  linkType: hard
-
-"@dolsze/cryptodiffer-serverless-nextjs-monorepo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@dolsze/cryptodiffer-serverless-nextjs-monorepo@workspace:."
-  dependencies:
-    "@babel/core": 7.17.5
-    "@babel/plugin-proposal-class-properties": ^7.16.7
-    "@babel/preset-env": ^7.16.11
-    "@babel/preset-typescript": ^7.16.7
-    "@jest/test-sequencer": ^27.4.6
-    "@types/jest": ^27.4.0
-    "@types/node": ^20.4.5
-    "@types/webpack": ^5.28.0
-    "@typescript-eslint/eslint-plugin": ^5.10.1
-    "@typescript-eslint/parser": ^5.10.1
-    eslint: ^8.7.0
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-prettier: ^4.0.0
-    eslint-plugin-promise: 6.0.0
-    husky: ^7.0.4
-    jest: ^27.4.7
-    jest-junit: ^13.0.0
-    jest-pnp-resolver: ^1.2.2
-    lerna: ^7.1.4
-    lint-staged: ^12.3.4
-    opencollective-postinstall: ^2.0.3
-    prettier: ^2.5.1
-    ts-node: ^10.4.0
-    typescript: 5.1.6
   languageName: unknown
   linkType: soft
 

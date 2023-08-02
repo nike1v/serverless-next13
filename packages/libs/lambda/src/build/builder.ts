@@ -1,9 +1,9 @@
 import fse from "fs-extra";
 import { join } from "path";
 import path from "path";
-import { ImageBuildManifest, PageManifest } from "@cryptodiffer-sls-next/core";
-import CoreBuilder from "@cryptodiffer-sls-next/core/dist/build/builder";
-import { Manifest, CoreBuildOptions } from "@cryptodiffer-sls-next/core";
+import { ImageBuildManifest, PageManifest } from "@dolsze/core";
+import CoreBuilder from "@dolsze/core/dist/build/builder";
+import { Manifest, CoreBuildOptions } from "@dolsze/core";
 import { LambdaBuildOptions, LambdaManifest } from "src/types";
 
 export const DEFAULT_LAMBDA_CODE_DIR = "default-lambda";
@@ -80,7 +80,7 @@ export class LambdaBuilder extends CoreBuilder {
   ): Promise<void> {
     const source = path.dirname(
       require.resolve(
-        `@cryptodiffer-sls-next/lambda/dist/bundles/${handlerType}/${
+        `@dolsze/lambda/dist/bundles/${handlerType}/${
           shouldMinify ? "minified" : "standard"
         }`
       )
@@ -194,9 +194,7 @@ export class LambdaBuilder extends CoreBuilder {
       ),
       fse.copy(
         join(
-          path.dirname(
-            require.resolve("@cryptodiffer-sls-next/core/package.json")
-          ),
+          path.dirname(require.resolve("@dolsze/core/package.json")),
           "dist",
           "sharp_node_modules"
         ),

@@ -1,9 +1,6 @@
 import { createCloudFrontEvent } from "../test-utils";
 import { handler } from "../../src/image-handler";
-import {
-  ImagesManifest,
-  PlatformClient
-} from "@cryptodiffer-sls-next/core/dist";
+import { ImagesManifest, PlatformClient } from "@dolsze/core/dist";
 import { IncomingMessage, ServerResponse } from "http";
 import { UrlWithParsedQuery } from "url";
 
@@ -31,7 +28,7 @@ jest.mock(
   }
 );
 
-jest.mock("@cryptodiffer-sls-next/core/dist/module", () => {
+jest.mock("@dolsze/core/dist/module", () => {
   return {
     imageOptimizer: jest.fn(
       (
@@ -47,14 +44,11 @@ jest.mock("@cryptodiffer-sls-next/core/dist/module", () => {
         res.end("success");
       }
     ),
-    handleAuth: jest.requireActual("@cryptodiffer-sls-next/core/dist/module")
-      .handleAuth,
-    handleDomainRedirects: jest.requireActual(
-      "@cryptodiffer-sls-next/core/dist/module"
-    ).handleDomainRedirects,
-    setCustomHeaders: jest.requireActual(
-      "@cryptodiffer-sls-next/core/dist/module"
-    ).setCustomHeaders
+    handleAuth: jest.requireActual("@dolsze/core/dist/module").handleAuth,
+    handleDomainRedirects: jest.requireActual("@dolsze/core/dist/module")
+      .handleDomainRedirects,
+    setCustomHeaders: jest.requireActual("@dolsze/core/dist/module")
+      .setCustomHeaders
   };
 });
 

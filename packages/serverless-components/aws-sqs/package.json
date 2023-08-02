@@ -1,5 +1,5 @@
 {
-  "name": "@cryptodiffer-sls-next/aws-sqs",
+  "name": "@dolsze/aws-sqs",
   "version": "1.0.8",
   "main": "serverless.js",
   "publishConfig": {
@@ -30,5 +30,5 @@
     "@serverless/core": "1.1.2",
     "aws-sdk": "2.1093.0"
   },
-  "gitHead": "fbe17ce181e782b78ff946dd51380e3a7c9df444"
+  "gitHead": "2e99be1978340d91775f58b89d6a0745582b7ee9"
 }

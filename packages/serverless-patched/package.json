@@ -1,5 +1,5 @@
 {
-  "name": "@cryptodiffer-sls-next/serverless-patched",
+  "name": "@dolsze/serverless-patched",
   "version": "1.0.0",
   "description": "Patched serverless package",
   "publishConfig": {

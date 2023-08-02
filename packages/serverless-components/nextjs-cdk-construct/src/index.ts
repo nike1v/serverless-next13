@@ -13,8 +13,8 @@ import {
   OriginRequestApiHandlerManifest,
   OriginRequestDefaultHandlerManifest,
   RoutesManifest
-} from "@cryptodiffer-sls-next/lambda-at-edge";
-import { PreRenderedManifest } from "@cryptodiffer-sls-next/core";
+} from "@dolsze/lambda-at-edge";
+import { PreRenderedManifest } from "@dolsze/core";
 import * as fs from "fs-extra";
 import * as path from "path";
 import {
