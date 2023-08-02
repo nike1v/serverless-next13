@@ -22,12 +22,12 @@ import { unauthorized } from "./unauthorized";
  * If return is void, the response has already been generated in
  * event.res/event.responsePromise which the caller should wait on.
  */
-export const handleApi = async (
+export const handleApi = (
   event: Event,
   manifest: ApiManifest,
   routesManifest: RoutesManifest,
   getPage: (page: string) => any
-): Promise<ExternalRoute | void> => {
+): ExternalRoute | void => {
   const request = toRequest(event);
   const route = routeApi(request, manifest, routesManifest);
   if (!route) {
@@ -51,7 +51,10 @@ export const handleApi = async (
         get: () => event.res
       });
     }
-    getPage(page).default(event.req, event.res);
+    console.log({ page });
+    console.log("getPage:", getPage(page));
+    // getPage(page).default(event.req, event.res);
+    getPage(page);
     return;
   }
   if (route.isRedirect) {
