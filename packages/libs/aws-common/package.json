@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/aws-common",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Common AWS code that is used in Lambda, Lambda@Edge and other AWS platforms.",
   "publishConfig": {
     "access": "public"
@@ -35,7 +35,7 @@
   "dependencies": {
     "@aws-sdk/client-s3": "3.54.0",
     "@aws-sdk/client-sqs": "3.54.0",
-    "@dolsze/core": "1.0.9"
+    "@dolsze/core": "1.0.10"
   },
   "devDependencies": {
     "@types/node": "20.4.5",

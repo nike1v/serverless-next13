@@ -3927,13 +3927,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@dolsze/aws-common@1.0.9, @dolsze/aws-common@workspace:packages/libs/aws-common":
+"@dolsze/aws-common@1.0.10, @dolsze/aws-common@workspace:packages/libs/aws-common":
   version: 0.0.0-use.local
   resolution: "@dolsze/aws-common@workspace:packages/libs/aws-common"
   dependencies:
     "@aws-sdk/client-s3": 3.54.0
     "@aws-sdk/client-sqs": 3.54.0
-    "@dolsze/core": 1.0.9
+    "@dolsze/core": 1.0.10
     "@types/node": 20.4.5
     rimraf: 3.0.2
     typescript: 5.1.6
@@ -4019,8 +4019,8 @@ __metadata:
   resolution: "@dolsze/cdk-construct@workspace:packages/serverless-components/nextjs-cdk-construct"
   dependencies:
     "@aws-cdk/assert": ^2.68.0
-    "@dolsze/core": 1.0.9
-    "@dolsze/lambda-at-edge": 1.0.9
+    "@dolsze/core": 1.0.10
+    "@dolsze/lambda-at-edge": 1.0.10
     "@types/fs-extra": 9.0.13
     aws-cdk: ^2.89.0
     aws-cdk-lib: ^2.89.0
@@ -4048,7 +4048,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@dolsze/core@1.0.9, @dolsze/core@workspace:packages/libs/core":
+"@dolsze/core@1.0.10, @dolsze/core@workspace:packages/libs/core":
   version: 0.0.0-use.local
   resolution: "@dolsze/core@workspace:packages/libs/core"
   dependencies:
@@ -4140,7 +4140,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@dolsze/lambda-at-edge@1.0.9, @dolsze/lambda-at-edge@workspace:packages/libs/lambda-at-edge":
+"@dolsze/lambda-at-edge@1.0.10, @dolsze/lambda-at-edge@workspace:packages/libs/lambda-at-edge":
   version: 0.0.0-use.local
   resolution: "@dolsze/lambda-at-edge@workspace:packages/libs/lambda-at-edge"
   dependencies:
@@ -4152,8 +4152,8 @@ __metadata:
     "@babel/preset-env": 7.16.11
     "@babel/preset-react": 7.16.7
     "@babel/preset-typescript": 7.16.7
-    "@dolsze/aws-common": 1.0.9
-    "@dolsze/core": 1.0.9
+    "@dolsze/aws-common": 1.0.10
+    "@dolsze/core": 1.0.10
     "@dolsze/next-aws-cloudfront": 1.0.9
     "@jest/globals": 27.4.6
     "@rollup/plugin-commonjs": 18.1.0
@@ -4211,8 +4211,8 @@ __metadata:
     "@cdktf/provider-archive": 0.3.31
     "@cdktf/provider-aws": 5.0.48
     "@cdktf/provider-null": 0.5.30
-    "@dolsze/aws-common": 1.0.9
-    "@dolsze/core": 1.0.9
+    "@dolsze/aws-common": 1.0.10
+    "@dolsze/core": 1.0.10
     "@rollup/plugin-commonjs": 18.1.0
     "@rollup/plugin-json": 4.1.0
     "@rollup/plugin-node-resolve": 10.0.0
@@ -4284,7 +4284,7 @@ __metadata:
     "@dolsze/aws-sqs": 1.0.9
     "@dolsze/cloudfront": 1.0.9
     "@dolsze/domain": 1.0.9
-    "@dolsze/lambda-at-edge": 1.0.9
+    "@dolsze/lambda-at-edge": 1.0.10
     "@dolsze/next-aws-cloudfront": 1.0.9
     "@dolsze/s3-static-assets": 1.0.9
     "@jest/globals": 27.3.1

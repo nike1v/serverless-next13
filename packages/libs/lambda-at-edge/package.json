@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Provides handlers that can be used in CloudFront Lambda@Edge to deploy next.js applications to the edge",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -83,8 +83,8 @@
   "dependencies": {
     "@aws-sdk/client-s3": "3.54.0",
     "@aws-sdk/client-sqs": "3.54.0",
-    "@dolsze/aws-common": "1.0.9",
-    "@dolsze/core": "1.0.9",
+    "@dolsze/aws-common": "1.0.10",
+    "@dolsze/core": "1.0.10",
     "@vercel/nft": "0.17.5",
     "execa": "5.1.1",
     "fs-extra": "9.1.0",

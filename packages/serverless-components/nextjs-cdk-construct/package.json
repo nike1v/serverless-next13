@@ -4,7 +4,7 @@
     "access": "public"
   },
   "description": "Serverless Next.js powered by AWS CDK",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
@@ -29,8 +29,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@dolsze/core": "1.0.9",
-    "@dolsze/lambda-at-edge": "1.0.9",
+    "@dolsze/core": "1.0.10",
+    "@dolsze/lambda-at-edge": "1.0.10",
     "fast-glob": "3.2.11",
     "fs-extra": "9.1.0"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/core",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Handles Next.js routing independent of provider",
   "publishConfig": {
     "access": "public"
