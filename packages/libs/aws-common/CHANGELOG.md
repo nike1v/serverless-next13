@@ -3,21 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 3.8.0-alpha.1 (2023-08-01)
+## [1.0.1](https://github.com/nike1v/serverless-next13/compare/v1.0.0...v1.0.1) (2023-08-02)
 
+**Note:** Version bump only for package @cryptodiffer-sls-next/aws-common
+
+# 3.8.0-alpha.1 (2023-08-01)
 
 ### Bug Fixes
 
-* logging error ([#2426](https://github.com/serverless-nextjs/serverless-next.js/issues/2426)) ([acfe76e](https://github.com/serverless-nextjs/serverless-next.js/commit/acfe76ed36ed5b1cd7b5c6f40323c355bdce4c04))
-
+- logging error ([#2426](https://github.com/serverless-nextjs/serverless-next.js/issues/2426)) ([acfe76e](https://github.com/serverless-nextjs/serverless-next.js/commit/acfe76ed36ed5b1cd7b5c6f40323c355bdce4c04))
 
 ### Features
 
-* **nextjs-component, core, lambda-at-edge:** experimental - add build.useV2Handler option to enable using genericized default/regeneration handlers ([#1747](https://github.com/serverless-nextjs/serverless-next.js/issues/1747)) ([afd8a79](https://github.com/serverless-nextjs/serverless-next.js/commit/afd8a79a5a19adb631f627198a9e7d904bbf34c6))
-
-
-
-
+- **nextjs-component, core, lambda-at-edge:** experimental - add build.useV2Handler option to enable using genericized default/regeneration handlers ([#1747](https://github.com/serverless-nextjs/serverless-next.js/issues/1747)) ([afd8a79](https://github.com/serverless-nextjs/serverless-next.js/commit/afd8a79a5a19adb631f627198a9e7d904bbf34c6))
 
 # [3.8.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0...v3.8.0-alpha.0) (2022-04-20)
 

@@ -3,22 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 3.8.0-alpha.1 (2023-08-01)
+## [1.0.1](https://github.com/nike1v/serverless-next13/compare/v1.0.0...v1.0.1) (2023-08-02)
 
+**Note:** Version bump only for package @cryptodiffer-sls-next/cloudfront
+
+# 3.8.0-alpha.1 (2023-08-01)
 
 ### Bug Fixes
 
-* **nextjs-component, cloudfront:** wait for distribution to be ready before creating invalidations ([#1281](https://github.com/serverless-nextjs/serverless-next.js/issues/1281)) ([3091c7c](https://github.com/serverless-nextjs/serverless-next.js/commit/3091c7c634986121c4943931c7ffd6303732c957))
-* update aws retry logic and fix dependencies ([#1306](https://github.com/serverless-nextjs/serverless-next.js/issues/1306)) ([e0cee9c](https://github.com/serverless-nextjs/serverless-next.js/commit/e0cee9c0d5d79314a7239c37e55438b5200d8bb2))
-
+- **nextjs-component, cloudfront:** wait for distribution to be ready before creating invalidations ([#1281](https://github.com/serverless-nextjs/serverless-next.js/issues/1281)) ([3091c7c](https://github.com/serverless-nextjs/serverless-next.js/commit/3091c7c634986121c4943931c7ffd6303732c957))
+- update aws retry logic and fix dependencies ([#1306](https://github.com/serverless-nextjs/serverless-next.js/issues/1306)) ([e0cee9c](https://github.com/serverless-nextjs/serverless-next.js/commit/e0cee9c0d5d79314a7239c37e55438b5200d8bb2))
 
 ### Features
 
-* **aws-cloudfront, nextjs-component:** support cloudfront tags ([#1350](https://github.com/serverless-nextjs/serverless-next.js/issues/1350)) ([b5d03b1](https://github.com/serverless-nextjs/serverless-next.js/commit/b5d03b1dce9851c31d3dca144c66ae32f83060c0))
-
-
-
-
+- **aws-cloudfront, nextjs-component:** support cloudfront tags ([#1350](https://github.com/serverless-nextjs/serverless-next.js/issues/1350)) ([b5d03b1](https://github.com/serverless-nextjs/serverless-next.js/commit/b5d03b1dce9851c31d3dca144c66ae32f83060c0))
 
 # [3.7.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.12...v3.7.0) (2022-03-31)
 

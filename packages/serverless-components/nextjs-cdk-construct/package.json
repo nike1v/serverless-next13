@@ -4,7 +4,7 @@
     "access": "restricted"
   },
   "description": "Serverless Next.js powered by AWS CDK",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",

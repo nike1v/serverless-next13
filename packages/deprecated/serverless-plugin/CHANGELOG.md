@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/nike1v/serverless-next13/compare/v1.0.0...v1.0.1) (2023-08-02)
+
+**Note:** Version bump only for package @cryptodiffer-sls-next/serverless-plugin
+
 # [3.5.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.9...v3.5.0-alpha.10) (2021-10-25)
 
 **Note:** Version bump only for package @sls-next/serverless-plugin

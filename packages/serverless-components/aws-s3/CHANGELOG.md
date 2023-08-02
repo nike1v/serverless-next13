@@ -3,16 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 3.8.0-alpha.1 (2023-08-01)
+## [1.0.1](https://github.com/nike1v/serverless-next13/compare/v1.0.0...v1.0.1) (2023-08-02)
 
+**Note:** Version bump only for package @cryptodiffer-sls-next/aws-s3
+
+# 3.8.0-alpha.1 (2023-08-01)
 
 ### Features
 
-* **aws-s3, nextjs-component:** support s3 bucket tags ([#1326](https://github.com/nike1v/serverless-next13/issues/1326)) ([c924c22](https://github.com/nike1v/serverless-next13/commit/c924c222f64ed2056e314aaedfa99449831a55cd))
-
-
-
-
+- **aws-s3, nextjs-component:** support s3 bucket tags ([#1326](https://github.com/nike1v/serverless-next13/issues/1326)) ([c924c22](https://github.com/nike1v/serverless-next13/commit/c924c222f64ed2056e314aaedfa99449831a55cd))
 
 # [3.7.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.12...v3.7.0) (2022-03-31)
 

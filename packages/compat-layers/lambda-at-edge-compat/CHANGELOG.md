@@ -3,19 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 3.8.0-alpha.1 (2023-08-01)
+## [1.0.1](https://github.com/nike1v/serverless-next13/compare/v1.0.0...v1.0.1) (2023-08-02)
 
+**Note:** Version bump only for package @cryptodiffer-sls-next/next-aws-cloudfront
+
+# 3.8.0-alpha.1 (2023-08-01)
 
 ### Features
 
-* **core, lambda-at-edge, nextjs-component:** experimental - allow serving static pages/data from origin request handler only (and disable origin response handler) ([#1696](https://github.com/serverless-nextjs/serverless-next.js/issues/1696)) ([7fcdc7f](https://github.com/serverless-nextjs/serverless-next.js/commit/7fcdc7fd4970402c7f19e09a7fa90d22a82804e4))
-* **lambda-at-edge-compat, lambda-at-edge, nextjs-component:** let CloudFront do the Gzipping ([#692](https://github.com/serverless-nextjs/serverless-next.js/issues/692)) ([05fb0eb](https://github.com/serverless-nextjs/serverless-next.js/commit/05fb0ebdf38096fb7e0427956c4747e782c680a8))
-* **lambda-at-edge, next-aws-cloudfront:** support Preview Mode ([#562](https://github.com/serverless-nextjs/serverless-next.js/issues/562)) ([5e1ea38](https://github.com/serverless-nextjs/serverless-next.js/commit/5e1ea3891e48d75de5973902a014b67f14c8380a))
-* **serverless-component, lambda-at-edge, lambda-at-edge-compat, s3-static-assets:** add support for getStaticPaths fallback true ([#544](https://github.com/serverless-nextjs/serverless-next.js/issues/544)) ([a08217b](https://github.com/serverless-nextjs/serverless-next.js/commit/a08217ba26ea90f67c562fe4ae9510b617d14d08))
-
-
-
-
+- **core, lambda-at-edge, nextjs-component:** experimental - allow serving static pages/data from origin request handler only (and disable origin response handler) ([#1696](https://github.com/serverless-nextjs/serverless-next.js/issues/1696)) ([7fcdc7f](https://github.com/serverless-nextjs/serverless-next.js/commit/7fcdc7fd4970402c7f19e09a7fa90d22a82804e4))
+- **lambda-at-edge-compat, lambda-at-edge, nextjs-component:** let CloudFront do the Gzipping ([#692](https://github.com/serverless-nextjs/serverless-next.js/issues/692)) ([05fb0eb](https://github.com/serverless-nextjs/serverless-next.js/commit/05fb0ebdf38096fb7e0427956c4747e782c680a8))
+- **lambda-at-edge, next-aws-cloudfront:** support Preview Mode ([#562](https://github.com/serverless-nextjs/serverless-next.js/issues/562)) ([5e1ea38](https://github.com/serverless-nextjs/serverless-next.js/commit/5e1ea3891e48d75de5973902a014b67f14c8380a))
+- **serverless-component, lambda-at-edge, lambda-at-edge-compat, s3-static-assets:** add support for getStaticPaths fallback true ([#544](https://github.com/serverless-nextjs/serverless-next.js/issues/544)) ([a08217b](https://github.com/serverless-nextjs/serverless-next.js/commit/a08217ba26ea90f67c562fe4ae9510b617d14d08))
 
 # [3.7.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.12...v3.7.0) (2022-03-31)
 

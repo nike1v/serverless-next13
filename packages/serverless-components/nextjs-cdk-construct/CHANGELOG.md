@@ -3,44 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 3.8.0-alpha.1 (2023-08-01)
+## [1.0.1](https://github.com/nike1v/serverless-next13/compare/v1.0.0...v1.0.1) (2023-08-02)
 
+**Note:** Version bump only for package @cryptodiffer-sls-next/cdk-construct
+
+# 3.8.0-alpha.1 (2023-08-01)
 
 ### Bug Fixes
 
-* **cdk-construct:** [#943](https://github.com/serverless-nextjs/serverless-next.js/issues/943) give access to underlying resources and enable custom s3 props ([#955](https://github.com/serverless-nextjs/serverless-next.js/issues/955)) ([026901b](https://github.com/serverless-nextjs/serverless-next.js/commit/026901b1b5008d11e35de0f710c484e60941ef08))
-* **cdk-construct:** fix build error in cdk-construct ([d708265](https://github.com/serverless-nextjs/serverless-next.js/commit/d708265ddda808f7340e1257390097e8c1f2663d))
-* **cdk-construct:** unique construct id for each domain name ([#1013](https://github.com/serverless-nextjs/serverless-next.js/issues/1013)) ([19ec092](https://github.com/serverless-nextjs/serverless-next.js/commit/19ec0928723d5611be839b2daf5df827cf9dcbd4))
-* **cdk:** resources should not be assigned names ([#912](https://github.com/serverless-nextjs/serverless-next.js/issues/912)) ([81d9d18](https://github.com/serverless-nextjs/serverless-next.js/commit/81d9d18f0bd82c36be47c4bda8fa51d1b7e422b0))
-* change defaultNextLambda removalPolicy from DESTROY to RETAIN ([#2420](https://github.com/serverless-nextjs/serverless-next.js/issues/2420)) ([1baa444](https://github.com/serverless-nextjs/serverless-next.js/commit/1baa4447dea1e8e2f24c7caaa26c0d150176cb7c))
-* **core:** fix renderPageToHtml for work for all next.js versions ([#1611](https://github.com/serverless-nextjs/serverless-next.js/issues/1611)) ([d3a10b2](https://github.com/serverless-nextjs/serverless-next.js/commit/d3a10b2d7ed9d14afd1a09436f9fbf911fde001e))
-* **lambda-at-edge, nextjs-cdk-construct:** fix several posix path normalizations ([313c600](https://github.com/serverless-nextjs/serverless-next.js/commit/313c6004d009df23b8356e03d19466d9ea393eac))
-* **nextjs-cdk-construct:** disable public read access of s3 bucket and allow all methods in default behavior ([#1758](https://github.com/serverless-nextjs/serverless-next.js/issues/1758)) ([770641c](https://github.com/serverless-nextjs/serverless-next.js/commit/770641cefabcfbc088f59979342f55d366991777))
-* **nextjs-cdk-construct:** match dynamic route segments with square bracket ([#1235](https://github.com/serverless-nextjs/serverless-next.js/issues/1235)) ([979a633](https://github.com/serverless-nextjs/serverless-next.js/commit/979a633cf42e9896406216e351e209c88106b344))
-* **nextjs-cdk-construct:** update default memory and timeout to be mo… ([#1167](https://github.com/serverless-nextjs/serverless-next.js/issues/1167)) ([10a16b6](https://github.com/serverless-nextjs/serverless-next.js/commit/10a16b6e16bf235feabdac71721d8c5c5b18a20a))
-* **nextjs-cdk-construct:** use basepath in s3 assets ([#2265](https://github.com/serverless-nextjs/serverless-next.js/issues/2265)) ([cf780e9](https://github.com/serverless-nextjs/serverless-next.js/commit/cf780e983e8e8e367d891b1d365d3b2782bae9cb))
-* **nextjs-cdk-construct:** use posix paths for s3 assets and invalidations ([#1025](https://github.com/serverless-nextjs/serverless-next.js/issues/1025)) ([b8b4393](https://github.com/serverless-nextjs/serverless-next.js/commit/b8b439348ffd4f8e526645801df101f715e53797))
-* **nextjs-component, nextjs-cdk-construct:** create AWS resources for dynamic SSG ([#1476](https://github.com/serverless-nextjs/serverless-next.js/issues/1476)) ([#1477](https://github.com/serverless-nextjs/serverless-next.js/issues/1477)) ([7e9c923](https://github.com/serverless-nextjs/serverless-next.js/commit/7e9c923d62c1573fa6fca51f6d62854297d0d09d))
-* **sls-next/cdk-construct:** defaultBehavior.edgeLambdas only applied to defaultBehavior ([#1031](https://github.com/serverless-nextjs/serverless-next.js/issues/1031)) ([a5a0ccd](https://github.com/serverless-nextjs/serverless-next.js/commit/a5a0ccd0d3d8c90d0cf221eb5dfaa6598625e1b9))
-
+- **cdk-construct:** [#943](https://github.com/serverless-nextjs/serverless-next.js/issues/943) give access to underlying resources and enable custom s3 props ([#955](https://github.com/serverless-nextjs/serverless-next.js/issues/955)) ([026901b](https://github.com/serverless-nextjs/serverless-next.js/commit/026901b1b5008d11e35de0f710c484e60941ef08))
+- **cdk-construct:** fix build error in cdk-construct ([d708265](https://github.com/serverless-nextjs/serverless-next.js/commit/d708265ddda808f7340e1257390097e8c1f2663d))
+- **cdk-construct:** unique construct id for each domain name ([#1013](https://github.com/serverless-nextjs/serverless-next.js/issues/1013)) ([19ec092](https://github.com/serverless-nextjs/serverless-next.js/commit/19ec0928723d5611be839b2daf5df827cf9dcbd4))
+- **cdk:** resources should not be assigned names ([#912](https://github.com/serverless-nextjs/serverless-next.js/issues/912)) ([81d9d18](https://github.com/serverless-nextjs/serverless-next.js/commit/81d9d18f0bd82c36be47c4bda8fa51d1b7e422b0))
+- change defaultNextLambda removalPolicy from DESTROY to RETAIN ([#2420](https://github.com/serverless-nextjs/serverless-next.js/issues/2420)) ([1baa444](https://github.com/serverless-nextjs/serverless-next.js/commit/1baa4447dea1e8e2f24c7caaa26c0d150176cb7c))
+- **core:** fix renderPageToHtml for work for all next.js versions ([#1611](https://github.com/serverless-nextjs/serverless-next.js/issues/1611)) ([d3a10b2](https://github.com/serverless-nextjs/serverless-next.js/commit/d3a10b2d7ed9d14afd1a09436f9fbf911fde001e))
+- **lambda-at-edge, nextjs-cdk-construct:** fix several posix path normalizations ([313c600](https://github.com/serverless-nextjs/serverless-next.js/commit/313c6004d009df23b8356e03d19466d9ea393eac))
+- **nextjs-cdk-construct:** disable public read access of s3 bucket and allow all methods in default behavior ([#1758](https://github.com/serverless-nextjs/serverless-next.js/issues/1758)) ([770641c](https://github.com/serverless-nextjs/serverless-next.js/commit/770641cefabcfbc088f59979342f55d366991777))
+- **nextjs-cdk-construct:** match dynamic route segments with square bracket ([#1235](https://github.com/serverless-nextjs/serverless-next.js/issues/1235)) ([979a633](https://github.com/serverless-nextjs/serverless-next.js/commit/979a633cf42e9896406216e351e209c88106b344))
+- **nextjs-cdk-construct:** update default memory and timeout to be mo… ([#1167](https://github.com/serverless-nextjs/serverless-next.js/issues/1167)) ([10a16b6](https://github.com/serverless-nextjs/serverless-next.js/commit/10a16b6e16bf235feabdac71721d8c5c5b18a20a))
+- **nextjs-cdk-construct:** use basepath in s3 assets ([#2265](https://github.com/serverless-nextjs/serverless-next.js/issues/2265)) ([cf780e9](https://github.com/serverless-nextjs/serverless-next.js/commit/cf780e983e8e8e367d891b1d365d3b2782bae9cb))
+- **nextjs-cdk-construct:** use posix paths for s3 assets and invalidations ([#1025](https://github.com/serverless-nextjs/serverless-next.js/issues/1025)) ([b8b4393](https://github.com/serverless-nextjs/serverless-next.js/commit/b8b439348ffd4f8e526645801df101f715e53797))
+- **nextjs-component, nextjs-cdk-construct:** create AWS resources for dynamic SSG ([#1476](https://github.com/serverless-nextjs/serverless-next.js/issues/1476)) ([#1477](https://github.com/serverless-nextjs/serverless-next.js/issues/1477)) ([7e9c923](https://github.com/serverless-nextjs/serverless-next.js/commit/7e9c923d62c1573fa6fca51f6d62854297d0d09d))
+- **sls-next/cdk-construct:** defaultBehavior.edgeLambdas only applied to defaultBehavior ([#1031](https://github.com/serverless-nextjs/serverless-next.js/issues/1031)) ([a5a0ccd](https://github.com/serverless-nextjs/serverless-next.js/commit/a5a0ccd0d3d8c90d0cf221eb5dfaa6598625e1b9))
 
 ### Features
 
-* allow to set custom handler ([#2409](https://github.com/serverless-nextjs/serverless-next.js/issues/2409)) ([f5c33ac](https://github.com/serverless-nextjs/serverless-next.js/commit/f5c33ac7a3089a7d998b6f17bc0f742c570109f8))
-* **cdk-construct:** adding support for multiple domainNames ([#1009](https://github.com/serverless-nextjs/serverless-next.js/issues/1009)) ([c9e87fc](https://github.com/serverless-nextjs/serverless-next.js/commit/c9e87fc5b4bfb7207895f81557533f6eaf401208))
-* **cdk-construct:** Support for outside hosted domain ([#1037](https://github.com/serverless-nextjs/serverless-next.js/issues/1037)) ([dcc6bd2](https://github.com/serverless-nextjs/serverless-next.js/commit/dcc6bd24481ac31e1b9c6012d2365b62bf0cafad)), closes [#1027](https://github.com/serverless-nextjs/serverless-next.js/issues/1027)
-* **experimental:** CDK Construct ([#878](https://github.com/serverless-nextjs/serverless-next.js/issues/878)) ([d38e2aa](https://github.com/serverless-nextjs/serverless-next.js/commit/d38e2aa70816c3204727fda4c9e379c73e1b2f2e))
-* **lambda-at-edge:** incremental static regeneration ([#1028](https://github.com/serverless-nextjs/serverless-next.js/issues/1028)) ([d5bbdc6](https://github.com/serverless-nextjs/serverless-next.js/commit/d5bbdc6d395ae732ec0757744482bf8bc25e820f))
-* **nextjs-cdk-construct:** add runtime options to regeneration ([#2050](https://github.com/serverless-nextjs/serverless-next.js/issues/2050)) ([dd69323](https://github.com/serverless-nextjs/serverless-next.js/commit/dd693238f6433cf1d12a4778dbdd6f65a1872458))
-* **nextjs-cdk-construct:** allow cache policies to be provided as props ([#2350](https://github.com/serverless-nextjs/serverless-next.js/issues/2350)) ([68b7717](https://github.com/serverless-nextjs/serverless-next.js/commit/68b7717c78a133fcb54318785e39b9d1239cb32e))
-* **nextjs-cdk-construct:** Allow to whitelist headers ([#2325](https://github.com/serverless-nextjs/serverless-next.js/issues/2325)) ([b975aed](https://github.com/serverless-nextjs/serverless-next.js/commit/b975aed9a13f132750a707862242ca81f5e32cc7))
-* **nextjs-cdk-construct:** support AWS CDK V2 ([#2187](https://github.com/serverless-nextjs/serverless-next.js/issues/2187)) ([b329326](https://github.com/serverless-nextjs/serverless-next.js/commit/b329326ec0f78eeb7dfbc2bbe105904931cfffb2))
-* **nextjs-cdk-construct:** support override props for CloudFront distribution ([#1236](https://github.com/serverless-nextjs/serverless-next.js/issues/1236)) ([783b888](https://github.com/serverless-nextjs/serverless-next.js/commit/783b8889eef31796c0935e836962a7a329fd47fa))
-* **sls-next/cdk-construct:** edgeLambdas concatenated with default edge lambdas ([#1024](https://github.com/serverless-nextjs/serverless-next.js/issues/1024)) ([32772c0](https://github.com/serverless-nextjs/serverless-next.js/commit/32772c00f03147b4dbeb3602dc947a488476fc4f))
-
-
-
-
+- allow to set custom handler ([#2409](https://github.com/serverless-nextjs/serverless-next.js/issues/2409)) ([f5c33ac](https://github.com/serverless-nextjs/serverless-next.js/commit/f5c33ac7a3089a7d998b6f17bc0f742c570109f8))
+- **cdk-construct:** adding support for multiple domainNames ([#1009](https://github.com/serverless-nextjs/serverless-next.js/issues/1009)) ([c9e87fc](https://github.com/serverless-nextjs/serverless-next.js/commit/c9e87fc5b4bfb7207895f81557533f6eaf401208))
+- **cdk-construct:** Support for outside hosted domain ([#1037](https://github.com/serverless-nextjs/serverless-next.js/issues/1037)) ([dcc6bd2](https://github.com/serverless-nextjs/serverless-next.js/commit/dcc6bd24481ac31e1b9c6012d2365b62bf0cafad)), closes [#1027](https://github.com/serverless-nextjs/serverless-next.js/issues/1027)
+- **experimental:** CDK Construct ([#878](https://github.com/serverless-nextjs/serverless-next.js/issues/878)) ([d38e2aa](https://github.com/serverless-nextjs/serverless-next.js/commit/d38e2aa70816c3204727fda4c9e379c73e1b2f2e))
+- **lambda-at-edge:** incremental static regeneration ([#1028](https://github.com/serverless-nextjs/serverless-next.js/issues/1028)) ([d5bbdc6](https://github.com/serverless-nextjs/serverless-next.js/commit/d5bbdc6d395ae732ec0757744482bf8bc25e820f))
+- **nextjs-cdk-construct:** add runtime options to regeneration ([#2050](https://github.com/serverless-nextjs/serverless-next.js/issues/2050)) ([dd69323](https://github.com/serverless-nextjs/serverless-next.js/commit/dd693238f6433cf1d12a4778dbdd6f65a1872458))
+- **nextjs-cdk-construct:** allow cache policies to be provided as props ([#2350](https://github.com/serverless-nextjs/serverless-next.js/issues/2350)) ([68b7717](https://github.com/serverless-nextjs/serverless-next.js/commit/68b7717c78a133fcb54318785e39b9d1239cb32e))
+- **nextjs-cdk-construct:** Allow to whitelist headers ([#2325](https://github.com/serverless-nextjs/serverless-next.js/issues/2325)) ([b975aed](https://github.com/serverless-nextjs/serverless-next.js/commit/b975aed9a13f132750a707862242ca81f5e32cc7))
+- **nextjs-cdk-construct:** support AWS CDK V2 ([#2187](https://github.com/serverless-nextjs/serverless-next.js/issues/2187)) ([b329326](https://github.com/serverless-nextjs/serverless-next.js/commit/b329326ec0f78eeb7dfbc2bbe105904931cfffb2))
+- **nextjs-cdk-construct:** support override props for CloudFront distribution ([#1236](https://github.com/serverless-nextjs/serverless-next.js/issues/1236)) ([783b888](https://github.com/serverless-nextjs/serverless-next.js/commit/783b8889eef31796c0935e836962a7a329fd47fa))
+- **sls-next/cdk-construct:** edgeLambdas concatenated with default edge lambdas ([#1024](https://github.com/serverless-nextjs/serverless-next.js/issues/1024)) ([32772c0](https://github.com/serverless-nextjs/serverless-next.js/commit/32772c00f03147b4dbeb3602dc947a488476fc4f))
 
 # [3.8.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0...v3.8.0-alpha.0) (2022-04-20)
 

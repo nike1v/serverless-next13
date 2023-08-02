@@ -3,28 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 3.8.0-alpha.1 (2023-08-01)
+## [1.0.1](https://github.com/nike1v/serverless-next13/compare/v1.0.0...v1.0.1) (2023-08-02)
 
+**Note:** Version bump only for package @cryptodiffer-sls-next/aws-lambda
+
+# 3.8.0-alpha.1 (2023-08-01)
 
 ### Bug Fixes
 
-* **aws-lambda, nextjs-component:** ensure we wait until lambda functions are ready before using them ([#1982](https://github.com/nike1v/serverless-next13/issues/1982)) ([a0a22ab](https://github.com/nike1v/serverless-next13/commit/a0a22abbafe055e7868d8c621671b314bcb35dde))
-* **aws-lambda:** add another wait after updating lambda config ([#1992](https://github.com/nike1v/serverless-next13/issues/1992)) ([67add7e](https://github.com/nike1v/serverless-next13/commit/67add7e430b944c2d732134e324663238a52f9d1))
-* **aws-lambda:** fix test failure due to init() ([cde5af9](https://github.com/nike1v/serverless-next13/commit/cde5af9e730f730eea6d074d440d37d2b00a379f))
-* **aws-lambda:** wait for lambda to be ready right after creation/updating of code ([#1985](https://github.com/nike1v/serverless-next13/issues/1985)) ([016fee0](https://github.com/nike1v/serverless-next13/commit/016fee081f25bf23e0bfc128ceb95f657b85b30f))
-* update aws retry logic and fix dependencies ([#1306](https://github.com/nike1v/serverless-next13/issues/1306)) ([e0cee9c](https://github.com/nike1v/serverless-next13/commit/e0cee9c0d5d79314a7239c37e55438b5200d8bb2))
-
+- **aws-lambda, nextjs-component:** ensure we wait until lambda functions are ready before using them ([#1982](https://github.com/nike1v/serverless-next13/issues/1982)) ([a0a22ab](https://github.com/nike1v/serverless-next13/commit/a0a22abbafe055e7868d8c621671b314bcb35dde))
+- **aws-lambda:** add another wait after updating lambda config ([#1992](https://github.com/nike1v/serverless-next13/issues/1992)) ([67add7e](https://github.com/nike1v/serverless-next13/commit/67add7e430b944c2d732134e324663238a52f9d1))
+- **aws-lambda:** fix test failure due to init() ([cde5af9](https://github.com/nike1v/serverless-next13/commit/cde5af9e730f730eea6d074d440d37d2b00a379f))
+- **aws-lambda:** wait for lambda to be ready right after creation/updating of code ([#1985](https://github.com/nike1v/serverless-next13/issues/1985)) ([016fee0](https://github.com/nike1v/serverless-next13/commit/016fee081f25bf23e0bfc128ceb95f657b85b30f))
+- update aws retry logic and fix dependencies ([#1306](https://github.com/nike1v/serverless-next13/issues/1306)) ([e0cee9c](https://github.com/nike1v/serverless-next13/commit/e0cee9c0d5d79314a7239c37e55438b5200d8bb2))
 
 ### Features
 
-* **lambda-at-edge:** incremental static regeneration ([#1028](https://github.com/nike1v/serverless-next13/issues/1028)) ([d5bbdc6](https://github.com/nike1v/serverless-next13/commit/d5bbdc6d395ae732ec0757744482bf8bc25e820f))
-* **nextjs-component, aws-lambda:** allow removing old lambda versions ([#1884](https://github.com/nike1v/serverless-next13/issues/1884)) ([0110f0a](https://github.com/nike1v/serverless-next13/commit/0110f0ade8c98b28fb0017255a3f56db80882c8e))
-* **nextjs-component, aws-lambda:** support adding tags to lambdas ([#1300](https://github.com/nike1v/serverless-next13/issues/1300)) ([74721c2](https://github.com/nike1v/serverless-next13/commit/74721c28097ec3bb4227ad50e9d9c3db48848fb8))
-* **nextjs-component:** add inputs.roleArn for existing lambda role ([#827](https://github.com/nike1v/serverless-next13/issues/827)) ([f63bc76](https://github.com/nike1v/serverless-next13/commit/f63bc763fcc224b3a0c49637ad58129c3143351c))
-
-
-
-
+- **lambda-at-edge:** incremental static regeneration ([#1028](https://github.com/nike1v/serverless-next13/issues/1028)) ([d5bbdc6](https://github.com/nike1v/serverless-next13/commit/d5bbdc6d395ae732ec0757744482bf8bc25e820f))
+- **nextjs-component, aws-lambda:** allow removing old lambda versions ([#1884](https://github.com/nike1v/serverless-next13/issues/1884)) ([0110f0a](https://github.com/nike1v/serverless-next13/commit/0110f0ade8c98b28fb0017255a3f56db80882c8e))
+- **nextjs-component, aws-lambda:** support adding tags to lambdas ([#1300](https://github.com/nike1v/serverless-next13/issues/1300)) ([74721c2](https://github.com/nike1v/serverless-next13/commit/74721c28097ec3bb4227ad50e9d9c3db48848fb8))
+- **nextjs-component:** add inputs.roleArn for existing lambda role ([#827](https://github.com/nike1v/serverless-next13/issues/827)) ([f63bc76](https://github.com/nike1v/serverless-next13/commit/f63bc763fcc224b3a0c49637ad58129c3143351c))
 
 # [3.7.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.12...v3.7.0) (2022-03-31)
 

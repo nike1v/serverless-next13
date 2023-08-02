@@ -3,24 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 3.8.0-alpha.1 (2023-08-01)
+## [1.0.1](https://github.com/nike1v/serverless-next13/compare/v1.0.0...v1.0.1) (2023-08-02)
 
+**Note:** Version bump only for package @cryptodiffer-sls-next/aws-sqs
+
+# 3.8.0-alpha.1 (2023-08-01)
 
 ### Bug Fixes
 
-* only delete the sqs queue if it already exists in the state ([#1147](https://github.com/nike1v/serverless-next13/issues/1147)) ([c072437](https://github.com/nike1v/serverless-next13/commit/c072437f6620d7e1f323355ebd108201c64ffdd7))
-* update aws retry logic and fix dependencies ([#1306](https://github.com/nike1v/serverless-next13/issues/1306)) ([e0cee9c](https://github.com/nike1v/serverless-next13/commit/e0cee9c0d5d79314a7239c37e55438b5200d8bb2))
-
+- only delete the sqs queue if it already exists in the state ([#1147](https://github.com/nike1v/serverless-next13/issues/1147)) ([c072437](https://github.com/nike1v/serverless-next13/commit/c072437f6620d7e1f323355ebd108201c64ffdd7))
+- update aws retry logic and fix dependencies ([#1306](https://github.com/nike1v/serverless-next13/issues/1306)) ([e0cee9c](https://github.com/nike1v/serverless-next13/commit/e0cee9c0d5d79314a7239c37e55438b5200d8bb2))
 
 ### Features
 
-* **aws-sqs:** support sqs tags/naming ([#1543](https://github.com/nike1v/serverless-next13/issues/1543)) ([7bf2c67](https://github.com/nike1v/serverless-next13/commit/7bf2c67e2ad9cf188284c9eb160f9a5251bb5fc2))
-* **lambda-at-edge:** incremental static regeneration ([#1028](https://github.com/nike1v/serverless-next13/issues/1028)) ([d5bbdc6](https://github.com/nike1v/serverless-next13/commit/d5bbdc6d395ae732ec0757744482bf8bc25e820f))
-* use high throughput mode for regeneration SQS ([#1148](https://github.com/nike1v/serverless-next13/issues/1148)) ([f3d033c](https://github.com/nike1v/serverless-next13/commit/f3d033c08164a7681572ad7fa1aedc78bbf23ed6))
-
-
-
-
+- **aws-sqs:** support sqs tags/naming ([#1543](https://github.com/nike1v/serverless-next13/issues/1543)) ([7bf2c67](https://github.com/nike1v/serverless-next13/commit/7bf2c67e2ad9cf188284c9eb160f9a5251bb5fc2))
+- **lambda-at-edge:** incremental static regeneration ([#1028](https://github.com/nike1v/serverless-next13/issues/1028)) ([d5bbdc6](https://github.com/nike1v/serverless-next13/commit/d5bbdc6d395ae732ec0757744482bf8bc25e820f))
+- use high throughput mode for regeneration SQS ([#1148](https://github.com/nike1v/serverless-next13/issues/1148)) ([f3d033c](https://github.com/nike1v/serverless-next13/commit/f3d033c08164a7681572ad7fa1aedc78bbf23ed6))
 
 # [3.7.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.12...v3.7.0) (2022-03-31)
 

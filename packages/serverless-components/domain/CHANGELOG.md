@@ -3,29 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 3.8.0-alpha.1 (2023-08-01)
+## [1.0.1](https://github.com/nike1v/serverless-next13/compare/v1.0.0...v1.0.1) (2023-08-02)
 
+**Note:** Version bump only for package @cryptodiffer-sls-next/domain
+
+# 3.8.0-alpha.1 (2023-08-01)
 
 ### Bug Fixes
 
-* **aws-cloudfront, nextjs-component:** fix aliases updating when domain is used ([#731](https://github.com/nike1v/serverless-next13/issues/731)) ([d41a6a9](https://github.com/nike1v/serverless-next13/commit/d41a6a919c2427e8feb104bde0cde18b315d2da0))
-* **domain, nextjs-component:** set aliases correctly with domainType of apex and domain starting with www ([#723](https://github.com/nike1v/serverless-next13/issues/723)) ([c68a4fc](https://github.com/nike1v/serverless-next13/commit/c68a4fccfdf755db3e857fdfa5049a2fe63bd58b))
-* **domain:** add domain input domainMinimumProtocolVersion ([#1916](https://github.com/nike1v/serverless-next13/issues/1916)) ([b49d2fe](https://github.com/nike1v/serverless-next13/commit/b49d2fe734690f88b29ed8ebab5befa49c529ea5))
-* **domain:** add missing pieces to 'domainMinimumProtocolVersion' input use ([#1983](https://github.com/nike1v/serverless-next13/issues/1983)) ([dff22ba](https://github.com/nike1v/serverless-next13/commit/dff22ba230e8cc3047d67cfbb82bc93a2e4edfe0))
-* **nextjs-component:** fixes error when removing domain from cloudfront, cannot read property debug of undefined ([#793](https://github.com/nike1v/serverless-next13/issues/793)) ([aca72d9](https://github.com/nike1v/serverless-next13/commit/aca72d923eda9f2898c52aad5a315b41d2efdfe4))
-* **serverless-component:** create the DNS record only when hosted zone exists ([#635](https://github.com/nike1v/serverless-next13/issues/635)) ([3bbac6b](https://github.com/nike1v/serverless-next13/commit/3bbac6bee43b64a062a4c095199c4baa16d44f4e))
-* **serverless-component:** fix for AWS accounts with more than 100 domains ([69574c7](https://github.com/nike1v/serverless-next13/commit/69574c7d82bee01817bceb0f9bb7e8b9cae53faf))
-* **serverless-component:** when adding primary domain name to CloudFront distribution aliases, don't replace other aliases ([#658](https://github.com/nike1v/serverless-next13/issues/658)) ([4428d5c](https://github.com/nike1v/serverless-next13/commit/4428d5c84470808c4afcb6e8c109602518c854f9))
-* update aws retry logic and fix dependencies ([#1306](https://github.com/nike1v/serverless-next13/issues/1306)) ([e0cee9c](https://github.com/nike1v/serverless-next13/commit/e0cee9c0d5d79314a7239c37e55438b5200d8bb2))
-
+- **aws-cloudfront, nextjs-component:** fix aliases updating when domain is used ([#731](https://github.com/nike1v/serverless-next13/issues/731)) ([d41a6a9](https://github.com/nike1v/serverless-next13/commit/d41a6a919c2427e8feb104bde0cde18b315d2da0))
+- **domain, nextjs-component:** set aliases correctly with domainType of apex and domain starting with www ([#723](https://github.com/nike1v/serverless-next13/issues/723)) ([c68a4fc](https://github.com/nike1v/serverless-next13/commit/c68a4fccfdf755db3e857fdfa5049a2fe63bd58b))
+- **domain:** add domain input domainMinimumProtocolVersion ([#1916](https://github.com/nike1v/serverless-next13/issues/1916)) ([b49d2fe](https://github.com/nike1v/serverless-next13/commit/b49d2fe734690f88b29ed8ebab5befa49c529ea5))
+- **domain:** add missing pieces to 'domainMinimumProtocolVersion' input use ([#1983](https://github.com/nike1v/serverless-next13/issues/1983)) ([dff22ba](https://github.com/nike1v/serverless-next13/commit/dff22ba230e8cc3047d67cfbb82bc93a2e4edfe0))
+- **nextjs-component:** fixes error when removing domain from cloudfront, cannot read property debug of undefined ([#793](https://github.com/nike1v/serverless-next13/issues/793)) ([aca72d9](https://github.com/nike1v/serverless-next13/commit/aca72d923eda9f2898c52aad5a315b41d2efdfe4))
+- **serverless-component:** create the DNS record only when hosted zone exists ([#635](https://github.com/nike1v/serverless-next13/issues/635)) ([3bbac6b](https://github.com/nike1v/serverless-next13/commit/3bbac6bee43b64a062a4c095199c4baa16d44f4e))
+- **serverless-component:** fix for AWS accounts with more than 100 domains ([69574c7](https://github.com/nike1v/serverless-next13/commit/69574c7d82bee01817bceb0f9bb7e8b9cae53faf))
+- **serverless-component:** when adding primary domain name to CloudFront distribution aliases, don't replace other aliases ([#658](https://github.com/nike1v/serverless-next13/issues/658)) ([4428d5c](https://github.com/nike1v/serverless-next13/commit/4428d5c84470808c4afcb6e8c109602518c854f9))
+- update aws retry logic and fix dependencies ([#1306](https://github.com/nike1v/serverless-next13/issues/1306)) ([e0cee9c](https://github.com/nike1v/serverless-next13/commit/e0cee9c0d5d79314a7239c37e55438b5200d8bb2))
 
 ### Features
 
-* **serverless-component:** add manual ACM SSL ARN specification ([#655](https://github.com/nike1v/serverless-next13/issues/655)) ([6bb1443](https://github.com/nike1v/serverless-next13/commit/6bb144385c6621c4c5c00443259df538a185f4f2))
-
-
-
-
+- **serverless-component:** add manual ACM SSL ARN specification ([#655](https://github.com/nike1v/serverless-next13/issues/655)) ([6bb1443](https://github.com/nike1v/serverless-next13/commit/6bb144385c6621c4c5c00443259df538a185f4f2))
 
 # [3.7.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.12...v3.7.0) (2022-03-31)
 
