@@ -4020,7 +4020,7 @@ __metadata:
   dependencies:
     "@aws-cdk/assert": ^2.68.0
     "@dolsze/core": 1.0.10
-    "@dolsze/lambda-at-edge": 1.0.10
+    "@dolsze/lambda-at-edge": 1.0.11
     "@types/fs-extra": 9.0.13
     aws-cdk: ^2.89.0
     aws-cdk-lib: ^2.89.0
@@ -4140,7 +4140,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@dolsze/lambda-at-edge@1.0.10, @dolsze/lambda-at-edge@workspace:packages/libs/lambda-at-edge":
+"@dolsze/lambda-at-edge@1.0.11, @dolsze/lambda-at-edge@workspace:packages/libs/lambda-at-edge":
   version: 0.0.0-use.local
   resolution: "@dolsze/lambda-at-edge@workspace:packages/libs/lambda-at-edge"
   dependencies:
@@ -4284,7 +4284,7 @@ __metadata:
     "@dolsze/aws-sqs": 1.0.9
     "@dolsze/cloudfront": 1.0.9
     "@dolsze/domain": 1.0.9
-    "@dolsze/lambda-at-edge": 1.0.10
+    "@dolsze/lambda-at-edge": 1.0.11
     "@dolsze/next-aws-cloudfront": 1.0.9
     "@dolsze/s3-static-assets": 1.0.9
     "@jest/globals": 27.3.1
