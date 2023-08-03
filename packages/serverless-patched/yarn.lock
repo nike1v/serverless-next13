@@ -443,9 +443,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sls-next/serverless-patched@workspace:.":
+"@dolsze/serverless-patched@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@sls-next/serverless-patched@workspace:."
+  resolution: "@dolsze/serverless-patched@workspace:."
   dependencies:
     "@serverless/cli": ^1.6.0
     "@types/node": ^17.0.19

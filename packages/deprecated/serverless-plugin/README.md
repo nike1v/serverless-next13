@@ -1,8 +1,8 @@
 # UPDATE!
 
 A new iteration of this project has been released powered by the amazing [Serverless Components](https://github.com/serverless/components).
-Check it out [here](https://github.com/serverless-nextjs/serverless-next.js/tree/master/packages/serverless-components/nextjs-component). As you can see, it lives in the same monorepo.
-The new version has feature parity with nextjs 9.0 and does not use CloudFormation, allowing faster deployments and no [resource limit issues](https://github.com/serverless-nextjs/serverless-next.js/issues/17).
+Check it out [here](https://github.com/nike1v/serverless-next13/tree/master/packages/serverless-components/nextjs-component). As you can see, it lives in the same monorepo.
+The new version has feature parity with nextjs 9.0 and does not use CloudFormation, allowing faster deployments and no [resource limit issues](https://github.com/nike1v/serverless-next13/issues/17).
 
 It is recommended for both existing and new users to try the new version. Obviously existing users of the next plugin don't have to migrate over straight away, the plan is to continue maintaining the plugin until the new component is more mature.
 
@@ -55,7 +55,7 @@ exports.handler = function(event, context, callback) {...}
 A compat layer between the nextjs page bundles and AWS Lambda is added at build time:
 
 ```js
-const compat = require("@sls-next/next-aws-lambda");
+const compat = require("@dolsze/next-aws-lambda");
 const page = require(".next/serverless/pages/somePage.js");
 
 module.exports.render = (event, context, callback) => {
@@ -67,7 +67,7 @@ module.exports.render = (event, context, callback) => {
 
 ### Installing
 
-`npm install --save-dev @sls-next/serverless-plugin`
+`npm install --save-dev @dolsze/serverless-plugin`
 
 Out of the box, the plugin won't require any configuration. If you need to override any defaults check [this](#all-plugin-configuration-options).
 
@@ -335,7 +335,7 @@ custom:
 The custom handler needs to look something like this:
 
 ```js
-const compat = require("@sls-next/next-aws-lambda");
+const compat = require("@dolsze/next-aws-lambda");
 
 module.exports = (page) => {
   const handler = (event, context) => {
@@ -366,7 +366,7 @@ module.exports = (page) => {
 
 ## Caveats
 
-Beware this plugin relies on CloudFormation which has a hard limit of 200 resources. If you have a large number of pages in your application it is very likely that you will hit this limit. Use https://github.com/serverless-nextjs/serverless-next.js/tree/master/packages/serverless-components/nextjs-component which solves this problem by not using CloudFormation.
+Beware this plugin relies on CloudFormation which has a hard limit of 200 resources. If you have a large number of pages in your application it is very likely that you will hit this limit. Use https://github.com/nike1v/serverless-next13/tree/master/packages/serverless-components/nextjs-component which solves this problem by not using CloudFormation.
 
 ## Examples
 
@@ -381,7 +381,7 @@ Please see the [contributing](./CONTRIBUTING.md) guide.
 ### Code Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/serverless-nextjs/serverless-next.js/tree/master/packages/deprecated/serverless-plugin/graphs/contributors"><img src="https://opencollective.com/serverless-nextjs-plugin/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/nike1v/serverless-next13/tree/master/packages/deprecated/serverless-plugin/graphs/contributors"><img src="https://opencollective.com/serverless-nextjs-plugin/contributors.svg?width=890&button=false" /></a>
 
 ### Financial Contributors
 

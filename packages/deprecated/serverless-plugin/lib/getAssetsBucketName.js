@@ -17,7 +17,7 @@ module.exports = function () {
   if (!staticAssetsBucket) {
     if (staticDir) {
       throw new Error(
-        "staticDir requires a bucket. See https://github.com/serverless-nextjs/serverless-next.js/tree/master/packages/deprecated/serverless-plugin#hosting-static-assets"
+        "staticDir requires a bucket. See https://github.com/nike1v/serverless-next13/tree/master/packages/deprecated/serverless-plugin#hosting-static-assets"
       );
     }
 

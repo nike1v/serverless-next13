@@ -1,6 +1,6 @@
 {
   "name": "serverless-nextjs-monorepo",
-  "version": "1.8.1",
+  "version": "1.1.10",
   "description": "Deploy your serverless next applications using the serverless framework",
   "main": "index.js",
   "directories": {
@@ -33,14 +33,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/serverless-nextjs/serverless-next.js"
+    "url": "https://github.com/nike1v/serverless-next13"
   },
   "author": "Daniel Conde Marin <danielconde9@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/serverless-nextjs/serverless-next.js/issues"
+    "url": "https://github.com/nike1v/serverless-next13/issues"
   },
-  "homepage": "https://github.com/serverless-nextjs/serverless-next.js#readme",
+  "homepage": "https://github.com/nike1v/serverless-next13#readme",
   "devDependencies": {
     "@babel/core": "7.17.5",
     "@babel/plugin-proposal-class-properties": "^7.16.7",

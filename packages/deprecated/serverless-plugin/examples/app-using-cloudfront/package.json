@@ -1,11 +1,11 @@
 {
   "name": "app-using-cloudfront",
-  "version": "1.0.0",
+  "version": "1.1.10",
   "description": "Example nextjs application using a CloudFront distribution in front of the app",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverless-nextjs/serverless-next.js.git"
+    "url": "git+https://github.com/nike1v/serverless-next13.git"
   },
   "keywords": [
     "serverless",
@@ -15,16 +15,16 @@
   "author": "Daniel Conde Marin <danielconde9@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/serverless-nextjs/serverless-next.js/tree/master/packages/deprecated/serverless-plugin/issues"
+    "url": "https://github.com/nike1v/serverless-next13/tree/master/packages/deprecated/serverless-plugin/issues"
   },
-  "homepage": "https://github.com/serverless-nextjs/serverless-next.js/tree/master/packages/deprecated/serverless-plugin#readme",
+  "homepage": "https://github.com/nike1v/serverless-next13/tree/master/packages/deprecated/serverless-plugin#readme",
   "scripts": {
     "start": "next dev"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "next": "^9.5.1",
-    "@sls-next/next-aws-lambda": "^2.0.5-alpha.0",
+    "@dolsze/next-aws-lambda": "^2.0.5-alpha.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "serverless-nextjs-plugin": "^2.0.0-alpha.0"

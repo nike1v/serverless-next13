@@ -9,21 +9,18 @@ import {
   RoutesManifest
 } from "./types";
 import { CloudFrontResultResponse } from "aws-lambda";
-import lambdaAtEdgeCompat from "@sls-next/next-aws-cloudfront";
+import lambdaAtEdgeCompat from "@dolsze/next-aws-cloudfront";
 import {
   handleAuth,
   handleDomainRedirects,
   setCustomHeaders
-} from "@sls-next/core/dist/module";
-import {
-  imageOptimizer,
-  normaliseUri
-} from "@sls-next/core/dist/module/images";
+} from "@dolsze/core/dist/module";
+import { imageOptimizer, normaliseUri } from "@dolsze/core/dist/module/images";
 import { UrlWithParsedQuery } from "url";
 import url from "url";
 import { removeBlacklistedHeaders } from "./headers/removeBlacklistedHeaders";
 import { s3BucketNameFromEventRequest } from "./s3/s3BucketNameFromEventRequest";
-import { AwsPlatformClient } from "@sls-next/aws-common";
+import { AwsPlatformClient } from "@dolsze/aws-common";
 
 const basePath = RoutesManifestJson.basePath;
 const isImageOptimizerRequest = (uri: string): boolean =>

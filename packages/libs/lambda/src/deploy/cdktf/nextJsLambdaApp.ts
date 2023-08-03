@@ -12,7 +12,7 @@ import { Construct } from "constructs";
 import { ArchiveProvider, DataArchiveFile } from "@cdktf/provider-archive";
 import { Resource } from "@cdktf/provider-null";
 import * as path from "path";
-import { CoreBuildOptions } from "@sls-next/core";
+import { CoreBuildOptions } from "@dolsze/core";
 import { LambdaBuildOptions } from "src/types";
 
 const DEFAULT_OUTPUT_DIR = ".serverless_nextjs";

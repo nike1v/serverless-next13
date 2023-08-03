@@ -1,9 +1,9 @@
 import path from "path";
 import fse from "fs-extra";
-import { mockS3 } from "@sls-next/aws-s3";
-import { mockCloudFront } from "@sls-next/aws-cloudfront";
-import { mockLambda, mockLambdaPublish } from "@sls-next/aws-lambda";
-import { mockSQS } from "@sls-next/aws-sqs";
+import { mockS3 } from "@dolsze/aws-s3";
+import { mockCloudFront } from "@dolsze/aws-cloudfront";
+import { mockLambda, mockLambdaPublish } from "@dolsze/aws-lambda";
+import { mockSQS } from "@dolsze/aws-sqs";
 import NextjsComponent from "../src/component";
 import { cleanupFixtureDirectory } from "../src/lib/test-utils";
 

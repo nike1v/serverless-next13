@@ -1,9 +1,9 @@
 {
-  "name": "@sls-next/next-aws-lambda",
+  "name": "@dolsze/next-aws-lambda",
   "publishConfig": {
     "access": "public"
   },
-  "version": "3.5.0",
+  "version": "1.1.10",
   "description": "Compat layer between next.js serverless page and AWS Lambda",
   "files": [
     "lib/**",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverless-nextjs/serverless-next.js.git",
+    "url": "git+https://github.com/nike1v/serverless-next13.git",
     "directory": "packages/compat-layers/apigw-lambda-compat"
   },
   "author": "Daniel Conde Marin <danielconde9@gmail.com>",
