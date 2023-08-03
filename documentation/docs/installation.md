@@ -18,7 +18,7 @@ myNextApplication:
   component: "@sls-next/serverless-component@1.19.0" # or specify latest stable or alpha version found in https://www.npmjs.com/package/@sls-next/serverless-component
 ```
 
-5. It is recommended you pin the latest stable version of serverless-next.js component. Check out the versions [here](https://github.com/serverless-nextjs/serverless-next.js/releases)
+5. It is recommended you pin the latest stable version of serverless-next.js component. Check out the versions [here](https://github.com/nike1v/serverless-next13/releases)
 6. Create a `.env` file at the root of your project to spcify AWS credentials:
 
 ```bash

@@ -21,7 +21,7 @@ myNextApplication:
             [
               CloudFront-Is-Desktop-Viewer,
               CloudFront-Is-Mobile-Viewer,
-              CloudFront-Is-Tablet-Viewer,
+              CloudFront-Is-Tablet-Viewer
             ]
       # this is the cache behaviour for next.js api pages
       api:
@@ -47,4 +47,4 @@ myNextApplication:
               ttl: 10
 ```
 
-This is particularly useful for caching any of your next.js pages at CloudFront's edge locations. See [this](https://github.com/serverless-nextjs/serverless-next.js/tree/master/packages/serverless-components/nextjs-component/examples/app-with-custom-caching-config) for an example application with custom cache configuration.
+This is particularly useful for caching any of your next.js pages at CloudFront's edge locations. See [this](https://github.com/nike1v/serverless-next13/tree/master/packages/serverless-components/nextjs-component/examples/app-with-custom-caching-config) for an example application with custom cache configuration.

@@ -34,12 +34,12 @@ module.exports = {
         { to: "blog", label: "Blog", position: "left" },
         // {to: 'motivation', label: 'Motivation', position: 'left'},
         {
-          href: "https://github.com/serverless-nextjs/serverless-next.js",
+          href: "https://github.com/nike1v/serverless-next13",
           label: "GitHub",
           position: "right"
         },
         {
-          href: "https://github.com/serverless-nextjs/serverless-next.js/tree/master/packages/serverless-components/nextjs-component/examples",
+          href: "https://github.com/nike1v/serverless-next13/tree/master/packages/serverless-components/nextjs-component/examples",
           label: "Examples",
           position: "right"
         }
@@ -70,11 +70,11 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/serverless-nextjs/serverless-next.js"
+              href: "https://github.com/nike1v/serverless-next13"
             },
             {
               label: "Examples",
-              href: "https://github.com/serverless-nextjs/serverless-next.js/tree/master/packages/serverless-components/nextjs-component/examples"
+              href: "https://github.com/nike1v/serverless-next13/tree/master/packages/serverless-components/nextjs-component/examples"
             }
           ]
         }
@@ -92,13 +92,13 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/serverless-nextjs/serverless-next.js/documentation/docs/"
+            "https://github.com/nike1v/serverless-next13/documentation/docs/"
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/serverless-nextjs/serverless-next.js/documentation/blog/"
+            "https://github.com/nike1v/serverless-next13/documentation/blog/"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")

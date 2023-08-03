@@ -21,7 +21,7 @@ updates:
         # FIXME: CDK dependencies must be updated together but Dependabot cannot group updates
         # We'll manually update for now and/or use Renovate in the future
       - dependency-name: "@aws-cdk/*"
-        # FIXME: some issue with fs-extra for some users? https://github.com/serverless-nextjs/serverless-next.js/issues/1240
+        # FIXME: some issue with fs-extra for some users? https://github.com/nike1v/serverless-next13/issues/1240
       - dependency-name: "fs-extra"
       - dependency-name: "sharp" # This is manually built for Lambda Node.js 14.x runtime
       - dependency-name: "globby" # 12.0.0 has breaking changes

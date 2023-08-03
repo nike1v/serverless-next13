@@ -1,7 +1,7 @@
 # aws-cloudfront
 
 This package was copied from https://github.com/serverless-components/aws-cloudfront because it wasn't being maintained anymore.
-It is being used by the [nextjs serverless component](https://github.com/serverless-nextjs/serverless-next.js/tree/master/packages/serverless-component) to provision the CloudFront distribution behind the scenes.
+It is being used by the [nextjs serverless component](https://github.com/nike1v/serverless-next13/tree/master/packages/serverless-component) to provision the CloudFront distribution behind the scenes.
 
 &nbsp;
 
