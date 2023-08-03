@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Serverless Next.js powered by Serverless Components",
   "main": "./serverless.js",
   "types": "dist/component.d.ts",
@@ -33,15 +33,15 @@
     "node": ">=10.11.0"
   },
   "dependencies": {
-    "@dolsze/aws-cloudfront": "1.1.4",
-    "@dolsze/aws-lambda": "1.1.4",
-    "@dolsze/aws-s3": "1.1.4",
-    "@dolsze/aws-sqs": "1.1.4",
-    "@dolsze/cloudfront": "1.1.4",
-    "@dolsze/domain": "1.1.4",
-    "@dolsze/lambda-at-edge": "1.1.4",
-    "@dolsze/next-aws-cloudfront": "1.1.4",
-    "@dolsze/s3-static-assets": "1.1.4",
+    "@dolsze/aws-cloudfront": "1.1.5",
+    "@dolsze/aws-lambda": "1.1.5",
+    "@dolsze/aws-s3": "1.1.5",
+    "@dolsze/aws-sqs": "1.1.5",
+    "@dolsze/cloudfront": "1.1.5",
+    "@dolsze/domain": "1.1.5",
+    "@dolsze/lambda-at-edge": "1.1.5",
+    "@dolsze/next-aws-cloudfront": "1.1.5",
+    "@dolsze/s3-static-assets": "1.1.5",
     "@serverless/core": "1.1.2",
     "aws-sdk": "2.1012.0",
     "fs-extra": "9.1.0",
