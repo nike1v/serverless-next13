@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Compat layer between next.js serverless page and AWS Lambda",
   "files": [
     "lib/**",
@@ -23,5 +23,6 @@
     "directory": "packages/compat-layers/apigw-lambda-compat"
   },
   "author": "Daniel Conde Marin <danielconde9@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "7c9f0a7fa51bdbfe0884a577978f13f173a03ab3"
 }

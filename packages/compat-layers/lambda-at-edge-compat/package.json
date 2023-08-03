@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/next-aws-cloudfront",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "publishConfig": {
     "access": "public"
   },
@@ -26,5 +26,6 @@
   "homepage": "https://github.com/nike1v/serverless-next13#readme",
   "devDependencies": {
     "@types/aws-lambda": "^8.10.92"
-  }
+  },
+  "gitHead": "7c9f0a7fa51bdbfe0884a577978f13f173a03ab3"
 }
