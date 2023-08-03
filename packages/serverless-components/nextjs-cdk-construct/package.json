@@ -4,7 +4,7 @@
     "access": "public"
   },
   "description": "Serverless Next.js powered by AWS CDK",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Henry Kirkness <henry@planes.studio>",
@@ -29,8 +29,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@dolsze/core": "1.1.5",
-    "@dolsze/lambda-at-edge": "1.1.5",
+    "@dolsze/core": "1.1.6",
+    "@dolsze/lambda-at-edge": "1.1.6",
     "fast-glob": "3.2.11",
     "fs-extra": "9.1.0"
   },
@@ -48,5 +48,5 @@
     "rimraf": "3.0.2",
     "typescript": "5.1.6"
   },
-  "gitHead": "f5763a7cde5960a4350f1bdc7cdfc5305b7e8368"
+  "gitHead": "a2919c0b5275fec4e2cf69b420641064838bda1e"
 }

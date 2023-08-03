@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/domain",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "main": "serverless.js",
   "publishConfig": {
     "access": "public"
@@ -35,5 +35,5 @@
     "@serverless/core": "1.1.2",
     "aws-sdk": "2.1093.0"
   },
-  "gitHead": "f5763a7cde5960a4350f1bdc7cdfc5305b7e8368"
+  "gitHead": "a2919c0b5275fec4e2cf69b420641064838bda1e"
 }

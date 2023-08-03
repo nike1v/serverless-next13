@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/lambda",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Code to build and deploy for Lambda + API Gateway",
   "publishConfig": {
     "access": "public"
@@ -41,8 +41,8 @@
     "@cdktf/provider-archive": "0.3.31",
     "@cdktf/provider-aws": "5.0.48",
     "@cdktf/provider-null": "0.5.30",
-    "@dolsze/aws-common": "1.1.5",
-    "@dolsze/core": "1.1.5",
+    "@dolsze/aws-common": "1.1.6",
+    "@dolsze/core": "1.1.6",
     "cdktf": "0.9.2",
     "cdktf-cli": "0.9.2",
     "constructs": "10.0.88",
@@ -68,5 +68,5 @@
     "rollup-plugin-typescript2": "0.31.2",
     "typescript": "5.1.6"
   },
-  "gitHead": "f5763a7cde5960a4350f1bdc7cdfc5305b7e8368"
+  "gitHead": "a2919c0b5275fec4e2cf69b420641064838bda1e"
 }

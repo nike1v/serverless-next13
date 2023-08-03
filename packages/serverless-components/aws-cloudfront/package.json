@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/aws-cloudfront",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "main": "./serverless.js",
   "types": "dist/component.d.ts",
   "publishConfig": {
@@ -41,5 +41,5 @@
     "rimraf": "3.0.2",
     "typescript": "5.1.6"
   },
-  "gitHead": "f5763a7cde5960a4350f1bdc7cdfc5305b7e8368"
+  "gitHead": "a2919c0b5275fec4e2cf69b420641064838bda1e"
 }
