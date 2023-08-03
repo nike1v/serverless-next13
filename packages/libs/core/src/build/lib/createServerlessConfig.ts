@@ -1,12 +1,11 @@
 import fs from "fs-extra";
 import path from "path";
 
-function getCustomData(importName: string, target: string): string {
+function getCustomData(importName: string): string {
   return `
 module.exports = function(...args) {
   let original = require('./${importName}');
   const finalConfig = {};
-  const target = { target: '${target}' };
   if (typeof original === 'function' && original.constructor.name === 'AsyncFunction') {
     // AsyncFunctions will become promises
     original = original(...args);
@@ -16,20 +15,14 @@ module.exports = function(...args) {
     // and will just error later on
     return original
       .then((originalConfig) => Object.assign(finalConfig, originalConfig))
-      .then((config) => Object.assign(config, target));
   } else if (typeof original === 'function') {
     Object.assign(finalConfig, original(...args));
   } else if (typeof original === 'object') {
     Object.assign(finalConfig, original);
   }
-  Object.assign(finalConfig, target);
   return finalConfig;
 }
   `.trim();
-}
-
-function getDefaultData(target: string): string {
-  return `module.exports = { target: '${target}' };`;
 }
 
 type CreateServerlessConfigResult = {
@@ -41,10 +34,6 @@ export default async function createServerlessConfig(
   entryPath: string,
   useServerlessTraceTarget: boolean
 ): Promise<CreateServerlessConfigResult> {
-  const target = useServerlessTraceTarget
-    ? "experimental-serverless-trace"
-    : "serverless";
-
   const primaryConfigPath = path.join(entryPath, "next.config.js");
   const secondaryConfigPath = path.join(workPath, "next.config.js");
   const backupConfigName = `next.config.original.${Date.now()}.js`;
@@ -73,9 +62,7 @@ export default async function createServerlessConfig(
 
   if (configPathExists) {
     await fs.rename(configPath, backupConfigPath);
-    await fs.writeFile(configPath, getCustomData(backupConfigName, target));
-  } else {
-    await fs.writeFile(configPath, getDefaultData(target));
+    await fs.writeFile(configPath, getCustomData(backupConfigName));
   }
 
   return {

@@ -5,9 +5,9 @@
     "module": "ESNext",
     "lib": [
       "DOM",
-      "ES2019"
+      "ES2022"
     ],
-    "target": "ES2019",
+    "target": "ES2022",
     "moduleResolution": "node",
     "noImplicitAny": true,
     "sourceMap": false,

@@ -4,7 +4,7 @@ node_modules
 /coverage.data
 /coverage/
 examples/basic-next-serverless-app/build
-.serverless
+.server
 .next
 sls-next-build
 .serverless_nextjs

@@ -1,5 +1,5 @@
 import * as cdk from "aws-cdk-lib";
-import { NextJSLambdaEdge } from "@sls-next/cdk-construct";
+import { NextJSLambdaEdge } from "@dolsze/cdk-construct";
 import { Construct } from "constructs";
 
 export class ServerlessNextjsCdkExampleStack extends cdk.Stack {
@@ -8,13 +8,13 @@ export class ServerlessNextjsCdkExampleStack extends cdk.Stack {
     const app = new NextJSLambdaEdge(this, "NextJsApp", {
       serverlessBuildOutDir: "./build"
     });
-    new cdk.CfnOutput(this, 'Domain', {
+    new cdk.CfnOutput(this, "Domain", {
       value: app.distribution.domainName,
-      description: 'CloudFrontDomain'
-    })
-    new cdk.CfnOutput(this, 'ID', {
+      description: "CloudFrontDomain"
+    });
+    new cdk.CfnOutput(this, "ID", {
       value: app.distribution.distributionId,
-      description: 'DistributionID',
-    })
+      description: "DistributionID"
+    });
   }
 }

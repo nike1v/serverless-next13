@@ -1,6 +1,6 @@
 {
   "name": "app-with-custom-lambda-handler",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Example nextjs serverless app using a custom lambda handler",
   "main": "index.js",
   "repository": {

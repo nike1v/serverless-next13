@@ -157,7 +157,6 @@ describe("build", () => {
     expect.assertions(1);
 
     const parsedConfig = parsedNextConfigurationFactory({
-      target: "server",
       distDir: ".next"
     });
 
@@ -165,8 +164,7 @@ describe("build", () => {
 
     const nextConfigDir = "path/to/next-app";
     const expectedNextConfig = {
-      ...parsedConfig.nextConfiguration,
-      target: "serverless"
+      ...parsedConfig.nextConfiguration
     };
 
     const plugin = new ServerlessPluginBuilder()

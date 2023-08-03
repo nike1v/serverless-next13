@@ -15,9 +15,7 @@ cd yourProjectName
 
 ```js
 // next.config.js
-module.exports = {
-  target: "serverless"
-};
+module.exports = {};
 ```
 
 ### Add your AWS credentials

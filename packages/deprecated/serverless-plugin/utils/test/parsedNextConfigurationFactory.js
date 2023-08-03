@@ -1,7 +1,6 @@
 const parsedNextConfigurationFactory = (
   nextConfiguration = {
-    distDir: ".next",
-    target: "serverless"
+    distDir: ".next"
   },
   staticAssetsBucket = "my-bucket"
 ) => ({

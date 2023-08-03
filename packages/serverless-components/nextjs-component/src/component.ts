@@ -1,22 +1,22 @@
 import { Component } from "@serverless/core";
 import { readJSON, pathExists } from "fs-extra";
 import { resolve, join } from "path";
-import { Builder } from "@sls-next/lambda-at-edge";
+import { Builder } from "@dolsze/lambda-at-edge";
 import type {
   OriginRequestDefaultHandlerManifest as BuildManifest,
   OriginRequestDefaultHandlerManifest,
   OriginRequestApiHandlerManifest,
   RoutesManifest,
   OriginRequestImageHandlerManifest
-} from "@sls-next/lambda-at-edge";
+} from "@dolsze/lambda-at-edge";
 import {
   deleteOldStaticAssets,
   uploadStaticAssetsFromBuild
-} from "@sls-next/s3-static-assets";
+} from "@dolsze/s3-static-assets";
 import {
   createInvalidation,
   checkCloudFrontDistributionReady
-} from "@sls-next/cloudfront";
+} from "@dolsze/cloudfront";
 import obtainDomains from "./lib/obtainDomains";
 import {
   DEFAULT_LAMBDA_CODE_DIR,
@@ -32,7 +32,7 @@ import type {
 } from "../types";
 import { execSync } from "child_process";
 import AWS from "aws-sdk";
-import { removeLambdaVersions } from "@sls-next/aws-lambda/dist/removeLambdaVersions";
+import { removeLambdaVersions } from "@dolsze/aws-lambda/dist/removeLambdaVersions";
 // Message when deployment is explicitly skipped
 const SKIPPED_DEPLOY = "SKIPPED_DEPLOY";
 
@@ -345,13 +345,13 @@ class NextjsComponent extends Component {
       imageEdgeLambda,
       regenerationLambda
     ] = await Promise.all([
-      this.load("@sls-next/aws-s3"),
-      this.load("@sls-next/aws-cloudfront"),
-      this.load("@sls-next/aws-sqs"),
-      this.load("@sls-next/aws-lambda", "defaultEdgeLambda"),
-      this.load("@sls-next/aws-lambda", "apiEdgeLambda"),
-      this.load("@sls-next/aws-lambda", "imageEdgeLambda"),
-      this.load("@sls-next/aws-lambda", "regenerationLambda")
+      this.load("@dolsze/aws-s3"),
+      this.load("@dolsze/aws-cloudfront"),
+      this.load("@dolsze/aws-sqs"),
+      this.load("@dolsze/aws-lambda", "defaultEdgeLambda"),
+      this.load("@dolsze/aws-lambda", "apiEdgeLambda"),
+      this.load("@dolsze/aws-lambda", "imageEdgeLambda"),
+      this.load("@dolsze/aws-lambda", "regenerationLambda")
     ]);
 
     const bucketOutputs = await bucket({
@@ -1002,7 +1002,7 @@ class NextjsComponent extends Component {
 
     const { domain, subdomain } = obtainDomains(inputs.domain);
     if (domain && subdomain) {
-      const domainComponent = await this.load("@sls-next/domain");
+      const domainComponent = await this.load("@dolsze/domain");
       const domainOutputs = await domainComponent({
         privateZone: false,
         domain,
@@ -1059,10 +1059,10 @@ class NextjsComponent extends Component {
 
   async remove(): Promise<void> {
     const [bucket, cloudfront, sqs, domain] = await Promise.all([
-      this.load("@sls-next/aws-s3"),
-      this.load("@sls-next/aws-cloudfront"),
-      this.load("@sls-next/aws-sqs"),
-      this.load("@sls-next/domain")
+      this.load("@dolsze/aws-s3"),
+      this.load("@dolsze/aws-cloudfront"),
+      this.load("@dolsze/aws-sqs"),
+      this.load("@dolsze/domain")
     ]);
 
     await bucket.remove();

@@ -1,1 +1,1 @@
-module.exports = () => ({ target: "serverless", trailingSlash: true });
+module.exports = () => ({ trailingSlash: true });
