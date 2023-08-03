@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.11](https://github.com/nike1v/serverless-next13/compare/v3.8.0-alpha.0...v1.1.11) (2023-08-03)
+
+**Note:** Version bump only for package @dolsze/next-aws-lambda
+
 # [3.5.0](https://github.com/nike1v/serverless-next13/compare/v3.5.0-alpha.11...v3.5.0) (2021-10-28)
 
 **Note:** Version bump only for package @dolsze/next-aws-lambda

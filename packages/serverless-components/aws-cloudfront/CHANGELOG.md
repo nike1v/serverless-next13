@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.11](https://github.com/nike1v/serverless-next13/compare/v3.8.0-alpha.0...v1.1.11) (2023-08-03)
+
+**Note:** Version bump only for package @dolsze/aws-cloudfront
+
 # [3.7.0](https://github.com/nike1v/serverless-next13/compare/v3.7.0-alpha.12...v3.7.0) (2022-03-31)
 
 **Note:** Version bump only for package @dolsze/aws-cloudfront
