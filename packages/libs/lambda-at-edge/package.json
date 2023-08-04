@@ -7,6 +7,7 @@
   "bin": {
     "build-lambda-at-edge": "dist/command.js"
   },
+  "type": "module",
   "scripts": {
     "prepack": "yarn clean && yarn build",
     "clean": "yarn rimraf dist",
@@ -92,5 +93,5 @@
   "peerDependencies": {
     "builtin-modules": "3.2.0"
   },
-  "gitHead": "67ea1d3972afea96f6bf75b2f7ce1fa7d6e15c48"
+  "gitHead": "be67a84b674d1a41187bea77057ae6473085fd5c"
 }
