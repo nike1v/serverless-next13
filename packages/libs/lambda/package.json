@@ -49,9 +49,9 @@
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.16.7",
-    "@rollup/plugin-commonjs": "18.1.0",
-    "@rollup/plugin-json": "4.1.0",
-    "@rollup/plugin-node-resolve": "10.0.0",
+    "@rollup/plugin-commonjs": "25.0.3",
+    "@rollup/plugin-json": "6.0.0",
+    "@rollup/plugin-node-resolve": "15.1.0",
     "@types/aws-lambda": "8.10.92",
     "@types/fs-extra": "9.0.13",
     "@types/jest": "^27.4.0",
@@ -59,10 +59,10 @@
     "@types/yargs": "17.0.8",
     "jest": "^27.4.7",
     "rimraf": "3.0.2",
-    "rollup": "2.66.1",
-    "rollup-plugin-node-externals": "2.2.0",
+    "rollup": "3.27.1",
+    "rollup-plugin-node-externals": "6.1.1",
     "rollup-plugin-terser": "7.0.2",
-    "rollup-plugin-typescript2": "0.31.2",
+    "rollup-plugin-typescript2": "0.35.0",
     "typescript": "5.1.6"
   },
   "gitHead": "0156ca83e4925aaa219d105e0a1f8c3b4c06ec8d"
