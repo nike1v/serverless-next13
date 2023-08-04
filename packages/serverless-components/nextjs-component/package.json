@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/serverless-component",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Serverless Next.js powered by Serverless Components",
   "main": "./serverless.js",
   "types": "dist/component.d.ts",
@@ -67,5 +67,5 @@
       "aws-sdk.mock.ts"
     ]
   },
-  "gitHead": "2e99be1978340d91775f58b89d6a0745582b7ee9"
+  "gitHead": "eebe710e9460e403cf66c232c2372e453e62aa5e"
 }

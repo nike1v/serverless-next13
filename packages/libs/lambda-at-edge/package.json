@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/lambda-at-edge",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Provides handlers that can be used in CloudFront Lambda@Edge to deploy next.js applications to the edge",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -92,5 +92,5 @@
   "peerDependencies": {
     "builtin-modules": "3.2.0"
   },
-  "gitHead": "2e99be1978340d91775f58b89d6a0745582b7ee9"
+  "gitHead": "eebe710e9460e403cf66c232c2372e453e62aa5e"
 }

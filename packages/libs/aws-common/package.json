@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/aws-common",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Common AWS code that is used in Lambda, Lambda@Edge and other AWS platforms.",
   "main": "dist/index.js",
   "module": "dist/module/index.js",
@@ -39,5 +39,5 @@
     "rimraf": "3.0.2",
     "typescript": "5.1.6"
   },
-  "gitHead": "2e99be1978340d91775f58b89d6a0745582b7ee9"
+  "gitHead": "eebe710e9460e403cf66c232c2372e453e62aa5e"
 }

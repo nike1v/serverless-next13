@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/next-aws-lambda",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Compat layer between next.js serverless page and AWS Lambda",
   "files": [
     "lib/**",
@@ -21,5 +21,5 @@
   },
   "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
   "license": "MIT",
-  "gitHead": "2e99be1978340d91775f58b89d6a0745582b7ee9"
+  "gitHead": "eebe710e9460e403cf66c232c2372e453e62aa5e"
 }

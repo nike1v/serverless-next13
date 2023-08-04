@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/aws-sqs",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "main": "serverless.js",
   "scripts": {
     "test": "jest"
@@ -27,5 +27,5 @@
     "@serverless/core": "1.1.2",
     "aws-sdk": "2.1093.0"
   },
-  "gitHead": "2e99be1978340d91775f58b89d6a0745582b7ee9"
+  "gitHead": "eebe710e9460e403cf66c232c2372e453e62aa5e"
 }

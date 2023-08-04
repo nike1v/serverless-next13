@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/nike1v/serverless-next13/compare/v1.2.1...v1.2.2) (2023-08-04)
+
+**Note:** Version bump only for package @dolsze/aws-s3
+
 ## [1.2.1](https://github.com/nike1v/serverless-next13/compare/v1.0.12...v1.2.1) (2023-08-04)
 
 **Note:** Version bump only for package @dolsze/aws-s3

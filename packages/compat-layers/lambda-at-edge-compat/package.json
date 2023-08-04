@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/next-aws-cloudfront",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Compat layer for running next.js apps in Lambda@Edge",
   "main": "next-aws-cloudfront.js",
   "types": "next-aws-cloudfront.d.ts",
@@ -24,5 +24,5 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.92"
   },
-  "gitHead": "2e99be1978340d91775f58b89d6a0745582b7ee9"
+  "gitHead": "eebe710e9460e403cf66c232c2372e453e62aa5e"
 }
