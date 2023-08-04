@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/nike1v/serverless-next13/compare/v3.7.0-alpha.8...v1.5.0) (2023-08-04)
+
+### Features
+
+- add `build.outputStandalone` option ([76f9b53](https://github.com/nike1v/serverless-next13/commit/76f9b532b262c30bd981425650293d462c2ba3f8))
+
 # [1.4.0](https://github.com/nike1v/serverless-next13/compare/v3.7.0-alpha.8...v1.4.0) (2023-08-04)
 
 ### Features
