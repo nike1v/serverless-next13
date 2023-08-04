@@ -94,7 +94,7 @@ class Builder {
     this.dotNextDir = path.join(this.nextConfigDir, ".next");
     this.serverDir = path.join(
       this.dotNextDir,
-      buildOptions && buildOptions.outputStandalone ? "server" : "serverless"
+      buildOptions && buildOptions.outputStandalone ? "standalone" : "server"
     );
     this.outputDir = outputDir;
     if (buildOptions) {
