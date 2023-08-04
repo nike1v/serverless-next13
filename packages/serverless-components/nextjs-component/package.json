@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/serverless-component",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Serverless Next.js powered by Serverless Components",
   "main": "./serverless.js",
   "types": "dist/component.d.ts",

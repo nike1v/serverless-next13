@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/serverless-plugin",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A serverless plugin for nextjs 8 serverless target",
   "main": "index.js",
   "keywords": [
