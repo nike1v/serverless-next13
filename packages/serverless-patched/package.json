@@ -18,7 +18,7 @@
     "prepack": "yarn clean && yarn build",
     "build": "tsc -p tsconfig.build.json",
     "clean": "yarn rimraf dist",
-    "postinstall": "patch-package"
+    "prepare": "patch-package"
   },
   "keywords": [
     "AWS",

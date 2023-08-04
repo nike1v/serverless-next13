@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 5
+  version: 6
   cacheKey: 8
 
 "2-thenable@npm:^1.0.0":
@@ -14,6 +14,23 @@ __metadata:
   checksum: 567cda6fb2fd8884b2a5efdfbec7476da9ec9e3bf84d8bcc637dcda09254c135b4fc91321c0d81a501a9bdafd2d8939f163c2a803c0bccd2f4b6631bbe2e4958
   languageName: node
   linkType: hard
+
+"@dolsze/serverless-patched@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@dolsze/serverless-patched@workspace:."
+  dependencies:
+    "@serverless/cli": ^1.6.0
+    "@types/node": 18.16.0
+    find-up: ^6.3.0
+    patch-package: ^6.4.7
+    postinstall-postinstall: "simply-vat/postinstall-postinstall#59b0064272e72ab62eab205d6c63e7e60495b097"
+    rimraf: ^3.0.2
+    serverless: ^2.72.2
+    typescript: 5.1.6
+  bin:
+    serverless-patched: ./dist/serverless-patched.js
+  languageName: unknown
+  linkType: soft
 
 "@gar/promisify@npm:^1.0.1":
   version: 1.1.2
@@ -443,23 +460,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dolsze/serverless-patched@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@dolsze/serverless-patched@workspace:."
-  dependencies:
-    "@serverless/cli": ^1.6.0
-    "@types/node": ^17.0.19
-    find-up: ^6.2.0
-    patch-package: ^6.4.7
-    postinstall-postinstall: "simply-vat/postinstall-postinstall#59b0064272e72ab62eab205d6c63e7e60495b097"
-    rimraf: ^3.0.2
-    serverless: ^2.72.2
-    typescript: ^4.5.5
-  bin:
-    serverless-patched: ./dist/serverless-patched.js
-  languageName: unknown
-  linkType: soft
-
 "@szmarczak/http-timer@npm:^1.1.2":
   version: 1.1.2
   resolution: "@szmarczak/http-timer@npm:1.1.2"
@@ -560,10 +560,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^17.0.19":
-  version: 17.0.19
-  resolution: "@types/node@npm:17.0.19"
-  checksum: 6bbd35bfc23dd50d1aefd4ae49c31f7fd632be209dba67c0322bb4fe8b555f4bb6e894018963146ad7758ae596857d5cbecc2d46ddf90a54f6a4424811cf4351
+"@types/node@npm:18.16.0":
+  version: 18.16.0
+  resolution: "@types/node@npm:18.16.0"
+  checksum: 63e0042136663b9e85ce503a4c65406cc6621fdba63ea66c74b4b1364a9aa9bdb57cadcb76696abab177f38a819b0fa6ace9e7f1647dcb990aedb1b4bd01012f
   languageName: node
   linkType: hard
 
@@ -2496,13 +2496,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-up@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "find-up@npm:6.2.0"
+"find-up@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "find-up@npm:6.3.0"
   dependencies:
-    locate-path: ^7.0.0
+    locate-path: ^7.1.0
     path-exists: ^5.0.0
-  checksum: 149085af5cec2af6fa0bd94db81785eb60464985b2428b4d34934a04d1809b1c27831a72b667ac25a8ee19bb6c36cf6fbae5776b115d45abbea1112f460f47c5
+  checksum: 9a21b7f9244a420e54c6df95b4f6fc3941efd3c3e5476f8274eb452f6a85706e7a6a90de71353ee4f091fcb4593271a6f92810a324ec542650398f928783c280
   languageName: node
   linkType: hard
 
@@ -2633,7 +2633,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -3565,12 +3565,12 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"locate-path@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "locate-path@npm:7.0.0"
+"locate-path@npm:^7.1.0":
+  version: 7.2.0
+  resolution: "locate-path@npm:7.2.0"
   dependencies:
     p-locate: ^6.0.0
-  checksum: a0de7f882f069c3afe261c77821b91f2fe430cfe9b76c9059e4814e8803dc155dd9dc998e3dfe1a4ff3ca596a423bf9aa5df0b26a9516ed80fdf5cfac82a36f3
+  checksum: c1b653bdf29beaecb3d307dfb7c44d98a2a98a02ebe353c9ad055d1ac45d6ed4e1142563d222df9b9efebc2bcb7d4c792b507fad9e7150a04c29530b7db570f8
   languageName: node
   linkType: hard
 
@@ -5966,23 +5966,23 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.5.5":
-  version: 4.5.5
-  resolution: "typescript@npm:4.5.5"
+"typescript@npm:5.1.6":
+  version: 5.1.6
+  resolution: "typescript@npm:5.1.6"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 506f4c919dc8aeaafa92068c997f1d213b9df4d9756d0fae1a1e7ab66b585ab3498050e236113a1c9e57ee08c21ec6814ca7a7f61378c058d79af50a4b1f5a5e
+  checksum: b2f2c35096035fe1f5facd1e38922ccb8558996331405eb00a5111cc948b2e733163cc22fab5db46992aba7dd520fff637f2c1df4996ff0e134e77d3249a7350
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.5.5#~builtin<compat/typescript>":
-  version: 4.5.5
-  resolution: "typescript@patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=493e53"
+"typescript@patch:typescript@5.1.6#~builtin<compat/typescript>":
+  version: 5.1.6
+  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: c05c318d79c690f101d7ffb34cd6c7d6bbd884d3af9cefe7749ad0cd6be43c7082f098280982ca945dcba23fde34a08fed9602bb26540936baf8c0520727d3ba
+  checksum: f53bfe97f7c8b2b6d23cf572750d4e7d1e0c5fff1c36d859d0ec84556a827b8785077bc27676bf7e71fae538e517c3ecc0f37e7f593be913d884805d931bc8be
   languageName: node
   linkType: hard
 
