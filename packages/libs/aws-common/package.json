@@ -35,7 +35,7 @@
     "@dolsze/core": "1.0.12"
   },
   "devDependencies": {
-    "@types/node": "20.4.5",
+    "@types/node": "18.16.0",
     "rimraf": "3.0.2",
     "typescript": "5.1.6"
   },
