@@ -11,9 +11,14 @@ const LOCAL_EXTERNALS = [
   "./api-manifest.json",
   "./routes-manifest.json",
   "./prerender-manifest.json",
+  "./.next/required-server-files.json",
   "./images-manifest.json"
 ];
-const NPM_EXTERNALS = ["aws-lambda", "aws-sdk/clients/s3"];
+const NPM_EXTERNALS = [
+  "aws-lambda",
+  "aws-sdk/clients/s3",
+  "next/dist/server/next-server"
+];
 
 const generateConfig = (input) => ({
   input: `./src/${input.filename}.ts`,
@@ -67,5 +72,7 @@ export default [
   { filename: "regeneration-handler", minify: false },
   { filename: "regeneration-handler", minify: true },
   { filename: "regeneration-handler-v2", minify: false },
-  { filename: "regeneration-handler-v2", minify: true }
+  { filename: "regeneration-handler-v2", minify: true },
+  { filename: "next-handler", minify: false },
+  { filename: "next-handler", minify: true }
 ].map(generateConfig);

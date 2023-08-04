@@ -25,7 +25,7 @@ const defaultBuildOptions = {
   outputDir: ".serverless_nextjs",
   args: ["build"],
   cwd: process.cwd(),
-  env: {},
+  env: {} as NodeJS.ProcessEnv,
   cmd: "./node_modules/.bin/next",
   domainRedirects: {},
   minifyHandlers: false,
@@ -57,7 +57,10 @@ export default abstract class CoreBuilder {
       this.buildOptions.nextStaticDir ?? this.buildOptions.nextConfigDir
     );
     this.dotNextDir = path.join(this.nextConfigDir, ".next");
-    this.serverDir = path.join(this.dotNextDir, "server");
+    this.serverDir = path.join(
+      this.dotNextDir,
+      buildOptions && buildOptions.outputStandalone ? "standalone" : "server"
+    );
     this.outputDir = this.buildOptions.outputDir;
   }
 
@@ -265,9 +268,7 @@ export default abstract class CoreBuilder {
         path.extname(file) !== ".js" ||
         this.isSSRJSFile(
           pageManifest,
-          pathToPosix(
-            path.relative(path.join(this.serverDir, "pages"), file)
-          ) // important: make sure to use posix path to generate forward-slash path across both posix/windows
+          pathToPosix(path.relative(path.join(this.serverDir, "pages"), file)) // important: make sure to use posix path to generate forward-slash path across both posix/windows
         );
 
       return (
@@ -341,8 +342,6 @@ export default abstract class CoreBuilder {
     const nextConfigDir = this.nextConfigDir;
     const nextStaticDir = this.nextStaticDir;
 
-    const dotNextDirectory = path.join(this.nextConfigDir, ".next");
-
     const assetOutputDirectory = path.join(this.outputDir, ASSETS_DIR);
 
     const normalizedBasePath = basePath ? basePath.slice(1) : "";
@@ -360,12 +359,12 @@ export default abstract class CoreBuilder {
 
     // Copy BUILD_ID file
     const copyBuildId = copyIfExists(
-      path.join(dotNextDirectory, "BUILD_ID"),
+      path.join(this.dotNextDir, "BUILD_ID"),
       path.join(assetOutputDirectory, withBasePath("BUILD_ID"))
     );
 
     const buildStaticFiles = await readDirectoryFiles(
-      path.join(dotNextDirectory, "static"),
+      path.join(this.dotNextDir, "static"),
       ignorePatterns
     );
 
@@ -405,7 +404,7 @@ export default abstract class CoreBuilder {
     });
 
     const htmlAssets = [...htmlFiles, ...fallbackFiles].map((file) => {
-      const source = path.join(dotNextDirectory, `server/pages${file}`);
+      const source = path.join(this.serverDir, `pages${file}`);
       const destination = path.join(
         assetOutputDirectory,
         withBasePath(`static-pages/${buildId}${file}`)
@@ -415,7 +414,7 @@ export default abstract class CoreBuilder {
     });
 
     const jsonAssets = jsonFiles.map((file) => {
-      const source = path.join(dotNextDirectory, `server/pages${file}`);
+      const source = path.join(this.serverDir, `pages${file}`);
       const destination = path.join(
         assetOutputDirectory,
         withBasePath(`_next/data/${buildId}${file}`)
