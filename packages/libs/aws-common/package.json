@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/aws-common",
-  "version": "1.3.0",
+  "version": "4.1.0",
   "description": "Common AWS code that is used in Lambda, Lambda@Edge and other AWS platforms.",
   "publishConfig": {
     "access": "public"
