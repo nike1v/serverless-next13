@@ -1,6 +1,6 @@
 {
-  "name": "serverless-nextjs-monorepo",
-  "version": "1.3.0",
+  "name": "dolsze-serverless-nextjs-monorepo",
+  "version": "4.0.0",
   "description": "Deploy your serverless next applications using the serverless framework",
   "main": "index.js",
   "directories": {
