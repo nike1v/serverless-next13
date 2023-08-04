@@ -3,9 +3,6 @@
   "version": "1.2.10",
   "description": "Patched serverless package",
   "exports": "./dist/serverless-patched.js",
-  "engines": {
-    "node": "^12.20.0 || ^14.13.1 || >=18.17.0"
-  },
   "directories": {
     "dist": "dist"
   },
