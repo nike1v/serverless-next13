@@ -306,7 +306,7 @@ async function runEndToEndTest(): Promise<boolean> {
     }
 
     if (process.env.USE_PUBLISHED_SERVERLESS_PATCHED === "true") {
-      execSync(`${serverlessCiEnv}npx @sls-next/serverless-patched --debug`, {
+      execSync(`${serverlessCiEnv}npx @dolsze/serverless-patched --debug`, {
         stdio: "inherit"
       });
     } else {

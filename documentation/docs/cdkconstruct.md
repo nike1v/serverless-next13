@@ -18,7 +18,7 @@ deploy your Next app using a Cloudfront domain:
 // stack.ts
 import { Stack, StackProps } from "aws-cdk-lib";
 import { Construct } from "constructs";
-import { NextJSLambdaEdge } from "@sls-next/cdk-construct";
+import { NextJSLambdaEdge } from "@dolsze/cdk-construct";
 
 export class MyStack extends Stack {
   constructor(scope: Construct, id: string, props: StackProps) {
@@ -31,7 +31,7 @@ export class MyStack extends Stack {
 
 // bin.ts
 import { App } from "aws-cdk-lib";
-import { Builder } from "@sls-next/lambda-at-edge";
+import { Builder } from "@dolsze/lambda-at-edge";
 import { MyStack } from "./stack";
 
 // Run the serverless builder, this could be done elsewhere in your workflow

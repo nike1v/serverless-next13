@@ -15,7 +15,7 @@ import {
 } from "src/deploy/cdktf/.gen/providers/archive";
 import { Resource } from "src/deploy/cdktf/.gen/providers/null";
 import * as path from "path";
-import { CoreBuildOptions } from "@sls-next/core";
+import { CoreBuildOptions } from "@dolsze/core";
 import { LambdaBuildOptions } from "src/types";
 
 const DEFAULT_OUTPUT_DIR = ".serverless_nextjs";

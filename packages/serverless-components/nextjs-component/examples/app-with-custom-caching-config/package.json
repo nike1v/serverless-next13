@@ -1,6 +1,6 @@
 {
   "name": "app-with-custom-caching-config",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "description": "Example app to show different cache configurations you can use with serverless-next.js",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverless-nextjs/serverless-next.js.git"
+    "url": "git+https://github.com/nike1v/serverless-next13.git"
   },
   "keywords": [
     "Cache",
@@ -18,9 +18,9 @@
   "author": "Daniel Conde <danielconde9@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/serverless-nextjs/serverless-next.js/issues"
+    "url": "https://github.com/nike1v/serverless-next13/issues"
   },
-  "homepage": "https://github.com/serverless-nextjs/serverless-next.js#readme",
+  "homepage": "https://github.com/nike1v/serverless-next13#readme",
   "dependencies": {
     "next": "^9.3.6",
     "react": "^16.13.1",

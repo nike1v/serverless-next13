@@ -1,6 +1,6 @@
 {
   "name": "serverless-nextjs-cdk-example",
-  "version": "0.1.0",
+  "version": "1.3.0",
   "bin": "cdk/bin/serverless-nextjs-cdk-example.js",
   "scripts": {
     "dev": "next dev",
@@ -31,7 +31,7 @@
     "typescript": "4.3.5"
   },
   "dependencies": {
-    "@sls-next/cdk-construct": "link:../../",
+    "@dolsze/cdk-construct": "link:../../",
     "aws-cdk-lib": "^2.2.0",
     "constructs": "^10.0.12",
     "next": "11.0.1",

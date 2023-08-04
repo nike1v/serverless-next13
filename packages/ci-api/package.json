@@ -1,6 +1,6 @@
 {
   "name": "ci-api",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "description": "Serverless Next.js CI API",
   "main": "index.js",
   "scripts": {
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serverless-nextjs/serverless-next.js"
+    "url": "git+https://github.com/nike1v/serverless-next13"
   },
   "keywords": [],
   "author": "Daniel Phang",
   "license": "MIT",
-  "homepage": "https://github.com/serverless-nextjs/serverless-next.js",
+  "homepage": "https://github.com/nike1v/serverless-next13",
   "dependencies": {
     "@octokit/rest": "^18.12.0"
   },

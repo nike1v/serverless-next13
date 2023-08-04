@@ -5,7 +5,7 @@ process.chdir(__dirname);
 import type { CloudFrontResultResponse } from "aws-lambda";
 import type { OriginRequestEvent, OriginResponseEvent } from "./types";
 
-import lambdaAtEdgeCompat from "@sls-next/next-aws-cloudfront";
+import lambdaAtEdgeCompat from "@dolsze/next-aws-cloudfront";
 import NextServer from "next/dist/server/next-server";
 import { join } from "path";
 

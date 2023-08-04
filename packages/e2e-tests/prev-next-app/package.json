@@ -1,6 +1,6 @@
 {
   "name": "prev-next-app",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "description": "Basic test Next.js app for running serverless-next.js end-to-end tests",
   "scripts": {
     "dev": "next",

@@ -11,9 +11,9 @@ updates:
     schedule:
       interval: "daily"
     versioning-strategy: increase
-    # No point updating @sls-next/* dependencies as they are linked
+    # No point updating @dolsze/* dependencies as they are linked
     ignore:
-      - dependency-name: "@sls-next/*"
+      - dependency-name: "@dolsze/*"
         # FIXME: don't update plugin-commonjs, v19.0.0 had breaking change causing some decodeHTML functions not to be bundled
       - dependency-name: "@rollup/plugin-commonjs"
         # FIXME: don't update plugin-node-resolve yet, versions >10 seems to be bundling browser version of uuid etc: https://github.com/rollup/plugins/blob/master/packages/node-resolve/CHANGELOG.md#v1100
@@ -21,7 +21,7 @@ updates:
         # FIXME: CDK dependencies must be updated together but Dependabot cannot group updates
         # We'll manually update for now and/or use Renovate in the future
       - dependency-name: "@aws-cdk/*"
-        # FIXME: some issue with fs-extra for some users? https://github.com/serverless-nextjs/serverless-next.js/issues/1240
+        # FIXME: some issue with fs-extra for some users? https://github.com/nike1v/serverless-next13/issues/1240
       - dependency-name: "fs-extra"
       - dependency-name: "sharp" # This is manually built for Lambda Node.js 14.x runtime
       - dependency-name: "globby" # 12.0.0 has breaking changes

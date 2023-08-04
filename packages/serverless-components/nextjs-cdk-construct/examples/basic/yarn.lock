@@ -972,9 +972,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sls-next/cdk-construct@link:../../::locator=serverless-nextjs-cdk-example%40workspace%3A.":
+"@dolsze/cdk-construct@link:../../::locator=serverless-nextjs-cdk-example%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@sls-next/cdk-construct@link:../../::locator=serverless-nextjs-cdk-example%40workspace%3A."
+  resolution: "@dolsze/cdk-construct@link:../../::locator=serverless-nextjs-cdk-example%40workspace%3A."
   languageName: node
   linkType: soft
 
@@ -7779,7 +7779,7 @@ __metadata:
   resolution: "serverless-nextjs-cdk-example@workspace:."
   dependencies:
     "@aws-cdk/assert": 2.0.0
-    "@sls-next/cdk-construct": "link:../../"
+    "@dolsze/cdk-construct": "link:../../"
     "@types/aws-lambda": ^8.10.81
     "@types/jest": ^26.0.10
     "@types/node": 10.17.27

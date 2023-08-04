@@ -19,7 +19,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           msg:
-            "Thanks for your code contribution to serverless-next.js, @${{ github.actor }}! If you haven't already, please read the [Code of Conduct](https://github.com/serverless-nextjs/serverless-next.js/blob/master/CODE_OF_CONDUCT.md) and [Contributing Guide](https://github.com/serverless-nextjs/serverless-next.js/blob/master/CONTRIBUTING.md).
+            "Thanks for your code contribution to serverless-next.js, @${{ github.actor }}! If you haven't already, please read the [Code of Conduct](https://github.com/nike1v/serverless-next13/blob/master/CODE_OF_CONDUCT.md) and [Contributing Guide](https://github.com/nike1v/serverless-next13/blob/master/CONTRIBUTING.md).
 
             As this pull request is from a fork, it doesn't have the permissions needed to automatically run the end-to-end tests. Please wait for a maintainer to manually run them. Thanks!"
           check_for_duplicate_msg: true

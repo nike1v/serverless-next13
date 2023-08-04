@@ -1,6 +1,6 @@
 {
-  "name": "@sls-next/domain",
-  "version": "3.7.0-alpha.7",
+  "name": "@dolsze/domain",
+  "version": "1.3.0",
   "main": "serverless.js",
   "publishConfig": {
     "access": "public"
@@ -19,9 +19,9 @@
   "author": "Daniel Conde Marin <danielconde9@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/serverless-nextjs/serverless-next.js/issues"
+    "url": "https://github.com/nike1v/serverless-next13/issues"
   },
-  "homepage": "https://github.com/serverless-nextjs/serverless-next.js#readme",
+  "homepage": "https://github.com/nike1v/serverless-next13#readme",
   "dependencies": {
     "@serverless/core": "1.1.2",
     "aws-sdk": "2.1064.0"
