@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.10](https://github.com/nike1v/serverless-next13/compare/v1.2.9...v1.2.10) (2023-08-04)
+
+**Note:** Version bump only for package @dolsze/serverless-patched
+
 # [3.5.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.7...v3.5.0-alpha.8) (2021-10-23)
 
 **Note:** Version bump only for package @dolsze/serverless-patched
