@@ -267,7 +267,7 @@ class Builder {
     // Remove standalone server since it's not used
     await fse.remove(path.join(destination, "server.js"));
 
-    throw new Error("buildStandaloneLambda short-circuit");
+    // throw new Error("buildStandaloneLambda short-circuit");
   }
 
   async copyTraces(
