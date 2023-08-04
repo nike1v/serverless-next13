@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.1](https://github.com/nike1v/serverless-next13/compare/v4.1.0...v4.1.1) (2023-08-04)
+
+**Note:** Version bump only for package @dolsze/lambda-at-edge
+
 # [4.1.0](https://github.com/nike1v/serverless-next13/compare/v3.7.0-alpha.8...v4.1.0) (2023-08-04)
 
 ### Features
