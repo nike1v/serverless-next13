@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/lambda",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Code to build and deploy for Lambda + API Gateway",
   "main": "dist/index.js",
   "module": "dist/module/index.js",
