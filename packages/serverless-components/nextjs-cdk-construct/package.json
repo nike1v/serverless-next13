@@ -1,7 +1,7 @@
 {
   "name": "@dolsze/cdk-construct",
   "description": "Serverless Next.js powered by AWS CDK",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Mykyta Vlasov <dgygurdenok@gmail.com>",
@@ -45,5 +45,5 @@
     "rimraf": "3.0.2",
     "typescript": "5.1.6"
   },
-  "gitHead": "eebe710e9460e403cf66c232c2372e453e62aa5e"
+  "gitHead": "0156ca83e4925aaa219d105e0a1f8c3b4c06ec8d"
 }

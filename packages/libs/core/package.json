@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/core",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Handles Next.js routing independent of provider",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -79,5 +79,5 @@
       "/sharp_node_modules/"
     ]
   },
-  "gitHead": "eebe710e9460e403cf66c232c2372e453e62aa5e"
+  "gitHead": "0156ca83e4925aaa219d105e0a1f8c3b4c06ec8d"
 }

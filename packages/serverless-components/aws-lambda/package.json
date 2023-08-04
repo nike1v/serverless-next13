@@ -1,6 +1,6 @@
 {
   "name": "@dolsze/aws-lambda",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "serverless.js",
   "keywords": [
     "AWS",
@@ -48,5 +48,5 @@
     "@serverless/core": "1.1.2",
     "aws-sdk": "2.1093.0"
   },
-  "gitHead": "eebe710e9460e403cf66c232c2372e453e62aa5e"
+  "gitHead": "0156ca83e4925aaa219d105e0a1f8c3b4c06ec8d"
 }
