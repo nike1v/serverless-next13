@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { execSync } from "child_process";
-import { findUpSync } from "find-up";
+import findUpSync from "find-up";
 import path from "path";
 import { fileURLToPath } from "url";
 

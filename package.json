@@ -90,6 +90,7 @@
   "workspaces": [
     "packages/compat-layers/*",
     "packages/serverless-components/*",
+    "packages/serverless-patched/*",
     "packages/libs/*"
   ]
 }
