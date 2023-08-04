@@ -11,7 +11,7 @@
     "prepack": "yarn clean && yarn build",
     "clean": "yarn rimraf dist",
     "build-test-manifests": "ts-node scripts/build-test-manifests.ts",
-    "build": "tsc -p tsconfig.build.json && rollup --config",
+    "build": "tsc -p tsconfig.build.json && rollup --config --bundleConfigAsCjs",
     "test": "jest"
   },
   "files": [
@@ -92,5 +92,5 @@
   "peerDependencies": {
     "builtin-modules": "3.2.0"
   },
-  "gitHead": "0156ca83e4925aaa219d105e0a1f8c3b4c06ec8d"
+  "gitHead": "3ba929ea1ee236ce8c96ab322bf63385d9cad6e8"
 }

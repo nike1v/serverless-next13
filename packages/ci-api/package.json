@@ -4,7 +4,7 @@
   "description": "Serverless Next.js CI API",
   "main": "index.js",
   "scripts": {
-    "build": "rollup --config",
+    "build": "rollup --config --bundleConfigAsCjs",
     "deploy": "serverless deploy",
     "remove": "serverless remove"
   },
