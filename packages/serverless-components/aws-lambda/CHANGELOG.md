@@ -70,71 +70,71 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.7.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.12...v3.7.0) (2022-03-31)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.7.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.11...v3.7.0-alpha.12) (2022-03-15)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.7.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.9...v3.7.0-alpha.10) (2022-02-23)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.7.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.8...v3.7.0-alpha.9) (2022-02-18)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.7.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.6...v3.7.0-alpha.7) (2022-01-27)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.7.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.5...v3.7.0-alpha.6) (2022-01-25)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.7.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.4...v3.7.0-alpha.5) (2022-01-20)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.7.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.3...v3.7.0-alpha.4) (2022-01-05)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.7.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.2...v3.7.0-alpha.3) (2021-12-22)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.7.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.1...v3.7.0-alpha.2) (2021-11-29)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.7.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.0...v3.7.0-alpha.1) (2021-11-21)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.7.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.6.1-alpha.2...v3.7.0-alpha.0) (2021-11-21)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.6.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.6.0-alpha.0...v3.6.0) (2021-11-14)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.6.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.4-alpha.0...v3.6.0-alpha.0) (2021-11-14)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 ## [3.5.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.3-alpha.6...v3.5.3) (2021-11-09)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 ## [3.5.3-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.3-alpha.5...v3.5.3-alpha.6) (2021-11-09)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 ## [3.5.3-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.3-alpha.4...v3.5.3-alpha.5) (2021-11-08)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 ## [3.5.3-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.3-alpha.2...v3.5.3-alpha.3) (2021-10-30)
 
@@ -156,23 +156,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.5.3-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.2...v3.5.3-alpha.0) (2021-10-29)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.5.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.11...v3.5.0) (2021-10-28)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.5.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.10...v3.5.0-alpha.11) (2021-10-27)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.5.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.9...v3.5.0-alpha.10) (2021-10-25)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.5.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.8...v3.5.0-alpha.9) (2021-10-25)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.5.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.7...v3.5.0-alpha.8) (2021-10-23)
 
@@ -182,115 +182,115 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.5.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.6...v3.5.0-alpha.7) (2021-10-19)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.5.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.3...v3.5.0-alpha.4) (2021-10-18)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.5.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.1...v3.5.0-alpha.2) (2021-10-16)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.5.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.0...v3.5.0-alpha.1) (2021-10-13)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.5.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0...v3.5.0-alpha.0) (2021-10-06)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.4.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.14...v3.4.0) (2021-10-02)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.4.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.13...v3.4.0-alpha.14) (2021-10-02)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.4.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.11...v3.4.0-alpha.12) (2021-09-27)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.4.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.9...v3.4.0-alpha.10) (2021-09-24)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.4.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.8...v3.4.0-alpha.9) (2021-09-17)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.4.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.7...v3.4.0-alpha.8) (2021-09-15)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.4.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.6...v3.4.0-alpha.7) (2021-09-15)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.4.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.5...v3.4.0-alpha.6) (2021-09-13)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.4.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.1...v3.4.0-alpha.2) (2021-09-09)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.4.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.0...v3.4.0-alpha.1) (2021-09-08)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.4.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.1-alpha.1...v3.4.0-alpha.0) (2021-09-03)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 ## [3.3.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0...v3.3.1-alpha.0) (2021-09-02)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.3.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0-alpha.6...v3.3.0) (2021-09-01)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.3.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0-alpha.5...v3.3.0-alpha.6) (2021-08-31)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.3.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0-alpha.3...v3.3.0-alpha.4) (2021-08-26)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.3.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0-alpha.2...v3.3.0-alpha.3) (2021-08-25)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.3.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0-alpha.0...v3.3.0-alpha.1) (2021-08-21)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.3.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.1-alpha.0...v3.3.0-alpha.0) (2021-08-19)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 ## [3.2.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0...v3.2.1-alpha.0) (2021-08-04)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.2.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.29...v3.2.0) (2021-08-03)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.2.0-alpha.28](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.27...v3.2.0-alpha.28) (2021-08-03)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.2.0-alpha.25](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.24...v3.2.0-alpha.25) (2021-08-02)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.2.0-alpha.22](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.21...v3.2.0-alpha.22) (2021-07-31)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.2.0-alpha.21](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.20...v3.2.0-alpha.21) (2021-07-27)
 
@@ -300,31 +300,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.2.0-alpha.19](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.18...v3.2.0-alpha.19) (2021-07-09)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.2.0-alpha.18](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.17...v3.2.0-alpha.18) (2021-07-08)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.2.0-alpha.17](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.16...v3.2.0-alpha.17) (2021-07-07)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.2.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.12...v3.2.0-alpha.13) (2021-07-02)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.2.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.11...v3.2.0-alpha.12) (2021-07-01)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.2.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.8...v3.2.0-alpha.9) (2021-06-29)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.2.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.4...v3.2.0-alpha.5) (2021-06-27)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.2.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.3...v3.2.0-alpha.4) (2021-06-27)
 
@@ -334,7 +334,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.2.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.2...v3.2.0-alpha.3) (2021-06-27)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.2.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.1-alpha.0...v3.2.0-alpha.0) (2021-06-26)
 
@@ -344,105 +344,105 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.1.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.16...v3.1.0) (2021-06-25)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.1.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.2...v3.1.0-alpha.3) (2021-06-18)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
 # [3.1.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.0...v3.1.0-alpha.1) (2021-06-17)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-# [1.2.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.2.0-alpha.3...@sls-next/aws-lambda@1.2.0-alpha.4) (2021-06-09)
+# [1.2.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.2.0-alpha.3...@dolsze/aws-lambda@1.2.0-alpha.4) (2021-06-09)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-# [1.2.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.2.0-alpha.2...@sls-next/aws-lambda@1.2.0-alpha.3) (2021-06-08)
+# [1.2.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.2.0-alpha.2...@dolsze/aws-lambda@1.2.0-alpha.3) (2021-06-08)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-# [1.2.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.2.0-alpha.1...@sls-next/aws-lambda@1.2.0-alpha.2) (2021-06-07)
+# [1.2.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.2.0-alpha.1...@dolsze/aws-lambda@1.2.0-alpha.2) (2021-06-07)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-# [1.2.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.2.0-alpha.0...@sls-next/aws-lambda@1.2.0-alpha.1) (2021-05-20)
+# [1.2.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.2.0-alpha.0...@dolsze/aws-lambda@1.2.0-alpha.1) (2021-05-20)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-# [1.2.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.1.1-alpha.0...@sls-next/aws-lambda@1.2.0-alpha.0) (2021-05-19)
+# [1.2.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.1.1-alpha.0...@dolsze/aws-lambda@1.2.0-alpha.0) (2021-05-19)
 
 ### Features
 
 - **lambda-at-edge:** incremental static regeneration ([#1028](https://github.com/serverless-nextjs/serverless-next.js/issues/1028)) ([d5bbdc6](https://github.com/serverless-nextjs/serverless-next.js/commit/d5bbdc6d395ae732ec0757744482bf8bc25e820f))
 
-## [1.1.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.1.0...@sls-next/aws-lambda@1.1.1-alpha.0) (2021-05-11)
+## [1.1.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.1.0...@dolsze/aws-lambda@1.1.1-alpha.0) (2021-05-11)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-# [1.1.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.1.0-alpha.0...@sls-next/aws-lambda@1.1.0) (2021-05-03)
+# [1.1.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.1.0-alpha.0...@dolsze/aws-lambda@1.1.0) (2021-05-03)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-# [1.1.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.3...@sls-next/aws-lambda@1.1.0-alpha.0) (2020-12-03)
+# [1.1.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.3...@dolsze/aws-lambda@1.1.0-alpha.0) (2020-12-03)
 
 ### Features
 
 - **nextjs-component:** add inputs.roleArn for existing lambda role ([#827](https://github.com/serverless-nextjs/serverless-next.js/issues/827)) ([f63bc76](https://github.com/serverless-nextjs/serverless-next.js/commit/f63bc763fcc224b3a0c49637ad58129c3143351c))
 
-## [1.0.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.3-alpha.0...@sls-next/aws-lambda@1.0.3) (2020-11-02)
+## [1.0.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.3-alpha.0...@dolsze/aws-lambda@1.0.3) (2020-11-02)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-## [1.0.3-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.2...@sls-next/aws-lambda@1.0.3-alpha.0) (2020-10-07)
+## [1.0.3-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.2...@dolsze/aws-lambda@1.0.3-alpha.0) (2020-10-07)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-## [1.0.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.2-alpha.1...@sls-next/aws-lambda@1.0.2) (2020-09-26)
+## [1.0.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.2-alpha.1...@dolsze/aws-lambda@1.0.2) (2020-09-26)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-## [1.0.2-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.2-alpha.0...@sls-next/aws-lambda@1.0.2-alpha.1) (2020-08-14)
+## [1.0.2-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.2-alpha.0...@dolsze/aws-lambda@1.0.2-alpha.1) (2020-08-14)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-## [1.0.2-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.1...@sls-next/aws-lambda@1.0.2-alpha.0) (2020-08-14)
+## [1.0.2-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.1...@dolsze/aws-lambda@1.0.2-alpha.0) (2020-08-14)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-## [1.0.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.1-alpha.2...@sls-next/aws-lambda@1.0.1) (2020-08-01)
+## [1.0.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.1-alpha.2...@dolsze/aws-lambda@1.0.1) (2020-08-01)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-## [1.0.1-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.1-alpha.1...@sls-next/aws-lambda@1.0.1-alpha.2) (2020-07-30)
+## [1.0.1-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.1-alpha.1...@dolsze/aws-lambda@1.0.1-alpha.2) (2020-07-30)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-## [1.0.1-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.1-alpha.0...@sls-next/aws-lambda@1.0.1-alpha.1) (2020-07-20)
+## [1.0.1-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.1-alpha.0...@dolsze/aws-lambda@1.0.1-alpha.1) (2020-07-20)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-## [1.0.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.0...@sls-next/aws-lambda@1.0.1-alpha.0) (2020-07-14)
+## [1.0.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.0...@dolsze/aws-lambda@1.0.1-alpha.0) (2020-07-14)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-# [1.0.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.0-alpha.5...@sls-next/aws-lambda@1.0.0) (2020-07-11)
+# [1.0.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.0-alpha.5...@dolsze/aws-lambda@1.0.0) (2020-07-11)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-# [1.0.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.0-alpha.4...@sls-next/aws-lambda@1.0.0-alpha.5) (2020-06-29)
+# [1.0.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.0-alpha.4...@dolsze/aws-lambda@1.0.0-alpha.5) (2020-06-29)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-# [1.0.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.0-alpha.3...@sls-next/aws-lambda@1.0.0-alpha.4) (2020-06-29)
+# [1.0.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.0-alpha.3...@dolsze/aws-lambda@1.0.0-alpha.4) (2020-06-29)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-# [1.0.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.0-alpha.2...@sls-next/aws-lambda@1.0.0-alpha.3) (2020-06-28)
+# [1.0.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.0-alpha.2...@dolsze/aws-lambda@1.0.0-alpha.3) (2020-06-28)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda
 
-# [1.0.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/aws-lambda@1.0.0-alpha.1...@sls-next/aws-lambda@1.0.0-alpha.2) (2020-06-24)
+# [1.0.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/aws-lambda@1.0.0-alpha.1...@dolsze/aws-lambda@1.0.0-alpha.2) (2020-06-24)
 
 ### Bug Fixes
 
@@ -450,4 +450,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 1.0.0-alpha.1 (2020-06-21)
 
-**Note:** Version bump only for package @sls-next/aws-lambda
+**Note:** Version bump only for package @dolsze/aws-lambda

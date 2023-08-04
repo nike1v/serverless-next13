@@ -11,9 +11,9 @@ updates:
     schedule:
       interval: "daily"
     versioning-strategy: increase
-    # No point updating @sls-next/* dependencies as they are linked
+    # No point updating @dolsze/* dependencies as they are linked
     ignore:
-      - dependency-name: "@sls-next/*"
+      - dependency-name: "@dolsze/*"
         # FIXME: don't update plugin-commonjs, v19.0.0 had breaking change causing some decodeHTML functions not to be bundled
       - dependency-name: "@rollup/plugin-commonjs"
         # FIXME: don't update plugin-node-resolve yet, versions >10 seems to be bundling browser version of uuid etc: https://github.com/rollup/plugins/blob/master/packages/node-resolve/CHANGELOG.md#v1100

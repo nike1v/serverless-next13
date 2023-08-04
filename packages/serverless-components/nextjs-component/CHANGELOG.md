@@ -150,27 +150,27 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.8.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0...v3.8.0-alpha.0) (2022-04-20)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.7.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.12...v3.7.0) (2022-03-31)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.7.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.11...v3.7.0-alpha.12) (2022-03-15)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.7.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.10...v3.7.0-alpha.11) (2022-03-10)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.7.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.9...v3.7.0-alpha.10) (2022-02-23)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.7.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.8...v3.7.0-alpha.9) (2022-02-18)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.7.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.7...v3.7.0-alpha.8) (2022-02-02)
 
@@ -180,35 +180,35 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.7.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.6...v3.7.0-alpha.7) (2022-01-27)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.7.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.5...v3.7.0-alpha.6) (2022-01-25)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.7.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.4...v3.7.0-alpha.5) (2022-01-20)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.7.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.3...v3.7.0-alpha.4) (2022-01-05)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.7.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.2...v3.7.0-alpha.3) (2021-12-22)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.7.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.1...v3.7.0-alpha.2) (2021-11-29)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.7.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.0...v3.7.0-alpha.1) (2021-11-21)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.7.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.6.1-alpha.2...v3.7.0-alpha.0) (2021-11-21)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 ## [3.6.1-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.6.1-alpha.1...v3.6.1-alpha.2) (2021-11-15)
 
@@ -218,43 +218,43 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.6.1-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.6.1-alpha.0...v3.6.1-alpha.1) (2021-11-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 ## [3.6.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.6.0...v3.6.1-alpha.0) (2021-11-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.6.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.6.0-alpha.0...v3.6.0) (2021-11-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.6.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.4-alpha.0...v3.6.0-alpha.0) (2021-11-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 ## [3.5.4-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.3...v3.5.4-alpha.0) (2021-11-10)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 ## [3.5.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.3-alpha.6...v3.5.3) (2021-11-09)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 ## [3.5.3-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.3-alpha.5...v3.5.3-alpha.6) (2021-11-09)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 ## [3.5.3-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.3-alpha.4...v3.5.3-alpha.5) (2021-11-08)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 ## [3.5.3-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.3-alpha.3...v3.5.3-alpha.4) (2021-10-30)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 ## [3.5.3-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.3-alpha.2...v3.5.3-alpha.3) (2021-10-30)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 ## [3.5.3-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.3-alpha.1...v3.5.3-alpha.2) (2021-10-29)
 
@@ -270,31 +270,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.5.3-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.2...v3.5.3-alpha.0) (2021-10-29)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 ## [3.5.2](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.1...v3.5.2) (2021-10-28)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 ## [3.5.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0...v3.5.1) (2021-10-28)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.5.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.11...v3.5.0) (2021-10-28)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.5.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.10...v3.5.0-alpha.11) (2021-10-27)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.5.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.9...v3.5.0-alpha.10) (2021-10-25)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.5.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.8...v3.5.0-alpha.9) (2021-10-25)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.5.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.7...v3.5.0-alpha.8) (2021-10-23)
 
@@ -304,43 +304,43 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.5.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.6...v3.5.0-alpha.7) (2021-10-19)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.5.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.5...v3.5.0-alpha.6) (2021-10-19)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.5.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.4...v3.5.0-alpha.5) (2021-10-18)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.5.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.3...v3.5.0-alpha.4) (2021-10-18)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.5.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.2...v3.5.0-alpha.3) (2021-10-16)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.5.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.1...v3.5.0-alpha.2) (2021-10-16)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.5.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.0...v3.5.0-alpha.1) (2021-10-13)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.5.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0...v3.5.0-alpha.0) (2021-10-06)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.4.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.14...v3.4.0) (2021-10-02)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.4.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.13...v3.4.0-alpha.14) (2021-10-02)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.4.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.11...v3.4.0-alpha.12) (2021-09-27)
 
@@ -350,11 +350,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.4.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.10...v3.4.0-alpha.11) (2021-09-25)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.4.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.9...v3.4.0-alpha.10) (2021-09-24)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.4.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.8...v3.4.0-alpha.9) (2021-09-17)
 
@@ -376,7 +376,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.4.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.5...v3.4.0-alpha.6) (2021-09-13)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.4.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.4...v3.4.0-alpha.5) (2021-09-09)
 
@@ -404,7 +404,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.4.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.0...v3.4.0-alpha.1) (2021-09-08)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.4.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.1-alpha.1...v3.4.0-alpha.0) (2021-09-03)
 
@@ -414,15 +414,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.3.1-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.1-alpha.0...v3.3.1-alpha.1) (2021-09-02)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 ## [3.3.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0...v3.3.1-alpha.0) (2021-09-02)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.3.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0-alpha.6...v3.3.0) (2021-09-01)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.3.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0-alpha.5...v3.3.0-alpha.6) (2021-08-31)
 
@@ -432,7 +432,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.3.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0-alpha.4...v3.3.0-alpha.5) (2021-08-27)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.3.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0-alpha.3...v3.3.0-alpha.4) (2021-08-26)
 
@@ -454,7 +454,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.3.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0-alpha.0...v3.3.0-alpha.1) (2021-08-21)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.3.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.1-alpha.0...v3.3.0-alpha.0) (2021-08-19)
 
@@ -464,11 +464,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.2.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0...v3.2.1-alpha.0) (2021-08-04)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.29...v3.2.0) (2021-08-03)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.29](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.28...v3.2.0-alpha.29) (2021-08-03)
 
@@ -490,51 +490,51 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.2.0-alpha.26](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.25...v3.2.0-alpha.26) (2021-08-02)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.25](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.24...v3.2.0-alpha.25) (2021-08-02)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.24](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.23...v3.2.0-alpha.24) (2021-07-31)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.23](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.22...v3.2.0-alpha.23) (2021-07-31)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.22](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.21...v3.2.0-alpha.22) (2021-07-31)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.21](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.20...v3.2.0-alpha.21) (2021-07-27)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.20](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.19...v3.2.0-alpha.20) (2021-07-09)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.19](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.18...v3.2.0-alpha.19) (2021-07-09)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.18](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.17...v3.2.0-alpha.18) (2021-07-08)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.17](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.16...v3.2.0-alpha.17) (2021-07-07)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.16](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.15...v3.2.0-alpha.16) (2021-07-03)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.15](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.14...v3.2.0-alpha.15) (2021-07-02)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.13...v3.2.0-alpha.14) (2021-07-02)
 
@@ -544,15 +544,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.2.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.12...v3.2.0-alpha.13) (2021-07-02)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.11...v3.2.0-alpha.12) (2021-07-01)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.10...v3.2.0-alpha.11) (2021-06-30)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.9...v3.2.0-alpha.10) (2021-06-29)
 
@@ -562,35 +562,35 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.2.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.8...v3.2.0-alpha.9) (2021-06-29)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.7...v3.2.0-alpha.8) (2021-06-28)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.6...v3.2.0-alpha.7) (2021-06-28)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.5...v3.2.0-alpha.6) (2021-06-27)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.4...v3.2.0-alpha.5) (2021-06-27)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.3...v3.2.0-alpha.4) (2021-06-27)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.2...v3.2.0-alpha.3) (2021-06-27)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.1...v3.2.0-alpha.2) (2021-06-26)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.2.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.0...v3.2.0-alpha.1) (2021-06-26)
 
@@ -606,31 +606,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.1.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0...v3.1.1-alpha.0) (2021-06-26)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.1.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.16...v3.1.0) (2021-06-25)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.1.0-alpha.16](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.15...v3.1.0-alpha.16) (2021-06-25)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.1.0-alpha.15](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.14...v3.1.0-alpha.15) (2021-06-25)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.1.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.13...v3.1.0-alpha.14) (2021-06-24)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.1.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.12...v3.1.0-alpha.13) (2021-06-24)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.1.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.11...v3.1.0-alpha.12) (2021-06-23)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.1.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.10...v3.1.0-alpha.11) (2021-06-23)
 
@@ -640,15 +640,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.1.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.9...v3.1.0-alpha.10) (2021-06-22)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.1.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.8...v3.1.0-alpha.9) (2021-06-22)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.1.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.7...v3.1.0-alpha.8) (2021-06-22)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.1.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.6...v3.1.0-alpha.7) (2021-06-22)
 
@@ -658,7 +658,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.1.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.5...v3.1.0-alpha.6) (2021-06-21)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.1.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.4...v3.1.0-alpha.5) (2021-06-19)
 
@@ -674,7 +674,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.1.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.2...v3.1.0-alpha.3) (2021-06-18)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # [3.1.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.1...v3.1.0-alpha.2) (2021-06-18)
 
@@ -738,57 +738,47 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **serverless-component:** allow passing an inline policy ([#575](https://github.com/serverless-nextjs/serverless-next.js/issues/575)) ([05ddcc9](https://github.com/serverless-nextjs/serverless-next.js/commit/05ddcc98c03e642b8ab9fda3e20334215a8cb017))
 - **serverless-component, lambda-at-edge, lambda-at-edge-compat, s3-static-assets:** add support for getStaticPaths fallback true ([#544](https://github.com/serverless-nextjs/serverless-next.js/issues/544)) ([a08217b](https://github.com/serverless-nextjs/serverless-next.js/commit/a08217ba26ea90f67c562fe4ae9510b617d14d08))
 
-# [1.20.0-alpha.28](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.27...@sls-next/serverless-component@1.20.0-alpha.28) (2021-06-16)
+# [1.20.0-alpha.28](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.27...@dolsze/serverless-component@1.20.0-alpha.28) (2021-06-16)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.27](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.26...@sls-next/serverless-component@1.20.0-alpha.27) (2021-06-16)
+# [1.20.0-alpha.27](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.26...@dolsze/serverless-component@1.20.0-alpha.27) (2021-06-16)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.26](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.25...@sls-next/serverless-component@1.20.0-alpha.26) (2021-06-15)
+# [1.20.0-alpha.26](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.25...@dolsze/serverless-component@1.20.0-alpha.26) (2021-06-15)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.25](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.24...@sls-next/serverless-component@1.20.0-alpha.25) (2021-06-15)
+# [1.20.0-alpha.25](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.24...@dolsze/serverless-component@1.20.0-alpha.25) (2021-06-15)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.24](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.23...@sls-next/serverless-component@1.20.0-alpha.24) (2021-06-14)
+# [1.20.0-alpha.24](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.23...@dolsze/serverless-component@1.20.0-alpha.24) (2021-06-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.23](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.22...@sls-next/serverless-component@1.20.0-alpha.23) (2021-06-09)
+# [1.20.0-alpha.23](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.22...@dolsze/serverless-component@1.20.0-alpha.23) (2021-06-09)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.22](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.21...@sls-next/serverless-component@1.20.0-alpha.22) (2021-06-09)
+# [1.20.0-alpha.22](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.21...@dolsze/serverless-component@1.20.0-alpha.22) (2021-06-09)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.21](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.20...@sls-next/serverless-component@1.20.0-alpha.21) (2021-06-08)
+# [1.20.0-alpha.21](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.20...@dolsze/serverless-component@1.20.0-alpha.21) (2021-06-08)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.20](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.19...@sls-next/serverless-component@1.20.0-alpha.20) (2021-06-08)
+# [1.20.0-alpha.20](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.19...@dolsze/serverless-component@1.20.0-alpha.20) (2021-06-08)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.19](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.18...@sls-next/serverless-component@1.20.0-alpha.19) (2021-06-07)
+# [1.20.0-alpha.19](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.18...@dolsze/serverless-component@1.20.0-alpha.19) (2021-06-07)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.18](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.16...@sls-next/serverless-component@1.20.0-alpha.18) (2021-06-07)
-
-### Bug Fixes
-
-- **nextjs-component:** sqs region should be same as regeneration lambda region (using s3 bucket region) ([#1155](https://github.com/serverless-nextjs/serverless-next.js/issues/1155)) ([41b6be1](https://github.com/serverless-nextjs/serverless-next.js/commit/41b6be1943bca70a1e2e6f919b5ee6fecc56389f))
-
-### Features
-
-- use high throughput mode for regeneration SQS ([#1148](https://github.com/serverless-nextjs/serverless-next.js/issues/1148)) ([f3d033c](https://github.com/serverless-nextjs/serverless-next.js/commit/f3d033c08164a7681572ad7fa1aedc78bbf23ed6))
-
-# [1.20.0-alpha.17](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.16...@sls-next/serverless-component@1.20.0-alpha.17) (2021-06-07)
+# [1.20.0-alpha.18](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.16...@dolsze/serverless-component@1.20.0-alpha.18) (2021-06-07)
 
 ### Bug Fixes
 
@@ -798,231 +788,241 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - use high throughput mode for regeneration SQS ([#1148](https://github.com/serverless-nextjs/serverless-next.js/issues/1148)) ([f3d033c](https://github.com/serverless-nextjs/serverless-next.js/commit/f3d033c08164a7681572ad7fa1aedc78bbf23ed6))
 
-# [1.20.0-alpha.16](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.15...@sls-next/serverless-component@1.20.0-alpha.16) (2021-05-29)
+# [1.20.0-alpha.17](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.16...@dolsze/serverless-component@1.20.0-alpha.17) (2021-06-07)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+### Bug Fixes
 
-# [1.20.0-alpha.15](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.14...@sls-next/serverless-component@1.20.0-alpha.15) (2021-05-27)
+- **nextjs-component:** sqs region should be same as regeneration lambda region (using s3 bucket region) ([#1155](https://github.com/serverless-nextjs/serverless-next.js/issues/1155)) ([41b6be1](https://github.com/serverless-nextjs/serverless-next.js/commit/41b6be1943bca70a1e2e6f919b5ee6fecc56389f))
 
-**Note:** Version bump only for package @sls-next/serverless-component
+### Features
 
-# [1.20.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.13...@sls-next/serverless-component@1.20.0-alpha.14) (2021-05-27)
+- use high throughput mode for regeneration SQS ([#1148](https://github.com/serverless-nextjs/serverless-next.js/issues/1148)) ([f3d033c](https://github.com/serverless-nextjs/serverless-next.js/commit/f3d033c08164a7681572ad7fa1aedc78bbf23ed6))
 
-**Note:** Version bump only for package @sls-next/serverless-component
+# [1.20.0-alpha.16](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.15...@dolsze/serverless-component@1.20.0-alpha.16) (2021-05-29)
 
-# [1.20.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.12...@sls-next/serverless-component@1.20.0-alpha.13) (2021-05-25)
+**Note:** Version bump only for package @dolsze/serverless-component
 
-**Note:** Version bump only for package @sls-next/serverless-component
+# [1.20.0-alpha.15](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.14...@dolsze/serverless-component@1.20.0-alpha.15) (2021-05-27)
 
-# [1.20.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.11...@sls-next/serverless-component@1.20.0-alpha.12) (2021-05-25)
+**Note:** Version bump only for package @dolsze/serverless-component
 
-**Note:** Version bump only for package @sls-next/serverless-component
+# [1.20.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.13...@dolsze/serverless-component@1.20.0-alpha.14) (2021-05-27)
 
-# [1.20.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.10...@sls-next/serverless-component@1.20.0-alpha.11) (2021-05-25)
+**Note:** Version bump only for package @dolsze/serverless-component
 
-**Note:** Version bump only for package @sls-next/serverless-component
+# [1.20.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.12...@dolsze/serverless-component@1.20.0-alpha.13) (2021-05-25)
 
-# [1.20.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.9...@sls-next/serverless-component@1.20.0-alpha.10) (2021-05-25)
+**Note:** Version bump only for package @dolsze/serverless-component
+
+# [1.20.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.11...@dolsze/serverless-component@1.20.0-alpha.12) (2021-05-25)
+
+**Note:** Version bump only for package @dolsze/serverless-component
+
+# [1.20.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.10...@dolsze/serverless-component@1.20.0-alpha.11) (2021-05-25)
+
+**Note:** Version bump only for package @dolsze/serverless-component
+
+# [1.20.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.9...@dolsze/serverless-component@1.20.0-alpha.10) (2021-05-25)
 
 ### Bug Fixes
 
 - **nextjs-component:** allow specifying role arn for all lambdas ([#1125](https://github.com/serverless-nextjs/serverless-next.js/issues/1125)) ([6496f26](https://github.com/serverless-nextjs/serverless-next.js/commit/6496f2653638d7bd83f90a00f8d046ab2b38dc7d))
 
-# [1.20.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.8...@sls-next/serverless-component@1.20.0-alpha.9) (2021-05-25)
+# [1.20.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.8...@dolsze/serverless-component@1.20.0-alpha.9) (2021-05-25)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.7...@sls-next/serverless-component@1.20.0-alpha.8) (2021-05-25)
+# [1.20.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.7...@dolsze/serverless-component@1.20.0-alpha.8) (2021-05-25)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.6...@sls-next/serverless-component@1.20.0-alpha.7) (2021-05-24)
+# [1.20.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.6...@dolsze/serverless-component@1.20.0-alpha.7) (2021-05-24)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.5...@sls-next/serverless-component@1.20.0-alpha.6) (2021-05-23)
+# [1.20.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.5...@dolsze/serverless-component@1.20.0-alpha.6) (2021-05-23)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.4...@sls-next/serverless-component@1.20.0-alpha.5) (2021-05-23)
+# [1.20.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.4...@dolsze/serverless-component@1.20.0-alpha.5) (2021-05-23)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.3...@sls-next/serverless-component@1.20.0-alpha.4) (2021-05-21)
+# [1.20.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.3...@dolsze/serverless-component@1.20.0-alpha.4) (2021-05-21)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.2...@sls-next/serverless-component@1.20.0-alpha.3) (2021-05-21)
+# [1.20.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.2...@dolsze/serverless-component@1.20.0-alpha.3) (2021-05-21)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.1...@sls-next/serverless-component@1.20.0-alpha.2) (2021-05-20)
+# [1.20.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.1...@dolsze/serverless-component@1.20.0-alpha.2) (2021-05-20)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.20.0-alpha.0...@sls-next/serverless-component@1.20.0-alpha.1) (2021-05-20)
+# [1.20.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.20.0-alpha.0...@dolsze/serverless-component@1.20.0-alpha.1) (2021-05-20)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.20.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.1-alpha.7...@sls-next/serverless-component@1.20.0-alpha.0) (2021-05-19)
+# [1.20.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.1-alpha.7...@dolsze/serverless-component@1.20.0-alpha.0) (2021-05-19)
 
 ### Features
 
 - **lambda-at-edge:** incremental static regeneration ([#1028](https://github.com/serverless-nextjs/serverless-next.js/issues/1028)) ([d5bbdc6](https://github.com/serverless-nextjs/serverless-next.js/commit/d5bbdc6d395ae732ec0757744482bf8bc25e820f))
 
-## [1.19.1-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.1-alpha.6...@sls-next/serverless-component@1.19.1-alpha.7) (2021-05-14)
+## [1.19.1-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.1-alpha.6...@dolsze/serverless-component@1.19.1-alpha.7) (2021-05-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-## [1.19.1-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.1-alpha.5...@sls-next/serverless-component@1.19.1-alpha.6) (2021-05-14)
+## [1.19.1-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.1-alpha.5...@dolsze/serverless-component@1.19.1-alpha.6) (2021-05-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-## [1.19.1-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.1-alpha.4...@sls-next/serverless-component@1.19.1-alpha.5) (2021-05-11)
+## [1.19.1-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.1-alpha.4...@dolsze/serverless-component@1.19.1-alpha.5) (2021-05-11)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-## [1.19.1-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.1-alpha.3...@sls-next/serverless-component@1.19.1-alpha.4) (2021-05-09)
+## [1.19.1-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.1-alpha.3...@dolsze/serverless-component@1.19.1-alpha.4) (2021-05-09)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-## [1.19.1-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.1-alpha.2...@sls-next/serverless-component@1.19.1-alpha.3) (2021-05-09)
+## [1.19.1-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.1-alpha.2...@dolsze/serverless-component@1.19.1-alpha.3) (2021-05-09)
 
 ### Bug Fixes
 
 - **nextjs-component:** allow custom cache behavior for \_next/image\* ([#1046](https://github.com/serverless-nextjs/serverless-next.js/issues/1046)) ([a6325c2](https://github.com/serverless-nextjs/serverless-next.js/commit/a6325c2462a1351eecb1c533d922767799d3f2f8))
 
-## [1.19.1-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.1-alpha.1...@sls-next/serverless-component@1.19.1-alpha.2) (2021-05-05)
+## [1.19.1-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.1-alpha.1...@dolsze/serverless-component@1.19.1-alpha.2) (2021-05-05)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-## [1.19.1-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.1-alpha.0...@sls-next/serverless-component@1.19.1-alpha.1) (2021-05-05)
+## [1.19.1-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.1-alpha.0...@dolsze/serverless-component@1.19.1-alpha.1) (2021-05-05)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-## [1.19.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0...@sls-next/serverless-component@1.19.1-alpha.0) (2021-05-05)
+## [1.19.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0...@dolsze/serverless-component@1.19.1-alpha.0) (2021-05-05)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.55...@sls-next/serverless-component@1.19.0) (2021-05-03)
+# [1.19.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.55...@dolsze/serverless-component@1.19.0) (2021-05-03)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.55](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.54...@sls-next/serverless-component@1.19.0-alpha.55) (2021-05-03)
+# [1.19.0-alpha.55](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.54...@dolsze/serverless-component@1.19.0-alpha.55) (2021-05-03)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.54](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.53...@sls-next/serverless-component@1.19.0-alpha.54) (2021-05-01)
+# [1.19.0-alpha.54](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.53...@dolsze/serverless-component@1.19.0-alpha.54) (2021-05-01)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.53](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.52...@sls-next/serverless-component@1.19.0-alpha.53) (2021-05-01)
+# [1.19.0-alpha.53](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.52...@dolsze/serverless-component@1.19.0-alpha.53) (2021-05-01)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.52](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.51...@sls-next/serverless-component@1.19.0-alpha.52) (2021-04-29)
+# [1.19.0-alpha.52](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.51...@dolsze/serverless-component@1.19.0-alpha.52) (2021-04-29)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.51](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.50...@sls-next/serverless-component@1.19.0-alpha.51) (2021-04-28)
+# [1.19.0-alpha.51](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.50...@dolsze/serverless-component@1.19.0-alpha.51) (2021-04-28)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.50](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.49...@sls-next/serverless-component@1.19.0-alpha.50) (2021-04-26)
+# [1.19.0-alpha.50](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.49...@dolsze/serverless-component@1.19.0-alpha.50) (2021-04-26)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.49](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.48...@sls-next/serverless-component@1.19.0-alpha.49) (2021-04-24)
+# [1.19.0-alpha.49](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.48...@dolsze/serverless-component@1.19.0-alpha.49) (2021-04-24)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.48](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.47...@sls-next/serverless-component@1.19.0-alpha.48) (2021-04-21)
+# [1.19.0-alpha.48](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.47...@dolsze/serverless-component@1.19.0-alpha.48) (2021-04-21)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.47](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.46...@sls-next/serverless-component@1.19.0-alpha.47) (2021-04-21)
+# [1.19.0-alpha.47](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.46...@dolsze/serverless-component@1.19.0-alpha.47) (2021-04-21)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.46](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.45...@sls-next/serverless-component@1.19.0-alpha.46) (2021-04-21)
+# [1.19.0-alpha.46](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.45...@dolsze/serverless-component@1.19.0-alpha.46) (2021-04-21)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.45](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.44...@sls-next/serverless-component@1.19.0-alpha.45) (2021-04-16)
+# [1.19.0-alpha.45](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.44...@dolsze/serverless-component@1.19.0-alpha.45) (2021-04-16)
 
 ### Features
 
 - **nextjs-component:** change ServerlessComponentInputs.deploy and BuildOptions.enabled to a union type ([#999](https://github.com/serverless-nextjs/serverless-next.js/issues/999)) ([#1000](https://github.com/serverless-nextjs/serverless-next.js/issues/1000)) ([3896b12](https://github.com/serverless-nextjs/serverless-next.js/commit/3896b12d7cc85ac44ab4b680c0efe096f7238f8b))
 
-# [1.19.0-alpha.44](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.43...@sls-next/serverless-component@1.19.0-alpha.44) (2021-04-15)
+# [1.19.0-alpha.44](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.43...@dolsze/serverless-component@1.19.0-alpha.44) (2021-04-15)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.43](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.42...@sls-next/serverless-component@1.19.0-alpha.43) (2021-04-10)
+# [1.19.0-alpha.43](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.42...@dolsze/serverless-component@1.19.0-alpha.43) (2021-04-10)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.42](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.41...@sls-next/serverless-component@1.19.0-alpha.42) (2021-04-02)
+# [1.19.0-alpha.42](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.41...@dolsze/serverless-component@1.19.0-alpha.42) (2021-04-02)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.41](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.40...@sls-next/serverless-component@1.19.0-alpha.41) (2021-03-30)
+# [1.19.0-alpha.41](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.40...@dolsze/serverless-component@1.19.0-alpha.41) (2021-03-30)
 
 ### Bug Fixes
 
 - **lambda-at-edge:** fix dynamic vs. catch-all route precedence ([#974](https://github.com/serverless-nextjs/serverless-next.js/issues/974)) ([2a3140a](https://github.com/serverless-nextjs/serverless-next.js/commit/2a3140a7fc68d40840e65a1af85b79c8da9e3a31))
 
-# [1.19.0-alpha.40](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.39...@sls-next/serverless-component@1.19.0-alpha.40) (2021-03-24)
+# [1.19.0-alpha.40](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.39...@dolsze/serverless-component@1.19.0-alpha.40) (2021-03-24)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.39](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.38...@sls-next/serverless-component@1.19.0-alpha.39) (2021-03-24)
+# [1.19.0-alpha.39](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.38...@dolsze/serverless-component@1.19.0-alpha.39) (2021-03-24)
 
 ### Features
 
 - **nextjs-component:** add baseDir from [#779](https://github.com/serverless-nextjs/serverless-next.js/issues/779) to component to facilitate usage in monorepos ([#953](https://github.com/serverless-nextjs/serverless-next.js/issues/953)) ([86844e6](https://github.com/serverless-nextjs/serverless-next.js/commit/86844e60cdb46b64315abab76d03b24d8c8c770d))
 
-# [1.19.0-alpha.38](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.37...@sls-next/serverless-component@1.19.0-alpha.38) (2021-03-22)
+# [1.19.0-alpha.38](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.37...@dolsze/serverless-component@1.19.0-alpha.38) (2021-03-22)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.37](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.35...@sls-next/serverless-component@1.19.0-alpha.37) (2021-03-10)
+# [1.19.0-alpha.37](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.35...@dolsze/serverless-component@1.19.0-alpha.37) (2021-03-10)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.36](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.35...@sls-next/serverless-component@1.19.0-alpha.36) (2021-03-10)
+# [1.19.0-alpha.36](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.35...@dolsze/serverless-component@1.19.0-alpha.36) (2021-03-10)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.35](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.34...@sls-next/serverless-component@1.19.0-alpha.35) (2021-03-05)
+# [1.19.0-alpha.35](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.34...@dolsze/serverless-component@1.19.0-alpha.35) (2021-03-05)
 
 ### Features
 
 - **nextjs-component:** allow disabling s3 transfer acceleration ([#926](https://github.com/serverless-nextjs/serverless-next.js/issues/926)) ([9aaeec7](https://github.com/serverless-nextjs/serverless-next.js/commit/9aaeec7c3e9ab6c6c70389801c155477ae7cd456))
 
-# [1.19.0-alpha.34](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.33...@sls-next/serverless-component@1.19.0-alpha.34) (2021-03-04)
+# [1.19.0-alpha.34](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.33...@dolsze/serverless-component@1.19.0-alpha.34) (2021-03-04)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.33](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.32...@sls-next/serverless-component@1.19.0-alpha.33) (2021-03-02)
+# [1.19.0-alpha.33](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.32...@dolsze/serverless-component@1.19.0-alpha.33) (2021-03-02)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.32](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.31...@sls-next/serverless-component@1.19.0-alpha.32) (2021-02-16)
+# [1.19.0-alpha.32](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.31...@dolsze/serverless-component@1.19.0-alpha.32) (2021-02-16)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.31](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.30...@sls-next/serverless-component@1.19.0-alpha.31) (2021-02-11)
+# [1.19.0-alpha.31](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.30...@dolsze/serverless-component@1.19.0-alpha.31) (2021-02-11)
 
 ### Bug Fixes
 
 - **nextjs-component:** image lambda role should also use inputs.roleArn if it exists ([#903](https://github.com/serverless-nextjs/serverless-next.js/issues/903)) ([93f2562](https://github.com/serverless-nextjs/serverless-next.js/commit/93f2562919827fed6881da5134fc695e4d992e0b))
 
-# [1.19.0-alpha.30](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.29...@sls-next/serverless-component@1.19.0-alpha.30) (2021-01-26)
+# [1.19.0-alpha.30](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.29...@dolsze/serverless-component@1.19.0-alpha.30) (2021-01-26)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.29](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.28...@sls-next/serverless-component@1.19.0-alpha.29) (2021-01-25)
+# [1.19.0-alpha.29](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.28...@dolsze/serverless-component@1.19.0-alpha.29) (2021-01-25)
 
 ### Features
 
@@ -1030,67 +1030,67 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **lambda-at-edge:** start copying locale-specific page/data files t… ([#883](https://github.com/serverless-nextjs/serverless-next.js/issues/883)) ([8bc889c](https://github.com/serverless-nextjs/serverless-next.js/commit/8bc889cb3242e27057bc5f1260faad4e42ea0cfe))
 - **lambda-at-edge, nextjs-commponent:** rewrite from root using accept-language header, other minor bugfixes for locales ([#885](https://github.com/serverless-nextjs/serverless-next.js/issues/885)) ([828b9dd](https://github.com/serverless-nextjs/serverless-next.js/commit/828b9dde89a9cb2559c58ab4e798ee7cbcbdd5e6))
 
-# [1.19.0-alpha.28](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.27...@sls-next/serverless-component@1.19.0-alpha.28) (2021-01-19)
+# [1.19.0-alpha.28](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.27...@dolsze/serverless-component@1.19.0-alpha.28) (2021-01-19)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.27](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.26...@sls-next/serverless-component@1.19.0-alpha.27) (2021-01-10)
+# [1.19.0-alpha.27](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.26...@dolsze/serverless-component@1.19.0-alpha.27) (2021-01-10)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.26](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.25...@sls-next/serverless-component@1.19.0-alpha.26) (2021-01-07)
+# [1.19.0-alpha.26](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.25...@dolsze/serverless-component@1.19.0-alpha.26) (2021-01-07)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.25](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.24...@sls-next/serverless-component@1.19.0-alpha.25) (2021-01-07)
+# [1.19.0-alpha.25](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.24...@dolsze/serverless-component@1.19.0-alpha.25) (2021-01-07)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.24](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.23...@sls-next/serverless-component@1.19.0-alpha.24) (2021-01-06)
+# [1.19.0-alpha.24](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.23...@dolsze/serverless-component@1.19.0-alpha.24) (2021-01-06)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.23](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.22...@sls-next/serverless-component@1.19.0-alpha.23) (2021-01-06)
+# [1.19.0-alpha.23](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.22...@dolsze/serverless-component@1.19.0-alpha.23) (2021-01-06)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.22](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.21...@sls-next/serverless-component@1.19.0-alpha.22) (2021-01-02)
+# [1.19.0-alpha.22](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.21...@dolsze/serverless-component@1.19.0-alpha.22) (2021-01-02)
 
 ### Bug Fixes
 
 - **nextjs-component:** don't override \_next/image* and \_next/static/* origin request lambda with the default lambda ([#859](https://github.com/serverless-nextjs/serverless-next.js/issues/859)) ([20e513c](https://github.com/serverless-nextjs/serverless-next.js/commit/20e513cb736c1aada5dd670c13a366626a9d4f22))
 
-# [1.19.0-alpha.21](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.20...@sls-next/serverless-component@1.19.0-alpha.21) (2020-12-11)
+# [1.19.0-alpha.21](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.20...@dolsze/serverless-component@1.19.0-alpha.21) (2020-12-11)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.20](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.19...@sls-next/serverless-component@1.19.0-alpha.20) (2020-12-10)
+# [1.19.0-alpha.20](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.19...@dolsze/serverless-component@1.19.0-alpha.20) (2020-12-10)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.19](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.18...@sls-next/serverless-component@1.19.0-alpha.19) (2020-12-08)
+# [1.19.0-alpha.19](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.18...@dolsze/serverless-component@1.19.0-alpha.19) (2020-12-08)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.18](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.17...@sls-next/serverless-component@1.19.0-alpha.18) (2020-12-08)
+# [1.19.0-alpha.18](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.17...@dolsze/serverless-component@1.19.0-alpha.18) (2020-12-08)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.17](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.16...@sls-next/serverless-component@1.19.0-alpha.17) (2020-12-08)
+# [1.19.0-alpha.17](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.16...@dolsze/serverless-component@1.19.0-alpha.17) (2020-12-08)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.16](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.15...@sls-next/serverless-component@1.19.0-alpha.16) (2020-12-08)
+# [1.19.0-alpha.16](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.15...@dolsze/serverless-component@1.19.0-alpha.16) (2020-12-08)
 
 ### Features
 
 - **lambda-at-edge:** support image optimization ([#829](https://github.com/serverless-nextjs/serverless-next.js/issues/829)) ([f6c5156](https://github.com/serverless-nextjs/serverless-next.js/commit/f6c5156bf8bb4912528dfb3723227cca0790218a))
 
-# [1.19.0-alpha.15](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.14...@sls-next/serverless-component@1.19.0-alpha.15) (2020-12-05)
+# [1.19.0-alpha.15](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.14...@dolsze/serverless-component@1.19.0-alpha.15) (2020-12-05)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.13...@sls-next/serverless-component@1.19.0-alpha.14) (2020-12-03)
+# [1.19.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.13...@dolsze/serverless-component@1.19.0-alpha.14) (2020-12-03)
 
 ### Bug Fixes
 
@@ -1100,155 +1100,155 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **nextjs-component:** add inputs.roleArn for existing lambda role ([#827](https://github.com/serverless-nextjs/serverless-next.js/issues/827)) ([f63bc76](https://github.com/serverless-nextjs/serverless-next.js/commit/f63bc763fcc224b3a0c49637ad58129c3143351c))
 
-# [1.19.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.12...@sls-next/serverless-component@1.19.0-alpha.13) (2020-11-30)
+# [1.19.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.12...@dolsze/serverless-component@1.19.0-alpha.13) (2020-11-30)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.11...@sls-next/serverless-component@1.19.0-alpha.12) (2020-11-26)
+# [1.19.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.11...@dolsze/serverless-component@1.19.0-alpha.12) (2020-11-26)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.10...@sls-next/serverless-component@1.19.0-alpha.11) (2020-11-24)
+# [1.19.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.10...@dolsze/serverless-component@1.19.0-alpha.11) (2020-11-24)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.9...@sls-next/serverless-component@1.19.0-alpha.10) (2020-11-23)
+# [1.19.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.9...@dolsze/serverless-component@1.19.0-alpha.10) (2020-11-23)
 
 ### Features
 
 - **cloudfront, serverless-component:** add optional invalidation paths configuration ([#814](https://github.com/serverless-nextjs/serverless-next.js/issues/814)) ([088d0c0](https://github.com/serverless-nextjs/serverless-next.js/commit/088d0c05dc1b278f8387a5a8eaf36d9725cf9740))
 
-# [1.19.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.8...@sls-next/serverless-component@1.19.0-alpha.9) (2020-11-20)
+# [1.19.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.8...@dolsze/serverless-component@1.19.0-alpha.9) (2020-11-20)
 
 ### Features
 
 - **aws-cloudfront:** allow predefined originAccessIdentityId ([#811](https://github.com/serverless-nextjs/serverless-next.js/issues/811)) ([8785727](https://github.com/serverless-nextjs/serverless-next.js/commit/878572769397428e08349982079001a8b94d977e))
 
-# [1.19.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.7...@sls-next/serverless-component@1.19.0-alpha.8) (2020-11-17)
+# [1.19.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.7...@dolsze/serverless-component@1.19.0-alpha.8) (2020-11-17)
 
 ### Features
 
 - **lambda-at-edge, nextjs-component, s3-static-assets:** support ver… ([#803](https://github.com/serverless-nextjs/serverless-next.js/issues/803)) ([015065d](https://github.com/serverless-nextjs/serverless-next.js/commit/015065d02c1d06659dc1d1a7258b89f9415c3721))
 
-# [1.19.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.5...@sls-next/serverless-component@1.19.0-alpha.7) (2020-11-13)
+# [1.19.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.5...@dolsze/serverless-component@1.19.0-alpha.7) (2020-11-13)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.5...@sls-next/serverless-component@1.19.0-alpha.6) (2020-11-13)
+# [1.19.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.5...@dolsze/serverless-component@1.19.0-alpha.6) (2020-11-13)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.4...@sls-next/serverless-component@1.19.0-alpha.5) (2020-11-13)
+# [1.19.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.4...@dolsze/serverless-component@1.19.0-alpha.5) (2020-11-13)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.3...@sls-next/serverless-component@1.19.0-alpha.4) (2020-11-11)
+# [1.19.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.3...@dolsze/serverless-component@1.19.0-alpha.4) (2020-11-11)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.2...@sls-next/serverless-component@1.19.0-alpha.3) (2020-11-07)
+# [1.19.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.2...@dolsze/serverless-component@1.19.0-alpha.3) (2020-11-07)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.1...@sls-next/serverless-component@1.19.0-alpha.2) (2020-11-06)
+# [1.19.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.1...@dolsze/serverless-component@1.19.0-alpha.2) (2020-11-06)
 
 ### Features
 
 - **nextjs-component, lambda-at-edge:** support single username/password basic authen… ([#773](https://github.com/serverless-nextjs/serverless-next.js/issues/773)) ([220da4a](https://github.com/serverless-nextjs/serverless-next.js/commit/220da4a7274bc43408803bb831c2221a95a7d435))
 
-# [1.19.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.19.0-alpha.0...@sls-next/serverless-component@1.19.0-alpha.1) (2020-11-06)
+# [1.19.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.19.0-alpha.0...@dolsze/serverless-component@1.19.0-alpha.1) (2020-11-06)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.19.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.1-alpha.2...@sls-next/serverless-component@1.19.0-alpha.0) (2020-11-06)
+# [1.19.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.1-alpha.2...@dolsze/serverless-component@1.19.0-alpha.0) (2020-11-06)
 
 ### Features
 
 - **nextjs-component:** add build.postBuildCommands input to execute any command or script post-build ([#772](https://github.com/serverless-nextjs/serverless-next.js/issues/772)) ([b2cc97f](https://github.com/serverless-nextjs/serverless-next.js/commit/b2cc97f35adfa7364c3d708cd84ac9efeb7be68e))
 
-## [1.18.1-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.1-alpha.1...@sls-next/serverless-component@1.18.1-alpha.2) (2020-11-03)
+## [1.18.1-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.1-alpha.1...@dolsze/serverless-component@1.18.1-alpha.2) (2020-11-03)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-## [1.18.1-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.1-alpha.0...@sls-next/serverless-component@1.18.1-alpha.1) (2020-11-03)
+## [1.18.1-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.1-alpha.0...@dolsze/serverless-component@1.18.1-alpha.1) (2020-11-03)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-## [1.18.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0...@sls-next/serverless-component@1.18.1-alpha.0) (2020-11-02)
+## [1.18.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0...@dolsze/serverless-component@1.18.1-alpha.0) (2020-11-02)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.27...@sls-next/serverless-component@1.18.0) (2020-11-02)
+# [1.18.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.27...@dolsze/serverless-component@1.18.0) (2020-11-02)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.27](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.26...@sls-next/serverless-component@1.18.0-alpha.27) (2020-10-31)
+# [1.18.0-alpha.27](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.26...@dolsze/serverless-component@1.18.0-alpha.27) (2020-10-31)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.26](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.25...@sls-next/serverless-component@1.18.0-alpha.26) (2020-10-30)
+# [1.18.0-alpha.26](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.25...@dolsze/serverless-component@1.18.0-alpha.26) (2020-10-30)
 
 ### Features
 
 - **aws-cloudfront, nextjs-component:** support setting certificate input in cloudfront ([#727](https://github.com/serverless-nextjs/serverless-next.js/issues/727)) ([6f68bf1](https://github.com/serverless-nextjs/serverless-next.js/commit/6f68bf1910d80cc69b09f6529081e6ccad74552e))
 
-# [1.18.0-alpha.25](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.24...@sls-next/serverless-component@1.18.0-alpha.25) (2020-10-30)
+# [1.18.0-alpha.25](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.24...@dolsze/serverless-component@1.18.0-alpha.25) (2020-10-30)
 
 ### Features
 
 - **aws-cloudfront, nextjs-component:** support setting geo restrictions ([#726](https://github.com/serverless-nextjs/serverless-next.js/issues/726)) ([964b936](https://github.com/serverless-nextjs/serverless-next.js/commit/964b9360484a6a9ad3f69a593dc2f26547c15eb2))
 
-# [1.18.0-alpha.24](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.23...@sls-next/serverless-component@1.18.0-alpha.24) (2020-10-30)
+# [1.18.0-alpha.24](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.23...@dolsze/serverless-component@1.18.0-alpha.24) (2020-10-30)
 
 ### Features
 
 - **aws-cloudfront, nextjs-component:** support setting WAF web ACL id ([#724](https://github.com/serverless-nextjs/serverless-next.js/issues/724)) ([1a11594](https://github.com/serverless-nextjs/serverless-next.js/commit/1a1159472621e91191f1f41a39fe75a0ed9897b1))
 
-# [1.18.0-alpha.23](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.22...@sls-next/serverless-component@1.18.0-alpha.23) (2020-10-29)
+# [1.18.0-alpha.23](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.22...@dolsze/serverless-component@1.18.0-alpha.23) (2020-10-29)
 
 ### Bug Fixes
 
 - **domain, nextjs-component:** set aliases correctly with domainType of apex and domain starting with www ([#723](https://github.com/serverless-nextjs/serverless-next.js/issues/723)) ([c68a4fc](https://github.com/serverless-nextjs/serverless-next.js/commit/c68a4fccfdf755db3e857fdfa5049a2fe63bd58b))
 
-# [1.18.0-alpha.22](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.21...@sls-next/serverless-component@1.18.0-alpha.22) (2020-10-29)
+# [1.18.0-alpha.22](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.21...@dolsze/serverless-component@1.18.0-alpha.22) (2020-10-29)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.21](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.20...@sls-next/serverless-component@1.18.0-alpha.21) (2020-10-28)
+# [1.18.0-alpha.21](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.20...@dolsze/serverless-component@1.18.0-alpha.21) (2020-10-28)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.20](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.19...@sls-next/serverless-component@1.18.0-alpha.20) (2020-10-27)
+# [1.18.0-alpha.20](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.19...@dolsze/serverless-component@1.18.0-alpha.20) (2020-10-27)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.19](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.18...@sls-next/serverless-component@1.18.0-alpha.19) (2020-10-23)
+# [1.18.0-alpha.19](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.18...@dolsze/serverless-component@1.18.0-alpha.19) (2020-10-23)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.18](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.17...@sls-next/serverless-component@1.18.0-alpha.18) (2020-10-22)
+# [1.18.0-alpha.18](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.17...@dolsze/serverless-component@1.18.0-alpha.18) (2020-10-22)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.17](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.16...@sls-next/serverless-component@1.18.0-alpha.17) (2020-10-22)
+# [1.18.0-alpha.17](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.16...@dolsze/serverless-component@1.18.0-alpha.17) (2020-10-22)
 
 ### Features
 
 - **lambda-at-edge-compat, lambda-at-edge, nextjs-component:** let CloudFront do the Gzipping ([#692](https://github.com/serverless-nextjs/serverless-next.js/issues/692)) ([05fb0eb](https://github.com/serverless-nextjs/serverless-next.js/commit/05fb0ebdf38096fb7e0427956c4747e782c680a8))
 
-# [1.18.0-alpha.16](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.15...@sls-next/serverless-component@1.18.0-alpha.16) (2020-10-21)
+# [1.18.0-alpha.16](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.15...@dolsze/serverless-component@1.18.0-alpha.16) (2020-10-21)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.15](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.14...@sls-next/serverless-component@1.18.0-alpha.15) (2020-10-21)
+# [1.18.0-alpha.15](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.14...@dolsze/serverless-component@1.18.0-alpha.15) (2020-10-21)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.13...@sls-next/serverless-component@1.18.0-alpha.14) (2020-10-20)
+# [1.18.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.13...@dolsze/serverless-component@1.18.0-alpha.14) (2020-10-20)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.12...@sls-next/serverless-component@1.18.0-alpha.13) (2020-10-20)
+# [1.18.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.12...@dolsze/serverless-component@1.18.0-alpha.13) (2020-10-20)
 
 ### Bug Fixes
 
@@ -1258,119 +1258,119 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **lambda-at-edge, nextjs-component:** allow `handler` input for custom handler code ([#649](https://github.com/serverless-nextjs/serverless-next.js/issues/649)) ([cecd327](https://github.com/serverless-nextjs/serverless-next.js/commit/cecd327993d593c582eeb140538b271b2eef509a))
 
-# [1.18.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.11...@sls-next/serverless-component@1.18.0-alpha.12) (2020-10-18)
+# [1.18.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.11...@dolsze/serverless-component@1.18.0-alpha.12) (2020-10-18)
 
 ### Features
 
 - **nextjs-component:** add deploy input which can be set to false to skip deployment ([#691](https://github.com/serverless-nextjs/serverless-next.js/issues/691)) ([5adaf2b](https://github.com/serverless-nextjs/serverless-next.js/commit/5adaf2bacae6f8647ac7fc90f910eefb97d8f229))
 
-# [1.18.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.10...@sls-next/serverless-component@1.18.0-alpha.11) (2020-10-16)
+# [1.18.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.10...@dolsze/serverless-component@1.18.0-alpha.11) (2020-10-16)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.9...@sls-next/serverless-component@1.18.0-alpha.10) (2020-10-16)
+# [1.18.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.9...@dolsze/serverless-component@1.18.0-alpha.10) (2020-10-16)
 
 ### Bug Fixes
 
 - **nextjs-component:** fix inability to set custom behavior for \_next/data/\* ([#684](https://github.com/serverless-nextjs/serverless-next.js/issues/684)) ([326acc8](https://github.com/serverless-nextjs/serverless-next.js/commit/326acc859dc20bb59b89bcbcbf4095d6db7c9dc2))
 
-# [1.18.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.8...@sls-next/serverless-component@1.18.0-alpha.9) (2020-10-15)
+# [1.18.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.8...@dolsze/serverless-component@1.18.0-alpha.9) (2020-10-15)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.7...@sls-next/serverless-component@1.18.0-alpha.8) (2020-10-15)
+# [1.18.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.7...@dolsze/serverless-component@1.18.0-alpha.8) (2020-10-15)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.6...@sls-next/serverless-component@1.18.0-alpha.7) (2020-10-15)
+# [1.18.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.6...@dolsze/serverless-component@1.18.0-alpha.7) (2020-10-15)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.5...@sls-next/serverless-component@1.18.0-alpha.6) (2020-10-13)
+# [1.18.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.5...@dolsze/serverless-component@1.18.0-alpha.6) (2020-10-13)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.4...@sls-next/serverless-component@1.18.0-alpha.5) (2020-10-10)
+# [1.18.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.4...@dolsze/serverless-component@1.18.0-alpha.5) (2020-10-10)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.3...@sls-next/serverless-component@1.18.0-alpha.4) (2020-10-09)
+# [1.18.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.3...@dolsze/serverless-component@1.18.0-alpha.4) (2020-10-09)
 
 ### Features
 
 - **lambda-at-edge:** add minifyHandlers input to minify handler code using Terser ([#659](https://github.com/serverless-nextjs/serverless-next.js/issues/659)) ([1b33e72](https://github.com/serverless-nextjs/serverless-next.js/commit/1b33e72bf1e578e1a8bd6c7a77aeb99db412471a))
 
-# [1.18.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.2...@sls-next/serverless-component@1.18.0-alpha.3) (2020-10-07)
+# [1.18.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.2...@dolsze/serverless-component@1.18.0-alpha.3) (2020-10-07)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.1...@sls-next/serverless-component@1.18.0-alpha.2) (2020-10-07)
+# [1.18.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.1...@dolsze/serverless-component@1.18.0-alpha.2) (2020-10-07)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.18.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.18.0-alpha.0...@sls-next/serverless-component@1.18.0-alpha.1) (2020-10-06)
+# [1.18.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.18.0-alpha.0...@dolsze/serverless-component@1.18.0-alpha.1) (2020-10-06)
 
 ### Features
 
 - **lambda-at-edge, nextjs-component:** add new input domainRedirects ([#639](https://github.com/serverless-nextjs/serverless-next.js/issues/639)) ([a12e31a](https://github.com/serverless-nextjs/serverless-next.js/commit/a12e31ac06378f9fe26189b95a9b032942656380))
 
-# [1.18.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.1-alpha.3...@sls-next/serverless-component@1.18.0-alpha.0) (2020-10-06)
+# [1.18.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.1-alpha.3...@dolsze/serverless-component@1.18.0-alpha.0) (2020-10-06)
 
 ### Features
 
 - **aws-cloudfront:** allow setting CloudFront distribution aliases ([#654](https://github.com/serverless-nextjs/serverless-next.js/issues/654)) ([ea180e6](https://github.com/serverless-nextjs/serverless-next.js/commit/ea180e67515ee5dceed1c3e19731291615a7cbbb))
 
-## [1.17.1-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.1-alpha.2...@sls-next/serverless-component@1.17.1-alpha.3) (2020-09-30)
+## [1.17.1-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.1-alpha.2...@dolsze/serverless-component@1.17.1-alpha.3) (2020-09-30)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-## [1.17.1-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.1-alpha.1...@sls-next/serverless-component@1.17.1-alpha.2) (2020-09-30)
+## [1.17.1-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.1-alpha.1...@dolsze/serverless-component@1.17.1-alpha.2) (2020-09-30)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-## [1.17.1-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0...@sls-next/serverless-component@1.17.1-alpha.1) (2020-09-29)
+## [1.17.1-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0...@dolsze/serverless-component@1.17.1-alpha.1) (2020-09-29)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-## [1.17.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0...@sls-next/serverless-component@1.17.1-alpha.0) (2020-09-29)
+## [1.17.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0...@dolsze/serverless-component@1.17.1-alpha.0) (2020-09-29)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.17.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.16...@sls-next/serverless-component@1.17.0) (2020-09-26)
+# [1.17.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.16...@dolsze/serverless-component@1.17.0) (2020-09-26)
 
 ### Features
 
 - **nextjs-component:** allow setting custom API cache behavior ([#623](https://github.com/serverless-nextjs/serverless-next.js/issues/623)) ([ca8094b](https://github.com/serverless-nextjs/serverless-next.js/commit/ca8094b4d9b9541493410dd830a3c85f54250448))
 
-# [1.17.0-alpha.16](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.15...@sls-next/serverless-component@1.17.0-alpha.16) (2020-09-23)
+# [1.17.0-alpha.16](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.15...@dolsze/serverless-component@1.17.0-alpha.16) (2020-09-23)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.17.0-alpha.15](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.13...@sls-next/serverless-component@1.17.0-alpha.15) (2020-09-20)
-
-### Bug Fixes
-
-- **nextjs-component:** allow all CloudFront HTTP methods for default caching behavior ([#609](https://github.com/serverless-nextjs/serverless-next.js/issues/609)) ([6066fa1](https://github.com/serverless-nextjs/serverless-next.js/commit/6066fa1bf4e1fb823039108158a42f7af69a90d6))
-
-# [1.17.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.13...@sls-next/serverless-component@1.17.0-alpha.14) (2020-09-20)
+# [1.17.0-alpha.15](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.13...@dolsze/serverless-component@1.17.0-alpha.15) (2020-09-20)
 
 ### Bug Fixes
 
 - **nextjs-component:** allow all CloudFront HTTP methods for default caching behavior ([#609](https://github.com/serverless-nextjs/serverless-next.js/issues/609)) ([6066fa1](https://github.com/serverless-nextjs/serverless-next.js/commit/6066fa1bf4e1fb823039108158a42f7af69a90d6))
 
-# [1.17.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.12...@sls-next/serverless-component@1.17.0-alpha.13) (2020-09-16)
+# [1.17.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.13...@dolsze/serverless-component@1.17.0-alpha.14) (2020-09-20)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+### Bug Fixes
 
-# [1.17.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.11...@sls-next/serverless-component@1.17.0-alpha.12) (2020-09-10)
+- **nextjs-component:** allow all CloudFront HTTP methods for default caching behavior ([#609](https://github.com/serverless-nextjs/serverless-next.js/issues/609)) ([6066fa1](https://github.com/serverless-nextjs/serverless-next.js/commit/6066fa1bf4e1fb823039108158a42f7af69a90d6))
 
-**Note:** Version bump only for package @sls-next/serverless-component
+# [1.17.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.12...@dolsze/serverless-component@1.17.0-alpha.13) (2020-09-16)
 
-# [1.17.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.10...@sls-next/serverless-component@1.17.0-alpha.11) (2020-09-10)
+**Note:** Version bump only for package @dolsze/serverless-component
 
-**Note:** Version bump only for package @sls-next/serverless-component
+# [1.17.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.11...@dolsze/serverless-component@1.17.0-alpha.12) (2020-09-10)
 
-# [1.17.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.9...@sls-next/serverless-component@1.17.0-alpha.10) (2020-09-10)
+**Note:** Version bump only for package @dolsze/serverless-component
+
+# [1.17.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.10...@dolsze/serverless-component@1.17.0-alpha.11) (2020-09-10)
+
+**Note:** Version bump only for package @dolsze/serverless-component
+
+# [1.17.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.9...@dolsze/serverless-component@1.17.0-alpha.10) (2020-09-10)
 
 ### Bug Fixes
 
@@ -1382,96 +1382,96 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **aws-cloudfront, serverless-component:** add cloudfront custom error responses ([#590](https://github.com/serverless-nextjs/serverless-next.js/issues/590)) ([f3d2a17](https://github.com/serverless-nextjs/serverless-next.js/commit/f3d2a17b2fac5e9bb67b1f6ed5201c8128600314))
 - **serverless-component:** allow passing an inline policy ([#575](https://github.com/serverless-nextjs/serverless-next.js/issues/575)) ([05ddcc9](https://github.com/serverless-nextjs/serverless-next.js/commit/05ddcc98c03e642b8ab9fda3e20334215a8cb017))
 
-# [1.17.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.8...@sls-next/serverless-component@1.17.0-alpha.9) (2020-08-31)
+# [1.17.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.8...@dolsze/serverless-component@1.17.0-alpha.9) (2020-08-31)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.17.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.7...@sls-next/serverless-component@1.17.0-alpha.8) (2020-08-29)
+# [1.17.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.7...@dolsze/serverless-component@1.17.0-alpha.8) (2020-08-29)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.17.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.6...@sls-next/serverless-component@1.17.0-alpha.7) (2020-08-27)
+# [1.17.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.6...@dolsze/serverless-component@1.17.0-alpha.7) (2020-08-27)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.17.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.5...@sls-next/serverless-component@1.17.0-alpha.6) (2020-08-19)
+# [1.17.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.5...@dolsze/serverless-component@1.17.0-alpha.6) (2020-08-19)
 
 ### Features
 
 - **lambda-at-edge:** add opt in lambda execution times logging ([#549](https://github.com/serverless-nextjs/serverless-next.js/issues/549)) ([066bd27](https://github.com/serverless-nextjs/serverless-next.js/commit/066bd270ce8b8f915298b7bac51c2aeb3ab27126))
 
-# [1.17.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.4...@sls-next/serverless-component@1.17.0-alpha.5) (2020-08-14)
+# [1.17.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.4...@dolsze/serverless-component@1.17.0-alpha.5) (2020-08-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.17.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.3...@sls-next/serverless-component@1.17.0-alpha.4) (2020-08-14)
+# [1.17.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.3...@dolsze/serverless-component@1.17.0-alpha.4) (2020-08-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.17.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.2...@sls-next/serverless-component@1.17.0-alpha.3) (2020-08-14)
+# [1.17.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.2...@dolsze/serverless-component@1.17.0-alpha.3) (2020-08-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.17.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.1...@sls-next/serverless-component@1.17.0-alpha.2) (2020-08-14)
+# [1.17.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.1...@dolsze/serverless-component@1.17.0-alpha.2) (2020-08-14)
 
 ### Features
 
 - **serverless-component, lambda-at-edge, lambda-at-edge-compat, s3-static-assets:** add support for getStaticPaths fallback true ([#544](https://github.com/serverless-nextjs/serverless-next.js/issues/544)) ([a08217b](https://github.com/serverless-nextjs/serverless-next.js/commit/a08217ba26ea90f67c562fe4ae9510b617d14d08))
 
-# [1.17.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.17.0-alpha.0...@sls-next/serverless-component@1.17.0-alpha.1) (2020-08-09)
+# [1.17.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.17.0-alpha.0...@dolsze/serverless-component@1.17.0-alpha.1) (2020-08-09)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.17.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.16.0...@sls-next/serverless-component@1.17.0-alpha.0) (2020-08-06)
+# [1.17.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.16.0...@dolsze/serverless-component@1.17.0-alpha.0) (2020-08-06)
 
 ### Features
 
 - **lambda-at-edge,serverless-component:** basePath support ([#510](https://github.com/serverless-nextjs/serverless-next.js/issues/510)) ([b17ce30](https://github.com/serverless-nextjs/serverless-next.js/commit/b17ce30b1f18f994f1d2e9ebfe833a74aae6676b))
 
-# [1.16.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.16.0-alpha.1...@sls-next/serverless-component@1.16.0) (2020-08-01)
+# [1.16.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.16.0-alpha.1...@dolsze/serverless-component@1.16.0) (2020-08-01)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.16.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.16.0-alpha.0...@sls-next/serverless-component@1.16.0-alpha.1) (2020-07-30)
+# [1.16.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.16.0-alpha.0...@dolsze/serverless-component@1.16.0-alpha.1) (2020-07-30)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.16.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.15.2-alpha.1...@sls-next/serverless-component@1.16.0-alpha.0) (2020-07-20)
+# [1.16.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.15.2-alpha.1...@dolsze/serverless-component@1.16.0-alpha.0) (2020-07-20)
 
 ### Features
 
 - **serverless-component:** allow CloudFront PriceClass to be set ([#515](https://github.com/serverless-nextjs/serverless-next.js/issues/515)) ([943958a](https://github.com/serverless-nextjs/serverless-next.js/commit/943958a823d602db35ca2b789e6d8b455ef5f499))
 
-## [1.15.2-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.15.2-alpha.0...@sls-next/serverless-component@1.15.2-alpha.1) (2020-07-14)
+## [1.15.2-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.15.2-alpha.0...@dolsze/serverless-component@1.15.2-alpha.1) (2020-07-14)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-## [1.15.2-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.15.1...@sls-next/serverless-component@1.15.2-alpha.0) (2020-07-13)
+## [1.15.2-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.15.1...@dolsze/serverless-component@1.15.2-alpha.0) (2020-07-13)
 
 ### Bug Fixes
 
 - **serverless-component:** fix "main" package.json property ([96d510d](https://github.com/serverless-nextjs/serverless-next.js/commit/96d510d3e21f6fe84c02425f2c8c6f311b90665f))
 - **serverless-component:** fixes 307 errors when using bucket region outside us-east-1 ([#495](https://github.com/serverless-nextjs/serverless-next.js/issues/495)) ([561e05f](https://github.com/serverless-nextjs/serverless-next.js/commit/561e05f9ba9763fab4185b34adcde61dfcbb0a21))
 
-## [1.15.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.15.0...@sls-next/serverless-component@1.15.1) (2020-07-11)
+## [1.15.1](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.15.0...@dolsze/serverless-component@1.15.1) (2020-07-11)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.15.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.15.0-alpha.5...@sls-next/serverless-component@1.15.0) (2020-07-11)
+# [1.15.0](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.15.0-alpha.5...@dolsze/serverless-component@1.15.0) (2020-07-11)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.15.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.15.0-alpha.4...@sls-next/serverless-component@1.15.0-alpha.5) (2020-07-05)
+# [1.15.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.15.0-alpha.4...@dolsze/serverless-component@1.15.0-alpha.5) (2020-07-05)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.15.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.15.0-alpha.3...@sls-next/serverless-component@1.15.0-alpha.4) (2020-06-30)
+# [1.15.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.15.0-alpha.3...@dolsze/serverless-component@1.15.0-alpha.4) (2020-06-30)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
-# [1.15.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/serverless-component@1.15.0-alpha.2...@sls-next/serverless-component@1.15.0-alpha.3) (2020-06-29)
+# [1.15.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/serverless-component@1.15.0-alpha.2...@dolsze/serverless-component@1.15.0-alpha.3) (2020-06-29)
 
-**Note:** Version bump only for package @sls-next/serverless-component
+**Note:** Version bump only for package @dolsze/serverless-component
 
 # 1.15.0-alpha.2 (2020-06-29)
 

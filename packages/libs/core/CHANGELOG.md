@@ -130,11 +130,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.8.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0...v3.8.0-alpha.0) (2022-04-20)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.7.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.12...v3.7.0) (2022-03-31)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.7.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.11...v3.7.0-alpha.12) (2022-03-15)
 
@@ -172,19 +172,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.7.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.6...v3.7.0-alpha.7) (2022-01-27)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.7.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.5...v3.7.0-alpha.6) (2022-01-25)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.7.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.4...v3.7.0-alpha.5) (2022-01-20)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.7.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.3...v3.7.0-alpha.4) (2022-01-05)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.7.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.7.0-alpha.2...v3.7.0-alpha.3) (2021-12-22)
 
@@ -210,7 +210,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.7.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.6.1-alpha.2...v3.7.0-alpha.0) (2021-11-21)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 ## [3.6.1-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.6.1-alpha.0...v3.6.1-alpha.1) (2021-11-14)
 
@@ -226,7 +226,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.6.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.6.0-alpha.0...v3.6.0) (2021-11-14)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.6.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.4-alpha.0...v3.6.0-alpha.0) (2021-11-14)
 
@@ -242,7 +242,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.5.3](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.3-alpha.6...v3.5.3) (2021-11-09)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 ## [3.5.3-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.3-alpha.5...v3.5.3-alpha.6) (2021-11-09)
 
@@ -260,11 +260,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.5.3-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.2...v3.5.3-alpha.0) (2021-10-29)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 ## [3.5.2](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.1...v3.5.2) (2021-10-28)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 ## [3.5.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0...v3.5.1) (2021-10-28)
 
@@ -274,7 +274,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.5.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.11...v3.5.0) (2021-10-28)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.5.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.10...v3.5.0-alpha.11) (2021-10-27)
 
@@ -284,27 +284,27 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.5.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.9...v3.5.0-alpha.10) (2021-10-25)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.5.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.8...v3.5.0-alpha.9) (2021-10-25)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.5.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.7...v3.5.0-alpha.8) (2021-10-23)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.5.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.6...v3.5.0-alpha.7) (2021-10-19)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.5.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.5...v3.5.0-alpha.6) (2021-10-19)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.5.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.4...v3.5.0-alpha.5) (2021-10-18)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.5.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.3...v3.5.0-alpha.4) (2021-10-18)
 
@@ -314,11 +314,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.5.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.1...v3.5.0-alpha.2) (2021-10-16)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.5.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.5.0-alpha.0...v3.5.0-alpha.1) (2021-10-13)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.5.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0...v3.5.0-alpha.0) (2021-10-06)
 
@@ -328,7 +328,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.4.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.14...v3.4.0) (2021-10-02)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.4.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.11...v3.4.0-alpha.12) (2021-09-27)
 
@@ -344,7 +344,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.4.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.9...v3.4.0-alpha.10) (2021-09-24)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.4.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.4.0-alpha.8...v3.4.0-alpha.9) (2021-09-17)
 
@@ -372,7 +372,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.4.0-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.1-alpha.1...v3.4.0-alpha.0) (2021-09-03)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 ## [3.3.1-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.1-alpha.0...v3.3.1-alpha.1) (2021-09-02)
 
@@ -382,7 +382,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.3.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0-alpha.6...v3.3.0) (2021-09-01)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.3.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0-alpha.5...v3.3.0-alpha.6) (2021-08-31)
 
@@ -404,7 +404,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.3.0-alpha.1](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.3.0-alpha.0...v3.3.0-alpha.1) (2021-08-21)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 ## [3.2.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0...v3.2.1-alpha.0) (2021-08-04)
 
@@ -414,7 +414,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.2.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.29...v3.2.0) (2021-08-03)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.2.0-alpha.25](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.24...v3.2.0-alpha.25) (2021-08-02)
 
@@ -430,15 +430,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.2.0-alpha.17](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.16...v3.2.0-alpha.17) (2021-07-07)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.2.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.12...v3.2.0-alpha.13) (2021-07-02)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.2.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.11...v3.2.0-alpha.12) (2021-07-01)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.2.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.10...v3.2.0-alpha.11) (2021-06-30)
 
@@ -454,11 +454,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.2.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.5...v3.2.0-alpha.6) (2021-06-27)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.2.0-alpha.2](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.2.0-alpha.1...v3.2.0-alpha.2) (2021-06-26)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 ## [3.1.1-alpha.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0...v3.1.1-alpha.0) (2021-06-26)
 
@@ -468,7 +468,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.1.0](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.16...v3.1.0) (2021-06-25)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.1.0-alpha.16](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.15...v3.1.0-alpha.16) (2021-06-25)
 
@@ -484,7 +484,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.1.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.6...v3.1.0-alpha.7) (2021-06-22)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
 # [3.1.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.5...v3.1.0-alpha.6) (2021-06-21)
 
@@ -494,119 +494,119 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.1.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/v3.1.0-alpha.4...v3.1.0-alpha.5) (2021-06-19)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
-# [1.0.0-alpha.24](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.23...@sls-next/core@1.0.0-alpha.24) (2021-06-16)
+# [1.0.0-alpha.24](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.23...@dolsze/core@1.0.0-alpha.24) (2021-06-16)
 
 ### Bug Fixes
 
 - **core:** data request page JS path should use the one from the manifest ([#1241](https://github.com/serverless-nextjs/serverless-next.js/issues/1241)) ([f774a30](https://github.com/serverless-nextjs/serverless-next.js/commit/f774a30e1fa07d7f0d755106c68b50442d0c0d7f))
 
-# [1.0.0-alpha.23](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.22...@sls-next/core@1.0.0-alpha.23) (2021-06-16)
+# [1.0.0-alpha.23](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.22...@dolsze/core@1.0.0-alpha.23) (2021-06-16)
 
 ### Bug Fixes
 
 - **core:** use JS page path from manifest instead of manually constru… ([#1238](https://github.com/serverless-nextjs/serverless-next.js/issues/1238)) ([cac8918](https://github.com/serverless-nextjs/serverless-next.js/commit/cac89183546770363a56f0ad61ae6834ff5e4310))
 
-# [1.0.0-alpha.22](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.21...@sls-next/core@1.0.0-alpha.22) (2021-06-09)
+# [1.0.0-alpha.22](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.21...@dolsze/core@1.0.0-alpha.22) (2021-06-09)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
-# [1.0.0-alpha.21](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.19...@sls-next/core@1.0.0-alpha.21) (2021-06-07)
-
-### Bug Fixes
-
-- **core, lambda-at-edge:** set error status codes in core, refactor error handling ([#1153](https://github.com/serverless-nextjs/serverless-next.js/issues/1153)) ([6d4ae93](https://github.com/serverless-nextjs/serverless-next.js/commit/6d4ae936d64d0dda1d4b077ddc402b6f1afae88b))
-
-# [1.0.0-alpha.20](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.19...@sls-next/core@1.0.0-alpha.20) (2021-06-07)
+# [1.0.0-alpha.21](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.19...@dolsze/core@1.0.0-alpha.21) (2021-06-07)
 
 ### Bug Fixes
 
 - **core, lambda-at-edge:** set error status codes in core, refactor error handling ([#1153](https://github.com/serverless-nextjs/serverless-next.js/issues/1153)) ([6d4ae93](https://github.com/serverless-nextjs/serverless-next.js/commit/6d4ae936d64d0dda1d4b077ddc402b6f1afae88b))
 
-# [1.0.0-alpha.19](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.18...@sls-next/core@1.0.0-alpha.19) (2021-05-29)
+# [1.0.0-alpha.20](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.19...@dolsze/core@1.0.0-alpha.20) (2021-06-07)
+
+### Bug Fixes
+
+- **core, lambda-at-edge:** set error status codes in core, refactor error handling ([#1153](https://github.com/serverless-nextjs/serverless-next.js/issues/1153)) ([6d4ae93](https://github.com/serverless-nextjs/serverless-next.js/commit/6d4ae936d64d0dda1d4b077ddc402b6f1afae88b))
+
+# [1.0.0-alpha.19](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.18...@dolsze/core@1.0.0-alpha.19) (2021-05-29)
 
 ### Bug Fixes
 
 - **core, lambda-at-edge:** support static 500 page and localized stat… ([#1135](https://github.com/serverless-nextjs/serverless-next.js/issues/1135)) ([c0573c1](https://github.com/serverless-nextjs/serverless-next.js/commit/c0573c193e8a148277244ef93b4250f28b27f840))
 
-# [1.0.0-alpha.18](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.17...@sls-next/core@1.0.0-alpha.18) (2021-05-27)
+# [1.0.0-alpha.18](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.17...@dolsze/core@1.0.0-alpha.18) (2021-05-27)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
-# [1.0.0-alpha.17](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.16...@sls-next/core@1.0.0-alpha.17) (2021-05-27)
+# [1.0.0-alpha.17](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.16...@dolsze/core@1.0.0-alpha.17) (2021-05-27)
 
 ### Bug Fixes
 
 - **core, lambda-at-edge, e2e-tests:** fix locale rewrites to dynamic ssr ([#1132](https://github.com/serverless-nextjs/serverless-next.js/issues/1132)) ([91c1ddf](https://github.com/serverless-nextjs/serverless-next.js/commit/91c1ddf91dd97abe70079b2dd2a3be4861b70208))
 
-# [1.0.0-alpha.16](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.15...@sls-next/core@1.0.0-alpha.16) (2021-05-25)
+# [1.0.0-alpha.16](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.15...@dolsze/core@1.0.0-alpha.16) (2021-05-25)
 
 ### Bug Fixes
 
 - **core:** check for explicitly disabled locale detection ([#1129](https://github.com/serverless-nextjs/serverless-next.js/issues/1129)) ([0a39211](https://github.com/serverless-nextjs/serverless-next.js/commit/0a3921159513a927c5f8606e8550c12a5641396f))
 
-# [1.0.0-alpha.15](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.14...@sls-next/core@1.0.0-alpha.15) (2021-05-25)
+# [1.0.0-alpha.15](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.14...@dolsze/core@1.0.0-alpha.15) (2021-05-25)
 
 ### Bug Fixes
 
 - **core:** fix infinite redirects on NEXT_LOCALE cookie ([#1128](https://github.com/serverless-nextjs/serverless-next.js/issues/1128)) ([01d4d88](https://github.com/serverless-nextjs/serverless-next.js/commit/01d4d88afe2ca4e164ce12e5ac8ea2b75dbfe96c))
 
-# [1.0.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.13...@sls-next/core@1.0.0-alpha.14) (2021-05-25)
+# [1.0.0-alpha.14](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.13...@dolsze/core@1.0.0-alpha.14) (2021-05-25)
 
 ### Bug Fixes
 
 - **core, lambda-at-edge:** fix page inclusion logic in default-handler build ([#1126](https://github.com/serverless-nextjs/serverless-next.js/issues/1126)) ([5fdf3fe](https://github.com/serverless-nextjs/serverless-next.js/commit/5fdf3fe04146e60a01681b0bfe21c1147fea6fd4))
 
-# [1.0.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.12...@sls-next/core@1.0.0-alpha.13) (2021-05-25)
+# [1.0.0-alpha.13](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.12...@dolsze/core@1.0.0-alpha.13) (2021-05-25)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
-# [1.0.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.11...@sls-next/core@1.0.0-alpha.12) (2021-05-24)
+# [1.0.0-alpha.12](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.11...@dolsze/core@1.0.0-alpha.12) (2021-05-24)
 
 ### Bug Fixes
 
 - **core:** redirect based on NEXT_LOCALE cookie and add e2e test for … ([#1116](https://github.com/serverless-nextjs/serverless-next.js/issues/1116)) ([48773f4](https://github.com/serverless-nextjs/serverless-next.js/commit/48773f4fd1aa13896981b7ce3c9462d8429e6f86))
 
-# [1.0.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.10...@sls-next/core@1.0.0-alpha.11) (2021-05-23)
+# [1.0.0-alpha.11](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.10...@dolsze/core@1.0.0-alpha.11) (2021-05-23)
 
 ### Bug Fixes
 
 - **core:** fix accept language redirect condition ([#1110](https://github.com/serverless-nextjs/serverless-next.js/issues/1110)) ([f05ccbc](https://github.com/serverless-nextjs/serverless-next.js/commit/f05ccbcbb8e57c6281d542fea20ff9b4b5d5efa7))
 
-# [1.0.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.9...@sls-next/core@1.0.0-alpha.10) (2021-05-21)
+# [1.0.0-alpha.10](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.9...@dolsze/core@1.0.0-alpha.10) (2021-05-21)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
-# [1.0.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.8...@sls-next/core@1.0.0-alpha.9) (2021-05-20)
+# [1.0.0-alpha.9](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.8...@dolsze/core@1.0.0-alpha.9) (2021-05-20)
 
 ### Bug Fixes
 
 - **core:** add logging of path when pathToRegexStr fails ([#1082](https://github.com/serverless-nextjs/serverless-next.js/issues/1082)) ([31cc4b1](https://github.com/serverless-nextjs/serverless-next.js/commit/31cc4b15eace8797c2d4f8595122a03b077bd7d1))
 
-# [1.0.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.7...@sls-next/core@1.0.0-alpha.8) (2021-05-20)
+# [1.0.0-alpha.8](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.7...@dolsze/core@1.0.0-alpha.8) (2021-05-20)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
-# [1.0.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.6...@sls-next/core@1.0.0-alpha.7) (2021-05-19)
+# [1.0.0-alpha.7](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.6...@dolsze/core@1.0.0-alpha.7) (2021-05-19)
 
 ### Features
 
 - **lambda-at-edge:** incremental static regeneration ([#1028](https://github.com/serverless-nextjs/serverless-next.js/issues/1028)) ([d5bbdc6](https://github.com/serverless-nextjs/serverless-next.js/commit/d5bbdc6d395ae732ec0757744482bf8bc25e820f))
 
-# [1.0.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.5...@sls-next/core@1.0.0-alpha.6) (2021-05-14)
+# [1.0.0-alpha.6](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.5...@dolsze/core@1.0.0-alpha.6) (2021-05-14)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
-# [1.0.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.4...@sls-next/core@1.0.0-alpha.5) (2021-05-14)
+# [1.0.0-alpha.5](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.4...@dolsze/core@1.0.0-alpha.5) (2021-05-14)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
-# [1.0.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.3...@sls-next/core@1.0.0-alpha.4) (2021-05-11)
+# [1.0.0-alpha.4](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.3...@dolsze/core@1.0.0-alpha.4) (2021-05-11)
 
-**Note:** Version bump only for package @sls-next/core
+**Note:** Version bump only for package @dolsze/core
 
-# [1.0.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@sls-next/core@1.0.0-alpha.2...@sls-next/core@1.0.0-alpha.3) (2021-05-09)
+# [1.0.0-alpha.3](https://github.com/serverless-nextjs/serverless-next.js/compare/@dolsze/core@1.0.0-alpha.2...@dolsze/core@1.0.0-alpha.3) (2021-05-09)
 
 ### Performance Improvements
 

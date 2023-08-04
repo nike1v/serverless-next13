@@ -8,7 +8,7 @@ describe("getFactoryHandlerCode", () => {
       path.join(PluginBuildDir.BUILD_DIR_NAME, "my-page.js")
     );
     expect(compatHandlerContent).toContain(
-      'require("@sls-next/next-aws-lambda")'
+      'require("@dolsze/next-aws-lambda")'
     );
   });
 
@@ -17,7 +17,7 @@ describe("getFactoryHandlerCode", () => {
       path.join(PluginBuildDir.BUILD_DIR_NAME, "categories/fridge/fridges.js")
     );
     expect(compatHandlerContent).toContain(
-      'require("@sls-next/next-aws-lambda")'
+      'require("@dolsze/next-aws-lambda")'
     );
   });
 
@@ -26,7 +26,7 @@ describe("getFactoryHandlerCode", () => {
       path.join(`app/${PluginBuildDir.BUILD_DIR_NAME}`, "page.js")
     );
     expect(compatHandlerContent).toContain(
-      'require("@sls-next/next-aws-lambda")'
+      'require("@dolsze/next-aws-lambda")'
     );
   });
 

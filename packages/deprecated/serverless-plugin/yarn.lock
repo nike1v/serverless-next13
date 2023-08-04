@@ -36,18 +36,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sls-next/next-aws-lambda@link:../../compat-layers/apigw-lambda-compat::locator=%40sls-next%2Fserverless-plugin%40workspace%3A.":
+"@dolsze/next-aws-lambda@link:../../compat-layers/apigw-lambda-compat::locator=%40sls-next%2Fserverless-plugin%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@sls-next/next-aws-lambda@link:../../compat-layers/apigw-lambda-compat::locator=%40sls-next%2Fserverless-plugin%40workspace%3A."
+  resolution: "@dolsze/next-aws-lambda@link:../../compat-layers/apigw-lambda-compat::locator=%40sls-next%2Fserverless-plugin%40workspace%3A."
   languageName: node
   linkType: soft
 
-"@sls-next/serverless-plugin@workspace:.":
+"@dolsze/serverless-plugin@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@sls-next/serverless-plugin@workspace:."
+  resolution: "@dolsze/serverless-plugin@workspace:."
   dependencies:
     "@mapbox/s3urls": ^2.0.0
-    "@sls-next/next-aws-lambda": "link:../../compat-layers/apigw-lambda-compat"
+    "@dolsze/next-aws-lambda": "link:../../compat-layers/apigw-lambda-compat"
     chalk: ^4.1.1
     debug: ^4.1.1
     fs-extra: ^10.0.0

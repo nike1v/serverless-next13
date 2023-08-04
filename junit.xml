@@ -2870,31 +2870,31 @@ Snapshot name: `CDK Construct Snapshots creates next app with ISR pages 1`
     </testcase>
     <testcase classname="Custom inputs When input region is eu-west-2 passes the eu-west-2 region to the s3 and cloudFront components" name="Custom inputs When input region is eu-west-2 passes the eu-west-2 region to the s3 and cloudFront components" time="0.354">
     </testcase>
-    <testcase classname="Custom inputs Custom domain uses @sls-next/domain to provision custom domain" name="Custom inputs Custom domain uses @sls-next/domain to provision custom domain" time="0.334">
+    <testcase classname="Custom inputs Custom domain uses @dolsze/domain to provision custom domain" name="Custom inputs Custom domain uses @dolsze/domain to provision custom domain" time="0.334">
     </testcase>
     <testcase classname="Custom inputs Custom domain uses custom policy document provided" name="Custom inputs Custom domain uses custom policy document provided" time="0.343">
     </testcase>
     <testcase classname="Custom inputs Custom domain outputs custom domain url" name="Custom inputs Custom domain outputs custom domain url" time="0.278">
     </testcase>
-    <testcase classname="Custom inputs Custom domain uses @sls-next/domain to provision custom domain" name="Custom inputs Custom domain uses @sls-next/domain to provision custom domain" time="0.308">
+    <testcase classname="Custom inputs Custom domain uses @dolsze/domain to provision custom domain" name="Custom inputs Custom domain uses @dolsze/domain to provision custom domain" time="0.308">
     </testcase>
     <testcase classname="Custom inputs Custom domain uses custom policy document provided" name="Custom inputs Custom domain uses custom policy document provided" time="0.341">
     </testcase>
     <testcase classname="Custom inputs Custom domain outputs custom domain url" name="Custom inputs Custom domain outputs custom domain url" time="0.361">
     </testcase>
-    <testcase classname="Custom inputs Custom domain uses @sls-next/domain to provision custom domain" name="Custom inputs Custom domain uses @sls-next/domain to provision custom domain" time="0.333">
+    <testcase classname="Custom inputs Custom domain uses @dolsze/domain to provision custom domain" name="Custom inputs Custom domain uses @dolsze/domain to provision custom domain" time="0.333">
     </testcase>
     <testcase classname="Custom inputs Custom domain uses custom policy document provided" name="Custom inputs Custom domain uses custom policy document provided" time="0.391">
     </testcase>
     <testcase classname="Custom inputs Custom domain outputs custom domain url" name="Custom inputs Custom domain outputs custom domain url" time="0.353">
     </testcase>
-    <testcase classname="Custom inputs Custom domain uses @sls-next/domain to provision custom domain" name="Custom inputs Custom domain uses @sls-next/domain to provision custom domain" time="0.314">
+    <testcase classname="Custom inputs Custom domain uses @dolsze/domain to provision custom domain" name="Custom inputs Custom domain uses @dolsze/domain to provision custom domain" time="0.314">
     </testcase>
     <testcase classname="Custom inputs Custom domain uses custom policy document provided" name="Custom inputs Custom domain uses custom policy document provided" time="0.298">
     </testcase>
     <testcase classname="Custom inputs Custom domain outputs custom domain url" name="Custom inputs Custom domain outputs custom domain url" time="0.274">
     </testcase>
-    <testcase classname="Custom inputs Custom domain uses @sls-next/domain to provision custom domain" name="Custom inputs Custom domain uses @sls-next/domain to provision custom domain" time="0.286">
+    <testcase classname="Custom inputs Custom domain uses @dolsze/domain to provision custom domain" name="Custom inputs Custom domain uses @dolsze/domain to provision custom domain" time="0.286">
     </testcase>
     <testcase classname="Custom inputs Custom domain uses custom policy document provided" name="Custom inputs Custom domain uses custom policy document provided" time="0.409">
     </testcase>
