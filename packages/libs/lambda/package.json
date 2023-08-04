@@ -16,7 +16,7 @@
     "prepack": "yarn clean && yarn build",
     "build": "tsc -p tsconfig.build.json && yarn rollup",
     "esbuild": "node esbuild.js",
-    "rollup": "rollup --config --bundleConfigAsCjs",
+    "rollup": "rollup --config",
     "clean": "yarn rimraf dist",
     "test": "jest"
   },
@@ -65,5 +65,5 @@
     "rollup-plugin-typescript2": "0.35.0",
     "typescript": "5.1.6"
   },
-  "gitHead": "10d342531c600765e32463f514a1c08855a6cb51"
+  "gitHead": "5e4640d543f34e1a568b467a30396eefc8ad2d16"
 }
