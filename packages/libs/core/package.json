@@ -1,10 +1,7 @@
 {
   "name": "@dolsze/core",
-  "version": "1.0.12",
+  "version": "1.2.0",
   "description": "Handles Next.js routing independent of provider",
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/module/index.js",

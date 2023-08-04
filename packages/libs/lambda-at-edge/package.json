@@ -1,9 +1,6 @@
 {
   "name": "@dolsze/lambda-at-edge",
-  "publishConfig": {
-    "access": "public"
-  },
-  "version": "1.0.12",
+  "version": "1.2.0",
   "description": "Provides handlers that can be used in CloudFront Lambda@Edge to deploy next.js applications to the edge",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

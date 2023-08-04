@@ -1,6 +1,6 @@
 {
   "name": "serverless-nextjs-cdk-example",
-  "version": "0.1.0",
+  "version": "1.2.0",
   "bin": "cdk/bin/serverless-nextjs-cdk-example.js",
   "scripts": {
     "dev": "next dev",

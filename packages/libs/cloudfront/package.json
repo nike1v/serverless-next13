@@ -1,10 +1,7 @@
 {
   "name": "@dolsze/cloudfront",
-  "version": "1.0.9",
+  "version": "1.2.0",
   "description": "Handles CloudFront invalidation",
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "directories": {

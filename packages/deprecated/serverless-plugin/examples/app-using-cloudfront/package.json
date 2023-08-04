@@ -1,6 +1,6 @@
 {
   "name": "app-using-cloudfront",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Example nextjs application using a CloudFront distribution in front of the app",
   "main": "index.js",
   "repository": {

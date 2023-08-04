@@ -1,10 +1,7 @@
 {
   "name": "@dolsze/aws-s3",
-  "version": "1.0.9",
+  "version": "1.2.0",
   "main": "./serverless.js",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "lint": "eslint . --fix --cache",
     "clean": "yarn rimraf dist",

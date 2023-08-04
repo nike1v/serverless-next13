@@ -1,6 +1,6 @@
 {
   "name": "app-basic",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Example nextjs serverless app using the serverless-nextjs-plugin",
   "main": "index.js",
   "repository": {

@@ -1,10 +1,7 @@
 {
   "name": "@dolsze/lambda",
-  "version": "1.0.12",
+  "version": "1.2.0",
   "description": "Code to build and deploy for Lambda + API Gateway",
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "dist/index.js",
   "module": "dist/module/index.js",
   "directories": {

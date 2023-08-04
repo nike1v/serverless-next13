@@ -1,9 +1,6 @@
 {
   "name": "@dolsze/serverless-component",
-  "publishConfig": {
-    "access": "public"
-  },
-  "version": "1.0.12",
+  "version": "1.2.0",
   "description": "Serverless Next.js powered by Serverless Components",
   "main": "./serverless.js",
   "types": "dist/component.d.ts",
